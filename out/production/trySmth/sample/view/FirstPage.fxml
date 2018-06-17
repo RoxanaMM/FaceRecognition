@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.web.HTMLEditor?>
+
+<AnchorPane prefHeight="400.0" prefWidth="639.0" styleClass="background" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Main">
+   <children>
+      <HTMLEditor htmlText="&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body contenteditable=&quot;true&quot;&gt;&lt;/body&gt;&lt;/html&gt;" layoutX="-664.0" layoutY="-139.0" prefHeight="200.0" prefWidth="506.0" />
+      <Line endX="100.0" startX="-100.0" />
+      <Canvas fx:id="canvasUp" height="67.0" layoutY="1.0" style="-fx-background-color: greenyellow" width="639.0">
+         <effect>
+            <Glow />
+         </effect>
+      </Canvas>
+      <Canvas height="55.0" layoutX="1.0" layoutY="345.0" style="-fx-background-color: greenyellow" width="639.0" />
+      <SplitPane layoutX="284.0" prefHeight="400.0" prefWidth="0.0" />
+      <ImageView fx:id="imageView1" fitHeight="150.0" fitWidth="200.0" layoutX="92.0" layoutY="136.0" onDragDropped="#handleDrop1" onDragOver="#handleDragPic1" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@button.png" />
+         </image></ImageView>
+      <ImageView fx:id="imageView2" fitHeight="150.0" fitWidth="200.0" layoutX="385.0" layoutY="136.0" onDragDropped="#handleDrop2" onDragOver="#handleDragPics2" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@button.png" />
+         </image></ImageView>
+      <Label layoutX="101.0" layoutY="190.0" text="Drag And Drop Pic1" />
+      <Label layoutX="387.0" layoutY="190.0" text="Drag and Drop Pic(s)2" />
+      <Button fx:id="histoImg1" layoutX="83.0" layoutY="330.0" mnemonicParsing="false" text="Show Histogram Img1" />
+      <Button fx:id="histoImg2" layoutX="387.0" layoutY="330.0" mnemonicParsing="false" text="Show Histogram Image(s)" />
+   </children>
+</AnchorPane>

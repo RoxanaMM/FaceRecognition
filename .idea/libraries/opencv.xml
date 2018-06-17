@@ -1,0 +1,35 @@
+<component name="libraryTable">
+  <library name="opencv">
+    <CLASSES>
+      <root url="file://C:/forMaster/opencv" />
+    </CLASSES>
+    <JAVADOC />
+    <NATIVE>
+      <root url="file://C:/forMaster/opencv" />
+    </NATIVE>
+    <SOURCES>
+      <root url="file://C:/forMaster/opencv/javacv-bin/samples" />
+      <root url="file://C:/forMaster/opencv/modules/java/android_test/src" />
+      <root url="file://C:/forMaster/opencv/modules/java/common_test/src" />
+      <root url="file://C:/forMaster/opencv/modules/java/pure_test/src" />
+      <root url="file://C:/forMaster/opencv/platforms/android/service/engine/src" />
+      <root url="file://C:/forMaster/opencv/platforms/android/service/engine_test/src" />
+      <root url="file://C:/forMaster/opencv/samples/android/15-puzzle/src" />
+      <root url="file://C:/forMaster/opencv/samples/android/camera-calibration/src" />
+      <root url="file://C:/forMaster/opencv/samples/android/color-blob-detection/src" />
+      <root url="file://C:/forMaster/opencv/samples/android/face-detection/src" />
+      <root url="file://C:/forMaster/opencv/samples/android/image-manipulations/src" />
+      <root url="file://C:/forMaster/opencv/samples/android/native-activity/src" />
+      <root url="file://C:/forMaster/opencv/samples/android/tutorial-1-camerapreview/src" />
+      <root url="file://C:/forMaster/opencv/samples/android/tutorial-2-mixedprocessing/src" />
+      <root url="file://C:/forMaster/opencv/samples/android/tutorial-3-cameracontrol/src" />
+      <root url="file://C:/forMaster/opencv/samples/java" />
+      <root url="file://C:/forMaster/opencv/samples/java/ant/src" />
+      <root url="file://C:/forMaster/opencv/samples/java/eclipse/HelloCV/src" />
+      <root url="file://C:/forMaster/opencv/samples/java/sbt/src/main/java" />
+      <root url="file://C:/forMaster/opencv" />
+    </SOURCES>
+    <jarDirectory url="file://C:/forMaster/opencv" recursive="false" />
+    <jarDirectory url="file://C:/forMaster/opencv" recursive="false" type="SOURCES" />
+  </library>
+</component>
