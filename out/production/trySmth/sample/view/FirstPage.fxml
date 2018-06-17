@@ -21,18 +21,21 @@
          </effect>
       </Canvas>
       <Canvas height="55.0" layoutX="1.0" layoutY="345.0" style="-fx-background-color: greenyellow" width="639.0" />
-      <SplitPane layoutX="284.0" prefHeight="400.0" prefWidth="0.0" />
-      <ImageView fx:id="imageView1" fitHeight="150.0" fitWidth="200.0" layoutX="92.0" layoutY="136.0" onDragDropped="#handleDrop1" onDragOver="#handleDragPic1" pickOnBounds="true" preserveRatio="true">
+      <SplitPane layoutX="318.0" layoutY="1.0" prefHeight="400.0" prefWidth="0.0" />
+      <ImageView fx:id="imageView1" fitHeight="150.0" fitWidth="200.0" layoutX="92.0" layoutY="108.0" onDragDropped="#handleDrop1" onDragOver="#handleDragPic1" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@button.png" />
          </image></ImageView>
-      <ImageView fx:id="imageView2" fitHeight="150.0" fitWidth="200.0" layoutX="385.0" layoutY="136.0" onDragDropped="#handleDrop2" onDragOver="#handleDragPics2" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="imageView2" fitHeight="150.0" fitWidth="200.0" layoutX="387.0" layoutY="109.0" onDragDropped="#handleDrop2" onDragOver="#handleDragPics2" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@button.png" />
          </image></ImageView>
-      <Label layoutX="101.0" layoutY="190.0" text="Drag And Drop Pic1" />
-      <Label layoutX="387.0" layoutY="190.0" text="Drag and Drop Pic(s)2" />
-      <Button fx:id="histoImg1" layoutX="83.0" layoutY="330.0" mnemonicParsing="false" text="Show Histogram Img1" />
-      <Button fx:id="histoImg2" layoutX="387.0" layoutY="330.0" mnemonicParsing="false" text="Show Histogram Image(s)" />
+      <Label layoutX="101.0" layoutY="162.0" text="Drag And Drop Pic1" />
+      <Label layoutX="389.0" layoutY="163.0" text="Drag and Drop Pic(s)2" />
+      <Button fx:id="histoImg1" layoutX="83.0" layoutY="357.0" mnemonicParsing="false" text="Show Histogram Img1" />
+      <Button fx:id="histoImg2" layoutX="387.0" layoutY="357.0" mnemonicParsing="false" text="Show Histogram Image(s)" />
+      <Button id="fileChooser1" fx:id="fileChooser1" layoutX="92.0" layoutY="123.0" mnemonicParsing="false" onAction="#fileChooser1" opacity="0.0" prefHeight="121.0" prefWidth="150.0" />
+      <Button id="fileChooser1" fx:id="fileChooser2" layoutX="387.0" layoutY="129.0" mnemonicParsing="false" onAction="#fileChooser2" opacity="0.0" prefHeight="110.0" prefWidth="150.0" />
+      <Button fx:id="startCalculating" layoutX="286.0" layoutY="258.0" mnemonicParsing="false" onMouseClicked="#onMouseClick" text="Start calculating" />
    </children>
 </AnchorPane>
