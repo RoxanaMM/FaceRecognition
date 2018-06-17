@@ -18,6 +18,13 @@
     -fx-opacity: 1;
     font-style: italic;
 }
+#title1{
+    -fx-font-size: 28pt;
+    -fx-text-fill: #7FDBFF;
+    -fx-border-color: #7FDBFF, #7FDBFF;
+    -fx-background-color: black;
+    -fx-border-radius: 5px;
+}
 
 .label-header {
     -fx-font-size: 32pt;
@@ -77,6 +84,11 @@
 .menu-bar {
     -fx-background-color: derive(#1d1d1d,20%);
     -fx-selection-bar: derive(-fx-background,-7%);
+    -fx-border-color: #7FDBFF;
+    -fx-border-width: 2;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 0;
+    -fx-background-color: #1d1d1d;
 }
 
 .menu-bar .label {
@@ -84,6 +96,30 @@
     -fx-font-family: "Segoe UI Light";
     -fx-text-fill: #7FDBFF;
     -fx-opacity: 0.9;
+
+}
+
+.menu-item .label {
+
+    -fx-content-display: block;
+    -fx-text-fill:  #7FDBFF;
+}
+
+.menu-item:focused {
+    -fx-background-color: white;
+}
+
+.menu-item:focused .label {
+    -fx-text-fill: black;
+}
+
+.context-menu {
+    -fx-skin: "com.sun.javafx.scene.control.skin.ContextMenuSkin";
+    -fx-background-color: black;
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 0 6 6 6, 0 5 5 5, 0 4 4 4;
+    /*    -fx-padding: 0.666667em 0.083333em 0.666667em 0.083333em;  8 1 8 1 */
+    -fx-padding: 0.333333em 0.083333em 0.666667em 0.083333em; /* 4 1 8 1 */
 }
 
 .text-field {
@@ -101,7 +137,7 @@
  */
 .button {
     -fx-padding: 5 22 5 22;   
-    -fx-border-color: #7FDBFF;;
+    -fx-border-color: #7FDBFF;
     -fx-border-width: 2;
     -fx-border-radius: 5px;
     -fx-background-radius: 0;
@@ -111,6 +147,13 @@
     -fx-text-fill: #7FDBFF;;
     font-style: italic;
     -fx-background-insets: 0 0 0 0, 0, 1, 2;
+}
+#fileChooser1{
+    -fx-background-color: transparent;
+}
+
+#fileChooser2{
+    -fx-background-color: transparent;
 }
 
 .button:hover {
@@ -127,7 +170,7 @@
 .button:focused {
     -fx-border-color: #7FDBFF, #7FDBFF;
     -fx-border-width: 1, 1;
-    -fx-border-style: solid, segments(1, 1);
+    -fx-border-style: solid;
     -fx-border-radius: 0, 0;
     -fx-border-insets: 1 1 1 1, 0;
 }

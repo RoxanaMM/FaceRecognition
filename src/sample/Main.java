@@ -11,22 +11,19 @@ import javafx.scene.image.Image;
 import javafx.scene.input.DragEvent;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.input.TransferMode;
-import javafx.scene.layout.GridPane;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 
 import javafx.scene.image.ImageView ;
-import logicPackage.enums.AlgoName;
-import logicPackage.enums.TypesOfSet;
-import logicPackage.model.Results;
-import logicPackage.processing.Coloured;
 import org.opencv.core.Core;
 import sample.controller.LogicController;
+import sun.misc.IOUtils;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.*;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -134,6 +131,59 @@ public class Main extends Application {
 
     }
 
-    public void downloadResults(MouseEvent mouseEvent) {
+    public  void downloadResults(MouseEvent mouseEvent) throws IOException {
+        String filePath="results.txt";
+        String line = null;
+        List<String>lines= new ArrayList<>();
+
+        try {
+            // FileReader reads text files in the default encoding.
+            FileReader fileReader =
+                    new FileReader(filePath);
+
+            // Always wrap FileReader in BufferedReader.
+            BufferedReader bufferedReader =
+                    new BufferedReader(fileReader);
+
+            while((line = bufferedReader.readLine()) != null) {
+                lines.add(line);
+            }
+
+            // Always close files.
+            bufferedReader.close();
+        }
+        catch(FileNotFoundException ex) {
+            System.out.println(
+                    "Unable to open file '" +
+                            filePath + "'");
+        }
+        catch(IOException ex) {
+            System.out.println(
+                    "Error reading file '"
+                            + filePath + "'");
+            // Or we could just do this:
+            // ex.printStackTrace();
+        }
+
+        try {
+
+            String filePath1 ="C:\\Users\\Roxana\\Desktop\\mama.txt";
+            Path path = Paths.get(filePath1);
+            boolean exists = Files.exists(path);
+
+            System.out.println( "File " + path.getFileName() + " exists: " + exists);
+
+            if( exists) {
+                boolean empty = Files.size(path) == 0;
+                System.out.println("Empty: " + empty);
+            }
+
+            Files.write(path, lines, StandardCharsets.UTF_8);
+
+            System.out.println("File written: " + path.getFileName());
+
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 }
