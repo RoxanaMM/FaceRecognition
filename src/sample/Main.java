@@ -129,4 +129,11 @@ public class Main extends Application {
         logicController.getImgAndDoCalculatins(populateWIithPicsAddr1,populateWIithPicsAddr2);
         startCalculating.setDisable(true);
     }
+
+    public void chooseAlgorithm(MouseEvent mouseEvent) {
+
+    }
+
+    public void downloadResults(MouseEvent mouseEvent) {
+    }
 }
