@@ -12,7 +12,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.web.HTMLEditor?>
 
-<AnchorPane prefHeight="636.0" prefWidth="1357.0" styleClass="background" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Main">
+<AnchorPane maxWidth="6676.0" minHeight="1502.0" minWidth="5578.0" prefHeight="1502.0" prefWidth="1578.0" styleClass="background" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Main">
    <children>
       <HTMLEditor htmlText="&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body contenteditable=&quot;true&quot;&gt;&lt;/body&gt;&lt;/html&gt;" layoutX="-664.0" layoutY="-139.0" prefHeight="200.0" prefWidth="506.0" />
       <Line endX="100.0" startX="-100.0" />
@@ -26,21 +26,65 @@
          </image></ImageView>
       <Label layoutX="369.0" layoutY="245.0" text="Drag And Drop Pic1" />
       <Label layoutX="848.0" layoutY="245.0" text="Drag and Drop Pic(s)2" />
-      <Button fx:id="histoImg1" layoutX="172.0" layoutY="446.0" mnemonicParsing="false" text="Show Histogram Img1" />
-      <Button fx:id="histoImg2" layoutX="899.0" layoutY="446.0" mnemonicParsing="false" text="Show Histogram Image(s)" />
+      <Button fx:id="histoImg1" layoutX="172.0" layoutY="446.0" mnemonicParsing="false" onAction="#getHistogram1" text="Show Histogram Img1" />
+      <Button fx:id="histoImg2" layoutX="899.0" layoutY="446.0" mnemonicParsing="false" onAction="#getHistograms2" onMouseClicked="#seeAllHistograms" text="Show Histogram Image(s)" />
       <Button id="fileChooser1" fx:id="fileChooser1" layoutX="360.0" layoutY="206.0" mnemonicParsing="false" onAction="#fileChooser1" opacity="0.0" prefHeight="121.0" prefWidth="150.0" />
       <Button id="fileChooser1" fx:id="fileChooser2" layoutX="841.0" layoutY="209.0" mnemonicParsing="false" onAction="#fileChooser2" opacity="0.0" prefHeight="121.0" prefWidth="160.0" />
       <MenuBar fx:id="chooseAlgorithms" layoutX="598.0" layoutY="254.0" onMouseClicked="#chooseAlgorithm" prefHeight="32.0" prefWidth="179.0">
         <menus>
-            <Menu mnemonicParsing="false" text="Unspecified Menu">
+            <Menu mnemonicParsing="false" text="Choose Algorithms">
               <items>
                 <MenuItem mnemonicParsing="false" text="All" />
-                  <MenuItem mnemonicParsing="false" text="Euclidian" />
-                  <MenuItem mnemonicParsing="false" text="CityBlock" />
-                  <MenuItem mnemonicParsing="false" text="Minkowski" />
-                  <MenuItem mnemonicParsing="false" text="CebyshevLinf" />
-                  <MenuItem mnemonicParsing="false" text="Sorensen" />
-                  <MenuItem mnemonicParsing="false" text="Gower" />
+                  <MenuItem mnemonicParsing="false" onAction="#euclidian" text="Euclidian" />
+                  <MenuItem mnemonicParsing="false" onAction="#cityBlock" text="CityBlock" />
+                  <MenuItem mnemonicParsing="false" onAction="#minkowski" text="Minkowski" />
+                  <MenuItem mnemonicParsing="false" onAction="#cebyshevLinf" text="CebyshevLinf" />
+                  <MenuItem mnemonicParsing="false" onAction="#soresen" text="Sorensen" />
+                  <MenuItem mnemonicParsing="false" onAction="#gower" text="Gower" />
+                  <MenuItem mnemonicParsing="false" onAction="#soergel" text="Soergel" />
+                  <MenuItem mnemonicParsing="false" onAction="#kulczynskid" text="Kulczynskid" />
+                  <MenuItem mnemonicParsing="false" onAction="#canberra" text="Canberra" />
+                  <MenuItem mnemonicParsing="false" onAction="#lorentzian" text="Lorentzian" />
+                  <MenuItem mnemonicParsing="false" onAction="#intersectionDistance" text="IntersectionDistance" />
+                  <MenuItem mnemonicParsing="false" onAction="#waveHedgesDistance" text="WaveHedgesDistance" />
+                  <MenuItem mnemonicParsing="false" onAction="#similarityCzekanowski" text="SimilarityCzekanowski" />
+                  <MenuItem mnemonicParsing="false" onAction="#distanceCzekanowski" text="DistanceCzekanowski" />
+                  <MenuItem mnemonicParsing="false" onAction="#similarityMotyka" text="SimilarityMotyka" />
+                  <MenuItem mnemonicParsing="false" onAction="#distanceMotyka" text="DistanceMotyka" />
+                  <MenuItem mnemonicParsing="false" onAction="#similarityKulczynkyS" text="SimilarityKulczynkyS" />
+                  <MenuItem mnemonicParsing="false" onAction="#distanceKulczynkyS" text="DistanceKulczynkyS" />
+                  <MenuItem mnemonicParsing="false" onAction="#ruzicka" text="Ruzicka" />
+                  <MenuItem mnemonicParsing="false" onAction="#tanimoto" text="Tanimoto" />
+                  <MenuItem mnemonicParsing="false" onAction="#innerProductSimilarity" text="InnerProductSimilarity" />
+                  <MenuItem mnemonicParsing="false" onAction="#harmonicMeanSimilarity" text="HarmonicMeanSimilarity" />
+                  <MenuItem mnemonicParsing="false" onAction="#cosineSimilarity" text="CosineSimilarity" />
+                  <MenuItem mnemonicParsing="false" onAction="#kumarHassebrookDistance" text="KumarHassebrookDistance" />
+                  <MenuItem mnemonicParsing="false" onAction="#similarityJaccard" text="SimilarityJaccard" />
+                  <MenuItem mnemonicParsing="false" onAction="#distanceJaccard" text="DistanceJaccard" />
+                  <MenuItem mnemonicParsing="false" onAction="#similarityDice" text="SimilarityDice" />
+                  <MenuItem mnemonicParsing="false" onAction="#distanceDice" text="DistanceDice" />
+                  <MenuItem mnemonicParsing="false" onAction="#similarityFidelity" text="SimilarityFidelity" />
+                  <MenuItem mnemonicParsing="false" onAction="#distanceBhattacharyya" text="DistanceBhattacharyya" />
+                  <MenuItem mnemonicParsing="false" onAction="#distanceHellinger" text="DistanceHellinger" />
+                  <MenuItem mnemonicParsing="false" onAction="#distanceMatusita" text="DistanceMatusita" />
+                  <MenuItem mnemonicParsing="false" onAction="#distanceSquaredChord" text="DistanceSquaredChord" />
+                  <MenuItem mnemonicParsing="false" onAction="#similaritySquaredChord" text="SimilaritySquaredChord" />
+                  <MenuItem mnemonicParsing="false" onAction="#distanceSquaredEuclidian" text="DistanceSquaredEuclidian" />
+                  <MenuItem mnemonicParsing="false" onAction="#distancePearson" text="DistancePearson" />
+                  <MenuItem mnemonicParsing="false" onAction="#distanceNeyman" text="DistanceNeyman" />
+                  <MenuItem mnemonicParsing="false" onAction="#distanceSquared" text="DistanceSquared" />
+                  <MenuItem mnemonicParsing="false" onAction="#distanceProbabilisticSymmetric" text="DistanceProbabilisticSymmetric" />
+                  <MenuItem mnemonicParsing="false" onAction="#distanceDivergence" text="DistanceDivergence" />
+                  <MenuItem mnemonicParsing="false" onAction="#distanceClark" text="DistanceClark" />
+                  <MenuItem mnemonicParsing="false" onAction="#distanceAdditiceSymmetric" text="DistanceAdditiceSymmetric" />
+                  <MenuItem mnemonicParsing="false" onAction="#distanceKullbackLeibler" text="DistanceKullbackLeibler" />
+                  <MenuItem mnemonicParsing="false" onAction="#distanceJeffreys" text="DistanceJeffreys" />
+                  <MenuItem mnemonicParsing="false" onAction="#distanceKDivergence" text="DistanceKDivergence" />
+                  <MenuItem mnemonicParsing="false" onAction="#distanceTopsoe" text="DistanceTopsoe" />
+                  <MenuItem mnemonicParsing="false" onAction="#distanceJensenShannon" text="DistanceJensenShannon" />
+                  <MenuItem mnemonicParsing="false" onAction="#distanceJensenDifference" text="DistanceJensenDifference" />
+                  <MenuItem mnemonicParsing="false" onAction="#distanceKumarJohnson" text="DistanceKumarJohnson" />
+                  <MenuItem mnemonicParsing="false" onAction="#distanceAvg" text="DistanceAvg" />
               </items>
             </Menu>
         </menus>
@@ -52,5 +96,18 @@
             <Font size="28.0" />
          </font>
       </Label>
+      <ImageView fx:id="loadHisto1" fitHeight="244.0" fitWidth="454.0" layoutX="62.0" layoutY="492.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="histoViewer2_1" fx:id="histoViewer2_1" fitHeight="150.0" fitWidth="200.0" layoutX="873.0" layoutY="536.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="histoViewer2_2" fx:id="histoViewer2_2" fitHeight="150.0" fitWidth="200.0" layoutX="1099.0" layoutY="539.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="histoViewer2_3" fx:id="histoViewer2_3" fitHeight="150.0" fitWidth="200.0" layoutX="873.0" layoutY="736.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="histoViewer2_4" fx:id="histoViewer2_4" fitHeight="150.0" fitWidth="200.0" layoutX="1099.0" layoutY="736.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="seeAllHistograms" layoutX="1032.0" layoutY="969.0" mnemonicParsing="false" onAction="#seeAllHistograms" text="seeAllHistograms" />
+      <Button layoutX="131.0" layoutY="796.0" mnemonicParsing="false" onMouseClicked="#showColouredHisto1" text="Color" />
+      <Button layoutX="321.0" layoutY="796.0" mnemonicParsing="false" onMouseClicked="#showShapeHisto1" text="Shape" />
+      <Button layoutX="224.0" layoutY="796.0" mnemonicParsing="false" onMouseClicked="#showTextureHisto1" text="Texture" />
+      <Button layoutX="921.0" layoutY="915.0" mnemonicParsing="false" text="Color" />
+      <Button layoutX="1058.0" layoutY="915.0" mnemonicParsing="false" text="Texture" />
+      <Button layoutX="1193.0" layoutY="915.0" mnemonicParsing="false" text="Shape" />
+      <Label layoutX="581.0" layoutY="1000.0" text="Most similar photos based on algorithms choosed" />
    </children>
 </AnchorPane>

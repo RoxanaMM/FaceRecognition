@@ -1,0 +1,17 @@
+
+
+C:\Users\Roxana\Desktop\1-rgb.jpg__C:\Users\Roxana\Desktop\1-rgb.jpg
+lorentzian
+Red Channel0.0
+
+
+C:\Users\Roxana\Desktop\1-rgb.jpg__C:\Users\Roxana\Desktop\1-rgb.jpg
+lorentzian
+Green Channel
+0.0
+
+
+C:\Users\Roxana\Desktop\1-rgb.jpg__C:\Users\Roxana\Desktop\1-rgb.jpg
+lorentzian
+Blue Channel
+0.0
