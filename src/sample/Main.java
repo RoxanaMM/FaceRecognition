@@ -4,6 +4,7 @@ import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.geometry.Insets;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
@@ -11,11 +12,13 @@ import javafx.scene.image.Image;
 import javafx.scene.input.DragEvent;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.input.TransferMode;
+import javafx.scene.layout.FlowPane;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 
 import javafx.scene.image.ImageView;
 import logicPackage.enums.AlgoName;
+import logicPackage.processing.Coloured;
 import org.opencv.core.Core;
 import sample.controller.LogicController;
 import sun.misc.IOUtils;
@@ -27,8 +30,6 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
-
-import static logicPackage.processing.Calculate.calculateDistance;
 
 public class Main extends Application {
 
@@ -44,12 +45,27 @@ public class Main extends Application {
     @FXML
     private Button startCalculating;
 
+    @FXML
+    private ImageView loadHisto1;
+
+    @FXML
+    private ImageView histoViewer2_1;
+    @FXML
+    private ImageView histoViewer2_2;
+    @FXML
+    private ImageView histoViewer2_3;
+    @FXML
+    private ImageView histoViewer2_4;
+
 
     LogicController logicController = new LogicController();
+    Coloured coloured = new Coloured();
     static File populateWIithPicsAddr1 = null;
     static List<File> populateWIithPicsAddr2 = new ArrayList<File>();
-    static List<AlgoName>algoNames = new ArrayList<>();
+    static List<AlgoName> algoNames = new ArrayList<>();
 
+    @FXML
+    private Button seeAllHistograms;
 
     public void handleDragPic1(DragEvent dragEvent) {
         if (dragEvent.getDragboard().hasFiles())
@@ -65,14 +81,14 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
+
+
         Parent root = FXMLLoader.load(getClass().getResource("view/FirstPage.fxml"));
-//        GridPane grid = new GridPane();
-//        Scene scene = new Scene(grid, 1550,1550);
-//        scene.getStylesheets().add("view/DarkTheme.css");
         root.getStylesheets().add(getClass().getResource("view/DarkTheme.css").toString());
         primaryStage.setTitle("Images");
         primaryStage.setScene(new Scene(root, 300, 275));
         primaryStage.show();
+
     }
 
 
@@ -94,9 +110,6 @@ public class Main extends Application {
             imageView2.setImage(image);
             populateWIithPicsAddr2.add(images.get(i));
         }
-        // logicController.getImgAndDoCalculatins(populateWIithPicsAddr1,populateWIithPicsAddr2);
-
-
     }
 
     public void fileChooser2(ActionEvent actionEvent) throws IOException {
@@ -111,7 +124,6 @@ public class Main extends Application {
             }
         }
         populateWIithPicsAddr2.addAll(selectedFiles);
-        //  logicController.getImgAndDoCalculatins(populateWIithPicsAddr1,populateWIithPicsAddr2);
     }
 
     public void fileChooser1(ActionEvent actionEvent) throws FileNotFoundException {
@@ -127,10 +139,10 @@ public class Main extends Application {
     }
 
     public void onMouseClick(MouseEvent mouseEvent) throws IOException {
-        if( algoNames.isEmpty())
-        logicController.getImgAndDoCalculatins(AlgoName.all, populateWIithPicsAddr1, populateWIithPicsAddr2);
-        else{
-            for(AlgoName algo : algoNames){
+        if (algoNames.isEmpty())
+            logicController.getImgAndDoCalculatins(AlgoName.all, populateWIithPicsAddr1, populateWIithPicsAddr2);
+        else {
+            for (AlgoName algo : algoNames) {
                 logicController.getImgAndDoCalculatins(algo, populateWIithPicsAddr1, populateWIithPicsAddr2);
             }
         }
@@ -203,5 +215,219 @@ public class Main extends Application {
 
     public void gower(ActionEvent actionEvent) {
         algoNames.add(AlgoName.gower);
+    }
+
+    public void soergel(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.soergel);
+    }
+
+    public void kulczynskid(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.kulczynskid);
+    }
+
+    public void canberra(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.canberra);
+    }
+
+    public void lorentzian(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.lorentzian);
+    }
+
+    public void intersectionDistance(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.intersectionDistance);
+    }
+
+    public void waveHedgesDistance(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.waveHedgesDistance);
+    }
+
+    public void similarityCzekanowski(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.similarityCzekanowski);
+    }
+
+    public void distanceCzekanowski(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.distanceCzekanowski);
+    }
+
+    public void similarityMotyka(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.similarityMotyka);
+    }
+
+    public void distanceMotyka(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.distanceMotyka);
+    }
+
+    public void similarityKulczynkyS(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.similarityKulczynkyS);
+    }
+
+    public void distanceKulczynkyS(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.distanceKulczynkyS);
+    }
+
+    public void ruzicka(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.ruzicka);
+    }
+
+    public void tanimoto(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.tanimoto);
+    }
+
+    public void innerProductSimilarity(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.innerProductSimilarity);
+    }
+
+    public void harmonicMeanSimilarity(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.harmonicMeanSimilarity);
+    }
+
+    public void cosineSimilarity(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.cosineSimilarity);
+    }
+
+    public void kumarHassebrookDistance(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.kumarHassebrookDistance);
+    }
+
+    public void similarityJaccard(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.similarityJaccard);
+    }
+
+    public void distanceJaccard(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.distanceJaccard);
+    }
+
+    public void similarityDice(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.similarityDice);
+    }
+
+    public void distanceDice(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.distanceDice);
+    }
+
+    public void similarityFidelity(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.similarityFidelity);
+    }
+
+    public void distanceBhattacharyya(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.distanceBhattacharyya);
+    }
+
+    public void distanceHellinger(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.distanceHellinger);
+    }
+
+    public void distanceMatusita(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.distanceMatusita);
+    }
+
+    public void distanceSquaredChord(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.distanceSquaredChord);
+    }
+
+    public void similaritySquaredChord(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.similaritySquaredChord);
+    }
+
+    public void distanceSquaredEuclidian(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.distanceSquaredEuclidian);
+    }
+
+    public void distancePearson(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.distancePearson);
+    }
+
+    public void distanceNeyman(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.distanceNeyman);
+    }
+
+    public void distanceSquared(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.distanceSquared);
+    }
+
+    public void distanceProbabilisticSymmetric(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.distanceProbabilisticSymmetric);
+    }
+
+    public void distanceDivergence(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.distanceDivergence);
+    }
+
+    public void distanceClark(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.distanceClark);
+    }
+
+    public void distanceAdditiceSymmetric(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.distanceAdditiceSymmetric);
+    }
+
+    public void distanceKullbackLeibler(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.distanceKullbackLeibler);
+    }
+
+    public void distanceJeffreys(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.distanceJeffreys);
+    }
+
+    public void distanceKDivergence(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.distanceKDivergence);
+    }
+
+    public void distanceTopsoe(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.distanceTopsoe);
+    }
+
+    public void distanceJensenShannon(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.distanceJensenShannon);
+    }
+
+    public void distanceJensenDifference(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.distanceJensenDifference);
+    }
+
+    public void distanceKumarJohnson(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.distanceKumarJohnson);
+    }
+
+    public void distanceAvg(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.distanceAvg);
+    }
+
+    public void getHistogram1(ActionEvent actionEvent) throws FileNotFoundException {
+        Image image = new Image(new FileInputStream(coloured.getHistogram(populateWIithPicsAddr1.toString())));
+        loadHisto1.setImage(image);
+    }
+
+    public void getHistograms2(ActionEvent actionEvent) throws FileNotFoundException {
+        List<String> histogramAddresses = new ArrayList<>();
+        List<Image> images = new ArrayList<Image>();
+
+        for (File f : populateWIithPicsAddr2) {
+            histogramAddresses.add(coloured.getHistogram(f.toString()));
+            images.add(new Image(new FileInputStream(coloured.getHistogram(f.toString()))));
+        }
+        histoViewer2_1.setImage(images.get(0));
+        if(images.size() == 2)
+            histoViewer2_2.setImage(images.get(1));
+        if(images.size() == 3)
+            histoViewer2_3.setImage(images.get(2));
+        if(images.size() == 4)
+            histoViewer2_4.setImage(images.get(3));
+    }
+
+    public void seeAllHistograms(ActionEvent actionEvent) {
+    }
+
+    public void showShapeHisto1(MouseEvent mouseEvent) {
+
+    }
+
+    public void showTextureHisto1(MouseEvent mouseEvent) throws FileNotFoundException {
+
+    }
+
+    public void showColouredHisto1(MouseEvent mouseEvent) throws FileNotFoundException {
+        Image image = new Image(new FileInputStream(coloured.getHistogram(populateWIithPicsAddr1.toString())));
+        loadHisto1.setImage(image);
     }
 }

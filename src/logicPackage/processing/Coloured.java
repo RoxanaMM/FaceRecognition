@@ -11,19 +11,14 @@ import java.util.List;
 
 public class Coloured extends DrawColouredHistogram {
 
-        public  static Integer contor = 0;
+    public static Integer contor = 0;
+    public static int histSize = 256;
 
     public static float[][] colouredHelper(Mat A) {
         float[][] floatArray = new float[3][256];
-        int histSize = 256;
         int hist_w = 512;
-        int hist_h = 400;
-        int bin_w = (int) ((double) hist_w / histSize);
 
-        Mat hist = new Mat(256, 1, CvType.CV_8UC1);
         MatOfFloat ranges = new MatOfFloat(0, 256);
-        MatOfInt channels = new MatOfInt(3);
-
         List<Mat> bgrPlanes = new ArrayList<>();
         Core.split(A, bgrPlanes);
 
@@ -59,14 +54,20 @@ public class Coloured extends DrawColouredHistogram {
     }
 
 
-    public static  float[][] calculateAndDrawHistogram(String sourcePic1) throws IOException {
-        int histSize = 256;
-        Mat histImage;
+    public static float[][] calculateAndDrawHistogram(String sourcePic1) throws IOException {
         float[][] floatArray = new float[3][256];
-        String folderToPutHist = "C:\\forMaster\\temaDisertatie\\histograme\\";
-
         if (sourcePic1.contains("jpg")) {
+            Mat A = Imgcodecs.imread(sourcePic1);
+            floatArray = colouredHelper(A);
+        }
+        return floatArray;
+    }
 
+    public String getHistogram(String sourcePic1) {
+        Mat histImage;
+        String histogramName= sourcePic1.concat("HISTOGRAM.jpg");
+        Mat bHist = new Mat(), gHist = new Mat(), rHist = new Mat();
+        if (sourcePic1.contains(".jpg")) {
             Mat A = Imgcodecs.imread(sourcePic1);
             Mat hist = new Mat(256, 1, CvType.CV_8UC1);
             MatOfFloat ranges = new MatOfFloat(0, 256);
@@ -74,20 +75,15 @@ public class Coloured extends DrawColouredHistogram {
 
             List<Mat> bgrPlanes = new ArrayList<>();
             Core.split(A, bgrPlanes);
-
-            Mat bHist = new Mat(), gHist = new Mat(), rHist = new Mat();
-
             Imgproc.calcHist(bgrPlanes, new MatOfInt(0), new Mat(), bHist, new MatOfInt(histSize), ranges, false);
             Imgproc.calcHist(bgrPlanes, new MatOfInt(1), new Mat(), gHist, new MatOfInt(histSize), ranges, false);
             Imgproc.calcHist(bgrPlanes, new MatOfInt(2), new Mat(), rHist, new MatOfInt(histSize), ranges, false);
 
             histImage = drawColouredHistogram(bHist, gHist, rHist);
+            Imgcodecs.imwrite(histogramName, histImage);
 
-            floatArray = colouredHelper(A);
-
-           Imgcodecs.imwrite(folderToPutHist.concat(contor.toString()).concat(".jpg"), histImage);
-           contor++;
         }
-        return floatArray;
+        return histogramName;
     }
 }
+
