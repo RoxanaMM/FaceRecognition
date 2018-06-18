@@ -37,10 +37,10 @@ public class MainClass extends Calculate {
 
         String algoNamesGiven = "all";
         
-       for(int i =0; i<listOfBPics.size();i++) {
+      // for(int i =0; i<listOfBPics.size();i++) {
            Results results = new Results();
            results.setPicA("C:\\forMaster\\temaDisertatie\\test\\color-similare\\1.jpg");
-           results.setPicB(listOfBPics.get(i));
+         //  results.setPicB(listOfBPics.get(i));
            results.setTypesOfSet(TypesOfSet.Coloured);
            results.setAlgoName(AlgoName.valueOf(algoNamesGiven));
 
@@ -51,10 +51,10 @@ public class MainClass extends Calculate {
            float[][] pixelArray3Channels1 = coloured.calculateAndDrawHistogram(results.getPicA());
            float[][] pixelArray3Channels2 = coloured.calculateAndDrawHistogram(results.getPicB());
 
-           for (int j = 0; j < pixelArray3Channels1.length;j++) {
-                  calculateDistance(results, pixelArray3Channels1[i], pixelArray3Channels2[i]);
-           }
-       }
+        //   for (int j = 0; j < pixelArray3Channels1.length;j++) {
+              //    calculateDistance(results, pixelArray3Channels1, pixelArray3Channels2);
+          // }
+      // }
 
 
 

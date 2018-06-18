@@ -11,6 +11,7 @@ import java.util.List;
 
 public class Coloured extends DrawColouredHistogram {
 
+        public  static Integer contor = 0;
 
     public static float[][] colouredHelper(Mat A) {
         float[][] floatArray = new float[3][256];
@@ -80,17 +81,12 @@ public class Coloured extends DrawColouredHistogram {
             Imgproc.calcHist(bgrPlanes, new MatOfInt(1), new Mat(), gHist, new MatOfInt(histSize), ranges, false);
             Imgproc.calcHist(bgrPlanes, new MatOfInt(2), new Mat(), rHist, new MatOfInt(histSize), ranges, false);
 
-            //primul array este pentru blue, al doilea red, al 3-lea green
             histImage = drawColouredHistogram(bHist, gHist, rHist);
 
             floatArray = colouredHelper(A);
 
-            String s = sourcePic1.substring(sourcePic1.indexOf("\\") + 1);
-            s = s.substring(0, s.indexOf(".jpg"));
-//
-//            namedWindow("calcHist Demo", WINDOW_AUTOSIZE );
-//            imshow("calcHist Demo", histImage );
-//            Imgcodecs.imwrite(folderToPutHist.concat(sourcePic1), histImage);
+           Imgcodecs.imwrite(folderToPutHist.concat(contor.toString()).concat(".jpg"), histImage);
+           contor++;
         }
         return floatArray;
     }

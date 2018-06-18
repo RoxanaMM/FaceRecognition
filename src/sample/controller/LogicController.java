@@ -13,15 +13,14 @@ import static logicPackage.processing.Calculate.calculateDistance;
 
 public class LogicController {
 
-    public void getImgAndDoCalculatins(File populateWIithPicsAddr1, List<File> populateWIithPicsAddr2) throws IOException {
-        String algoNamesGiven = "all";
+    public void getImgAndDoCalculatins(AlgoName algoNamesGiven, File populateWIithPicsAddr1, List<File> populateWIithPicsAddr2) throws IOException {
 
         for(int i =0; i<populateWIithPicsAddr2.size();i++) {
             Results results = new Results();
             results.setPicA(populateWIithPicsAddr1.getAbsolutePath());
             results.setPicB(populateWIithPicsAddr2.get(i).getAbsolutePath());
             results.setTypesOfSet(TypesOfSet.Coloured);
-            results.setAlgoName(AlgoName.valueOf(algoNamesGiven));
+            results.setAlgoName(algoNamesGiven);
 
             Coloured coloured = new Coloured();
 
@@ -29,7 +28,7 @@ public class LogicController {
             float[][] pixelArray3Channels2 = coloured.calculateAndDrawHistogram(results.getPicB());
 
             for (int j = 0; j < pixelArray3Channels1.length;j++) {
-                calculateDistance(results, pixelArray3Channels1[i], pixelArray3Channels2[i]);
+                calculateDistance(populateWIithPicsAddr1, populateWIithPicsAddr2.get(i), results, pixelArray3Channels1[j], pixelArray3Channels2[j],j);
             }
         }
 

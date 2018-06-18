@@ -14,7 +14,8 @@ import javafx.scene.input.TransferMode;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 
-import javafx.scene.image.ImageView ;
+import javafx.scene.image.ImageView;
+import logicPackage.enums.AlgoName;
 import org.opencv.core.Core;
 import sample.controller.LogicController;
 import sun.misc.IOUtils;
@@ -31,10 +32,6 @@ import static logicPackage.processing.Calculate.calculateDistance;
 
 public class Main extends Application {
 
-    LogicController logicController = new LogicController();
-    static File populateWIithPicsAddr1 = null;
-    static List<File> populateWIithPicsAddr2 = new ArrayList<File>();
-
     static {
         System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
     }
@@ -46,6 +43,13 @@ public class Main extends Application {
 
     @FXML
     private Button startCalculating;
+
+
+    LogicController logicController = new LogicController();
+    static File populateWIithPicsAddr1 = null;
+    static List<File> populateWIithPicsAddr2 = new ArrayList<File>();
+    static List<AlgoName>algoNames = new ArrayList<>();
+
 
     public void handleDragPic1(DragEvent dragEvent) {
         if (dragEvent.getDragboard().hasFiles())
@@ -76,21 +80,21 @@ public class Main extends Application {
         launch(args);
     }
 
-    public void handleDrop1(DragEvent dragEvent) throws FileNotFoundException{
+    public void handleDrop1(DragEvent dragEvent) throws FileNotFoundException {
         List<File> images = dragEvent.getDragboard().getFiles();
         Image image = new Image(new FileInputStream(images.get(0)));
         imageView1.setImage(image);
-        populateWIithPicsAddr1=images.get(0);
+        populateWIithPicsAddr1 = images.get(0);
     }
 
     public void handleDrop2(DragEvent dragEvent) throws FileNotFoundException, IOException {
         List<File> images = dragEvent.getDragboard().getFiles();
-        for(int i=0;i<images.size();i++) {
+        for (int i = 0; i < images.size(); i++) {
             Image image = new Image(new FileInputStream(images.get(i)));
             imageView2.setImage(image);
             populateWIithPicsAddr2.add(images.get(i));
         }
-       // logicController.getImgAndDoCalculatins(populateWIithPicsAddr1,populateWIithPicsAddr2);
+        // logicController.getImgAndDoCalculatins(populateWIithPicsAddr1,populateWIithPicsAddr2);
 
 
     }
@@ -99,7 +103,7 @@ public class Main extends Application {
         FileChooser fileChooser = new FileChooser();
         List<File> selectedFiles = fileChooser.showOpenMultipleDialog(null);
 
-        for (int i = 0; i < selectedFiles.size(); i++){
+        for (int i = 0; i < selectedFiles.size(); i++) {
             if (selectedFiles.get(i) != null) {
 
                 Image image = new Image(new FileInputStream(selectedFiles.get(i)));
@@ -107,14 +111,14 @@ public class Main extends Application {
             }
         }
         populateWIithPicsAddr2.addAll(selectedFiles);
-      //  logicController.getImgAndDoCalculatins(populateWIithPicsAddr1,populateWIithPicsAddr2);
+        //  logicController.getImgAndDoCalculatins(populateWIithPicsAddr1,populateWIithPicsAddr2);
     }
 
     public void fileChooser1(ActionEvent actionEvent) throws FileNotFoundException {
         FileChooser fileChooser = new FileChooser();
         File selectedFile = fileChooser.showOpenDialog(null);
 
-        if(selectedFile != null){
+        if (selectedFile != null) {
 
             Image image = new Image(new FileInputStream(selectedFile));
             imageView1.setImage(image);
@@ -123,7 +127,13 @@ public class Main extends Application {
     }
 
     public void onMouseClick(MouseEvent mouseEvent) throws IOException {
-        logicController.getImgAndDoCalculatins(populateWIithPicsAddr1,populateWIithPicsAddr2);
+        if( algoNames.isEmpty())
+        logicController.getImgAndDoCalculatins(AlgoName.all, populateWIithPicsAddr1, populateWIithPicsAddr2);
+        else{
+            for(AlgoName algo : algoNames){
+                logicController.getImgAndDoCalculatins(algo, populateWIithPicsAddr1, populateWIithPicsAddr2);
+            }
+        }
         startCalculating.setDisable(true);
     }
 
@@ -131,49 +141,33 @@ public class Main extends Application {
 
     }
 
-    public  void downloadResults(MouseEvent mouseEvent) throws IOException {
-        String filePath="results.txt";
+    public void downloadResults(MouseEvent mouseEvent) throws IOException {
+        String filePath = "results.txt";
         String line = null;
-        List<String>lines= new ArrayList<>();
+        List<String> lines = new ArrayList<>();
 
         try {
-            // FileReader reads text files in the default encoding.
-            FileReader fileReader =
-                    new FileReader(filePath);
-
-            // Always wrap FileReader in BufferedReader.
-            BufferedReader bufferedReader =
-                    new BufferedReader(fileReader);
-
-            while((line = bufferedReader.readLine()) != null) {
+            FileReader fileReader = new FileReader(filePath);
+            BufferedReader bufferedReader = new BufferedReader(fileReader);
+            while ((line = bufferedReader.readLine()) != null) {
                 lines.add(line);
             }
-
-            // Always close files.
             bufferedReader.close();
-        }
-        catch(FileNotFoundException ex) {
+        } catch (FileNotFoundException ex) {
             System.out.println(
-                    "Unable to open file '" +
-                            filePath + "'");
-        }
-        catch(IOException ex) {
+                    "Unable to open file '" + filePath + "'");
+        } catch (IOException ex) {
             System.out.println(
                     "Error reading file '"
                             + filePath + "'");
-            // Or we could just do this:
-            // ex.printStackTrace();
         }
-
         try {
-
-            String filePath1 ="C:\\Users\\Roxana\\Desktop\\mama.txt";
+            String filePath1 = "C:\\Users\\Roxana\\Desktop\\results.txt";
             Path path = Paths.get(filePath1);
             boolean exists = Files.exists(path);
+            System.out.println("File " + path.getFileName() + " exists: " + exists);
 
-            System.out.println( "File " + path.getFileName() + " exists: " + exists);
-
-            if( exists) {
+            if (exists) {
                 boolean empty = Files.size(path) == 0;
                 System.out.println("Empty: " + empty);
             }
@@ -185,5 +179,29 @@ public class Main extends Application {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    public void euclidian(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.euclidianL2);
+    }
+
+    public void cityBlock(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.cityBlockL1);
+    }
+
+    public void minkowski(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.minkowskiLp);
+    }
+
+    public void cebyshevLinf(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.cebyshevLinf);
+    }
+
+    public void soresen(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.sorensen);
+    }
+
+    public void gower(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.gower);
     }
 }
