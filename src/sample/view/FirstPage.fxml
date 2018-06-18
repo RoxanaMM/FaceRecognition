@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.Menu?>
 <?import javafx.scene.control.MenuBar?>
@@ -12,7 +13,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.web.HTMLEditor?>
 
-<AnchorPane maxHeight="6676.0" maxWidth="6676.0" minHeight="1502.0" minWidth="5578.0" prefHeight="1502.0" prefWidth="1578.0" styleClass="background" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Main">
+<AnchorPane fx:id="anchorFirstPage" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="1000.0" minWidth="1000.0" styleClass="background" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Main">
    <children>
       <HTMLEditor htmlText="&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body contenteditable=&quot;true&quot;&gt;&lt;/body&gt;&lt;/html&gt;" layoutX="-664.0" layoutY="-139.0" prefHeight="200.0" prefWidth="506.0" />
       <Line endX="100.0" startX="-100.0" />
@@ -109,5 +110,10 @@
       <Button layoutX="1058.0" layoutY="915.0" mnemonicParsing="false" text="Texture" />
       <Button layoutX="1193.0" layoutY="915.0" mnemonicParsing="false" text="Shape" />
       <Label layoutX="581.0" layoutY="1000.0" text="Most similar photos based on algorithms choosed" />
+      <ButtonBar layoutX="72.0" layoutY="70.0" prefHeight="40.0" prefWidth="200.0">
+        <buttons>
+          <Button fx:id="buttonNext" mnemonicParsing="false" onAction="#launchWIn2" text="Button" />
+        </buttons>
+      </ButtonBar>
    </children>
 </AnchorPane>

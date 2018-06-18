@@ -12,6 +12,7 @@ import javafx.scene.image.Image;
 import javafx.scene.input.DragEvent;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.input.TransferMode;
+import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.FlowPane;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
@@ -66,6 +67,9 @@ public class Main extends Application {
 
     @FXML
     private Button seeAllHistograms;
+
+    @FXML
+    private AnchorPane anchorFirstPage;
 
     public void handleDragPic1(DragEvent dragEvent) {
         if (dragEvent.getDragboard().hasFiles())
@@ -429,5 +433,10 @@ public class Main extends Application {
     public void showColouredHisto1(MouseEvent mouseEvent) throws FileNotFoundException {
         Image image = new Image(new FileInputStream(coloured.getHistogram(populateWIithPicsAddr1.toString())));
         loadHisto1.setImage(image);
+    }
+
+    public void launchWIn2(ActionEvent actionEvent) throws IOException {
+        AnchorPane pane = FXMLLoader.load(getClass().getResource("view/SecondPage.fxml"));
+        anchorFirstPage.getChildren().setAll(pane);
     }
 }
