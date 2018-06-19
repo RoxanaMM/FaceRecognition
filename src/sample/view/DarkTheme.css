@@ -26,6 +26,15 @@
     -fx-border-radius: 5px;
 }
 
+#title2{
+    -fx-font-size: 14pt;
+    -fx-text-fill: #7FDBFF;
+    -fx-border-color: #7FDBFF, #7FDBFF;
+    -fx-background-color: black;
+    -fx-border-radius: 5px;
+    -fx-alignment: centre;
+}
+
 .label-header {
     -fx-font-size: 32pt;
     -fx-font-family: "Segoe UI Light";

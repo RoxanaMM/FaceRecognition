@@ -48,8 +48,8 @@ public class MainClass extends Calculate {
            Coloured coloured = new Coloured();
            //aici e trratat doar cazul in care se face o comparatie 1 la 1
 
-           float[][] pixelArray3Channels1 = coloured.calculateAndDrawHistogram(results.getPicA());
-           float[][] pixelArray3Channels2 = coloured.calculateAndDrawHistogram(results.getPicB());
+           float[][] pixelArray3Channels1 = coloured.calculateHistogram(results.getPicA());
+           float[][] pixelArray3Channels2 = coloured.calculateHistogram(results.getPicB());
 
         //   for (int j = 0; j < pixelArray3Channels1.length;j++) {
               //    calculateDistance(results, pixelArray3Channels1, pixelArray3Channels2);

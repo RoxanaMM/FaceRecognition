@@ -7,11 +7,13 @@ import logicPackage.processing.Coloured;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 import static logicPackage.processing.Calculate.calculateDistance;
 
 public class LogicController {
+
 
     public void getImgAndDoCalculatins(AlgoName algoNamesGiven, File populateWIithPicsAddr1, List<File> populateWIithPicsAddr2) throws IOException {
 
@@ -23,9 +25,8 @@ public class LogicController {
             results.setAlgoName(algoNamesGiven);
 
             Coloured coloured = new Coloured();
-
-            float[][] pixelArray3Channels1 = coloured.calculateAndDrawHistogram(results.getPicA());
-            float[][] pixelArray3Channels2 = coloured.calculateAndDrawHistogram(results.getPicB());
+            float[][] pixelArray3Channels1 = coloured.calculateHistogram(results.getPicA());
+            float[][] pixelArray3Channels2 = coloured.calculateHistogram(results.getPicB());
 
             for (int j = 0; j < pixelArray3Channels1.length;j++) {
                 calculateDistance(populateWIithPicsAddr1, populateWIithPicsAddr2.get(i), results, pixelArray3Channels1[j], pixelArray3Channels2[j],j);

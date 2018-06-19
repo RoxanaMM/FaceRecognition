@@ -14,6 +14,7 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.input.TransferMode;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.FlowPane;
+import javafx.scene.layout.GridPane;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 
@@ -42,28 +43,16 @@ public class Main extends Application {
     private ImageView imageView1;
     @FXML
     private ImageView imageView2;
-
     @FXML
     private Button startCalculating;
 
-    @FXML
-    private ImageView loadHisto1;
-
-    @FXML
-    private ImageView histoViewer2_1;
-    @FXML
-    private ImageView histoViewer2_2;
-    @FXML
-    private ImageView histoViewer2_3;
-    @FXML
-    private ImageView histoViewer2_4;
-
-
     LogicController logicController = new LogicController();
-    Coloured coloured = new Coloured();
-    static File populateWIithPicsAddr1 = null;
-    static List<File> populateWIithPicsAddr2 = new ArrayList<File>();
-    static List<AlgoName> algoNames = new ArrayList<>();
+    public static File populateWIithPicsAddr1 = null;
+    public static List<File> populateWIithPicsAddr2 = new ArrayList<File>();
+    public static List<AlgoName> algoNames = new ArrayList<>();
+
+    public static List<File> initialImages1 = new ArrayList<>();
+    public static List<File> initialImages2 = new ArrayList<>();
 
     @FXML
     private Button seeAllHistograms;
@@ -85,12 +74,10 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-
-
         Parent root = FXMLLoader.load(getClass().getResource("view/FirstPage.fxml"));
         root.getStylesheets().add(getClass().getResource("view/DarkTheme.css").toString());
         primaryStage.setTitle("Images");
-        primaryStage.setScene(new Scene(root, 300, 275));
+        primaryStage.setScene(new Scene(root, 1000, 550));
         primaryStage.show();
 
     }
@@ -104,12 +91,14 @@ public class Main extends Application {
         List<File> images = dragEvent.getDragboard().getFiles();
         Image image = new Image(new FileInputStream(images.get(0)));
         imageView1.setImage(image);
+        initialImages1.add(images.get(0));
         populateWIithPicsAddr1 = images.get(0);
     }
 
     public void handleDrop2(DragEvent dragEvent) throws FileNotFoundException, IOException {
         List<File> images = dragEvent.getDragboard().getFiles();
         for (int i = 0; i < images.size(); i++) {
+            initialImages2.add(images.get(i));
             Image image = new Image(new FileInputStream(images.get(i)));
             imageView2.setImage(image);
             populateWIithPicsAddr2.add(images.get(i));
@@ -125,6 +114,7 @@ public class Main extends Application {
 
                 Image image = new Image(new FileInputStream(selectedFiles.get(i)));
                 imageView2.setImage(image);
+                initialImages2.add(selectedFiles.get(i));
             }
         }
         populateWIithPicsAddr2.addAll(selectedFiles);
@@ -138,6 +128,7 @@ public class Main extends Application {
 
             Image image = new Image(new FileInputStream(selectedFile));
             imageView1.setImage(image);
+            initialImages1.add(selectedFile);
             populateWIithPicsAddr1 = selectedFile;
         }
     }
@@ -397,46 +388,21 @@ public class Main extends Application {
         algoNames.add(AlgoName.distanceAvg);
     }
 
-    public void getHistogram1(ActionEvent actionEvent) throws FileNotFoundException {
-        Image image = new Image(new FileInputStream(coloured.getHistogram(populateWIithPicsAddr1.toString())));
-        loadHisto1.setImage(image);
-    }
-
-    public void getHistograms2(ActionEvent actionEvent) throws FileNotFoundException {
-        List<String> histogramAddresses = new ArrayList<>();
-        List<Image> images = new ArrayList<Image>();
-
-        for (File f : populateWIithPicsAddr2) {
-            histogramAddresses.add(coloured.getHistogram(f.toString()));
-            images.add(new Image(new FileInputStream(coloured.getHistogram(f.toString()))));
-        }
-        histoViewer2_1.setImage(images.get(0));
-        if(images.size() == 2)
-            histoViewer2_2.setImage(images.get(1));
-        if(images.size() == 3)
-            histoViewer2_3.setImage(images.get(2));
-        if(images.size() == 4)
-            histoViewer2_4.setImage(images.get(3));
-    }
-
-    public void seeAllHistograms(ActionEvent actionEvent) {
-    }
-
-    public void showShapeHisto1(MouseEvent mouseEvent) {
-
-    }
-
-    public void showTextureHisto1(MouseEvent mouseEvent) throws FileNotFoundException {
-
-    }
-
-    public void showColouredHisto1(MouseEvent mouseEvent) throws FileNotFoundException {
-        Image image = new Image(new FileInputStream(coloured.getHistogram(populateWIithPicsAddr1.toString())));
-        loadHisto1.setImage(image);
-    }
-
     public void launchWIn2(ActionEvent actionEvent) throws IOException {
         AnchorPane pane = FXMLLoader.load(getClass().getResource("view/SecondPage.fxml"));
+        anchorFirstPage.getChildren().setAll(pane);
+    }
+
+    public void closeWindow(MouseEvent mouseEvent) {
+    }
+
+    public void launchWIn3p(ActionEvent actionEvent) throws IOException {
+        AnchorPane pane = FXMLLoader.load(getClass().getResource("view/ThirdPage.fxml"));
+        anchorFirstPage.getChildren().setAll(pane);
+    }
+
+    public void launchWIn4(ActionEvent actionEvent) throws IOException {
+        AnchorPane pane = FXMLLoader.load(getClass().getResource("view/FourthPage.fxml"));
         anchorFirstPage.getChildren().setAll(pane);
     }
 }

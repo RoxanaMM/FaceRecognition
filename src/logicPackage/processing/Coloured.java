@@ -54,7 +54,7 @@ public class Coloured extends DrawColouredHistogram {
     }
 
 
-    public static float[][] calculateAndDrawHistogram(String sourcePic1) throws IOException {
+    public static float[][] calculateHistogram(String sourcePic1) throws IOException {
         float[][] floatArray = new float[3][256];
         if (sourcePic1.contains("jpg")) {
             Mat A = Imgcodecs.imread(sourcePic1);
