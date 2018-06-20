@@ -12,6 +12,7 @@ import javafx.scene.control.*;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.layout.Pane;
 import javafx.scene.text.Text;
 import javafx.scene.text.TextBuilder;
 import javafx.scene.text.TextFlow;
@@ -37,33 +38,12 @@ public class ThirdPageController extends Main {
 
     @FXML
     private AnchorPane anchorThird;
-
+    @FXML
+    private Pane paneForPics2;
     @FXML
     private ImageView imageLayout1;
-    @FXML
-    private ImageView imageLayout2_11;
-    @FXML
-    private ImageView imageLayout2_22;
-    @FXML
-    private ImageView imageLayout2_33;
-    @FXML
-    private ImageView imageLayout2_44;
-    @FXML
-    private ImageView imageLayout2_55;
-    @FXML
-    private ImageView imageLayout2_66;
-    @FXML
-    private ImageView imageLayout2_77;
-    @FXML
-    private ImageView imageLayout2_88;
-    @FXML
-    private ImageView imageLayout2_99;
-    @FXML
-    private ImageView imageLayout2_1010;
-    @FXML
-    private ImageView imageLayout2_1111;
-    @FXML
-    private ImageView imageLayout2_1212;
+
+    private List<ImageView> imageLayout2;
     @FXML
     private Label labelSorry;
     Calculate calculate = new Calculate();
@@ -110,30 +90,9 @@ public class ThirdPageController extends Main {
         if(imagesForImageViewer2.size() == 0 ){
             labelSorry.setText("Sorry but none of the images given fit the test image");
         }else {
-            if (imagesForImageViewer2.size() >= 1)
-                imageLayout2_11.setImage(new Image(new FileInputStream(String.valueOf(imagesForImageViewer2.get(0)))));
-            if (imagesForImageViewer2.size() >= 2)
-                imageLayout2_22.setImage(new Image(new FileInputStream(String.valueOf(imagesForImageViewer2.get(1)))));
-            if (imagesForImageViewer2.size() >= 3)
-                imageLayout2_33.setImage(new Image(new FileInputStream(String.valueOf(imagesForImageViewer2.get(2)))));
-            if (imagesForImageViewer2.size() >= 4)
-                imageLayout2_44.setImage(new Image(new FileInputStream(String.valueOf(imagesForImageViewer2.get(3)))));
-            if (imagesForImageViewer2.size() >= 5)
-                imageLayout2_55.setImage(new Image(new FileInputStream(String.valueOf(imagesForImageViewer2.get(4)))));
-            if (imagesForImageViewer2.size() >= 6)
-                imageLayout2_66.setImage(new Image(new FileInputStream(String.valueOf(imagesForImageViewer2.get(5)))));
-            if (imagesForImageViewer2.size() >= 7)
-                imageLayout2_77.setImage(new Image(new FileInputStream(String.valueOf(imagesForImageViewer2.get(6)))));
-            if (imagesForImageViewer2.size() >= 8)
-                imageLayout2_88.setImage(new Image(new FileInputStream(String.valueOf(imagesForImageViewer2.get(7)))));
-            if (imagesForImageViewer2.size() >= 9)
-                imageLayout2_99.setImage(new Image(new FileInputStream(String.valueOf(imagesForImageViewer2.get(8)))));
-            if (imagesForImageViewer2.size() >= 10)
-                imageLayout2_1010.setImage(new Image(new FileInputStream(String.valueOf(imagesForImageViewer2.get(9)))));
-            if (imagesForImageViewer2.size() >= 11)
-                imageLayout2_1111.setImage(new Image(new FileInputStream(String.valueOf(imagesForImageViewer2.get(10)))));
-            if (imagesForImageViewer2.size() >= 12)
-                imageLayout2_1212.setImage(new Image(new FileInputStream(String.valueOf(imagesForImageViewer2.get(11)))));
+            for(File f: imagesForImageViewer22) {
+                paneForPics2.getChildren().add(new ImageView(new Image(new FileInputStream(String.valueOf(f)), 220, 220,false,false)));
+            }
             algoResults.setText("The algorithms with best restults are:  ");
 
             for (BestFitModel model : statisticsBestFit) {
