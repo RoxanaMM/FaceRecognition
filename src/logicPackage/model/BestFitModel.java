@@ -11,22 +11,25 @@ public class BestFitModel {
     String algoCalculationSingleResult;
     File populateWIithPicsAddr1;
     File populateWIithPicsAddr2;
+    int channelIndicator;
 
     public BestFitModel(){
     }
 
-    public BestFitModel(AlgoName algo, List<String> algoCalculationResult, File populateWIithPicsAddr1, File populateWIithPicsAddr2) {
+    public BestFitModel(AlgoName algo, List<String> algoCalculationResult, File populateWIithPicsAddr1, File populateWIithPicsAddr2, int channelIndicator) {
         this.algo = algo;
         this.algoCalculationResult = algoCalculationResult;
         this.populateWIithPicsAddr1 = populateWIithPicsAddr1;
         this.populateWIithPicsAddr2 = populateWIithPicsAddr2;
+        this.channelIndicator = channelIndicator;
     }
 
-    public BestFitModel(AlgoName algo, String algoCalculationSingleResult, File populateWIithPicsAddr1, File populateWIithPicsAddr2) {
+    public BestFitModel(AlgoName algo, String algoCalculationSingleResult, File populateWIithPicsAddr1, File populateWIithPicsAddr2, int channelIndicator) {
         this.algo = algo;
         this.algoCalculationSingleResult = algoCalculationSingleResult;
         this.populateWIithPicsAddr1 = populateWIithPicsAddr1;
         this.populateWIithPicsAddr2 = populateWIithPicsAddr2;
+        this.channelIndicator = channelIndicator;
     }
 
     public AlgoName getAlgo() {
@@ -67,5 +70,13 @@ public class BestFitModel {
 
     public void setAlgoCalculationSingleResult(String algoCalculationSingleResult) {
         this.algoCalculationSingleResult = algoCalculationSingleResult;
+    }
+
+    public int getChannelIndicator() {
+        return channelIndicator;
+    }
+
+    public void setChannelIndicator(int channelIndicator) {
+        this.channelIndicator = channelIndicator;
     }
 }

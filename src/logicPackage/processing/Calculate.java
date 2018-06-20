@@ -14,8 +14,8 @@ public class Calculate extends Algorithms {
     public static List<String> algoCalculationResult = new ArrayList<String>();
     public static Integer contor = 0;
     static List<BestFitModel> bestFitModels = new ArrayList<BestFitModel>();
+    static List<BestFitModel> bestCalculatedModels = new ArrayList<BestFitModel>();
     static Set<File> bestimages = new HashSet<>();
-    static int index = 0;
     static int indicator = 0;
     static Model model = new Model();
 
@@ -29,7 +29,7 @@ public class Calculate extends Algorithms {
         }
     }
 
-    public static void calculateDistance(File populateWIithPicsAddr1, File populateWIithPicsAddr2, Results results, float P[], float Q[], int j) {
+    public static void calculateDistance(File populateWIithPicsAddr1, File populateWIithPicsAddr2, Results results, float P[], float Q[], int channelIndicator) {
         indicator = 0;
         buildNameMaps();
 
@@ -39,37 +39,40 @@ public class Calculate extends Algorithms {
                 receiveCommand(a, P, Q);
                 indicator = 1;
             }
-            for(int i=0;i<algoCalculationResult.size();i++){
-                BestFitModel model = new BestFitModel(algoNameMap.get(i), algoCalculationResult.get(i).toString(), populateWIithPicsAddr1, populateWIithPicsAddr2);
+            for (int i = 0; i < algoCalculationResult.size(); i++) {
+                BestFitModel model = new BestFitModel(algoNameMap.get(i), algoCalculationResult.get(i).toString(), populateWIithPicsAddr1, populateWIithPicsAddr2, channelIndicator);
                 bestFitModels.add(model);
             }
         } else {
             keepAlgoFunc.put(results.getAlgoName(), new Help(results, P, Q));
             receiveCommand(results.getAlgoName(), P, Q);
 
-            BestFitModel model = new BestFitModel(results.getAlgoName(), algoCalculationResult, populateWIithPicsAddr1, populateWIithPicsAddr2);
+            BestFitModel model = new BestFitModel(results.getAlgoName(), algoCalculationResult, populateWIithPicsAddr1, populateWIithPicsAddr2, channelIndicator);
             bestFitModels.add(model);
         }
 
 
-        writeInFile(results.getAlgoName(), algoCalculationResult, populateWIithPicsAddr1, populateWIithPicsAddr2, j);
+        writeInFile(results.getAlgoName(), algoCalculationResult, populateWIithPicsAddr1, populateWIithPicsAddr2, channelIndicator);
     }
 
     public static Set<File> computeBestFit() {
         //bestimages
         for (BestFitModel model : bestFitModels) {
-            if (model.getAlgo().name().contains("similarity")) {
-                if (Double.parseDouble(model.getAlgoCalculationSingleResult()) == 1 && index <= 3) {
-                    bestimages.add(model.getPopulateWIithPicsAddr2());
-                    index++;
-                } else if (Double.parseDouble(model.getAlgoCalculationSingleResult()) == 0 && index <= 3) {
-                    bestimages.add(model.getPopulateWIithPicsAddr2());
-                    index++;
-                }
+            if (model.getAlgo().name().contains("similarity") && Double.parseDouble(model.getAlgoCalculationSingleResult()) == 1 && !model.getAlgo().name().contains("all")) {
+                bestimages.add(model.getPopulateWIithPicsAddr2());
+                bestCalculatedModels.add(model);
+            } else if (Double.parseDouble(model.getAlgoCalculationSingleResult()) == 0 && !model.getAlgo().name().contains("similarity") && !model.getAlgo().name().contains("all")) {
+                bestimages.add(model.getPopulateWIithPicsAddr2());
+                bestCalculatedModels.add(model);
             }
         }
         return bestimages;
     }
+
+    public static List<BestFitModel> statisticsBestFit() {
+        return bestCalculatedModels;
+    }
+
 
     public static void receiveCommand(AlgoName command, float P[], float Q[]) {
         Object damerge = keepAlgoFunc.get(command).execute(command, P, Q);
@@ -78,7 +81,7 @@ public class Calculate extends Algorithms {
         algoCalculationResult.add(damerge.toString());
     }
 
-    public static void writeInFile(AlgoName algoName, List<String> algoCalculationResult, File populateWIithPicsAddr1, File populateWIithPicsAddr2, int j) {
+    public static void writeInFile(AlgoName algoName, List<String> algoCalculationResult, File populateWIithPicsAddr1, File populateWIithPicsAddr2, int channelIndicator) {
         PrintWriter writer = null;
         try {
             if (contor == 0) {
@@ -93,12 +96,11 @@ public class Calculate extends Algorithms {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
         contor = 1;
         writer.println("\n");
         writer.println(populateWIithPicsAddr1.toString().concat("__").concat(populateWIithPicsAddr2.toString()));
         writer.println(algoName);
-        switch (j) {
+        switch (channelIndicator) {
             case 0:
                 writer.print("Red Channel ");
                 break;

@@ -11,7 +11,9 @@ import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.VBox;
+import javafx.scene.text.Text;
 import javafx.stage.Stage;
+import logicPackage.model.BestFitModel;
 import logicPackage.processing.Coloured;
 import sample.Main;
 
@@ -22,6 +24,8 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+
+import static logicPackage.processing.Calculate.statisticsBestFit;
 
 public class SecondPageController extends Main {
     @FXML
@@ -34,7 +38,6 @@ public class SecondPageController extends Main {
     private ImageView histoViewer2_3;
     @FXML
     private ImageView histoViewer2_4;
-
     @FXML
     private Button mostSimilar1;
 
