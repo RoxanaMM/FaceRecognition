@@ -39,6 +39,22 @@ public class SecondPageController extends Main {
     @FXML
     private ImageView histoViewer2_4;
     @FXML
+    private ImageView histoViewer2_5;
+    @FXML
+    private ImageView histoViewer2_6;
+    @FXML
+    private ImageView histoViewer2_7;
+    @FXML
+    private ImageView histoViewer2_8;
+    @FXML
+    private ImageView histoViewer2_9;
+    @FXML
+    private ImageView histoViewer2_10;
+    @FXML
+    private ImageView histoViewer2_11;
+    @FXML
+    private ImageView histoViewer2_12;
+    @FXML
     private Button mostSimilar1;
 
     Coloured coloured = new Coloured();
@@ -71,14 +87,30 @@ public class SecondPageController extends Main {
             histogramAddresses.add(coloured.getHistogram(f.toString()));
             images.add(new Image(new FileInputStream(coloured.getHistogram(f.toString()))));
         }
-        if(images.size() == 1)
+        if(images.size() >= 1)
             histoViewer2_1.setImage(images.get(0));
-        if(images.size() == 2)
+        if(images.size() >= 2)
             histoViewer2_2.setImage(images.get(1));
-        if(images.size() == 3)
+        if(images.size() >= 3)
             histoViewer2_3.setImage(images.get(2));
-        if(images.size() == 4)
+        if(images.size() >= 4)
             histoViewer2_4.setImage(images.get(3));
+        if(images.size() >= 5)
+            histoViewer2_5.setImage(images.get(4));
+        if(images.size() >= 6)
+            histoViewer2_6.setImage(images.get(5));
+        if(images.size() >= 7)
+            histoViewer2_7.setImage(images.get(6));
+        if(images.size() >= 8)
+            histoViewer2_8.setImage(images.get(7));
+        if(images.size() >= 9)
+            histoViewer2_9.setImage(images.get(8));
+        if(images.size() >= 10)
+            histoViewer2_10.setImage(images.get(9));
+        if(images.size() >= 11)
+            histoViewer2_11.setImage(images.get(10));
+        if(images.size() >= 12)
+            histoViewer2_12.setImage(images.get(11));
     }
 
     public void showColouredHisto1(MouseEvent mouseEvent) throws FileNotFoundException {
