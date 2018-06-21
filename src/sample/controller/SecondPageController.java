@@ -3,31 +3,24 @@ package sample.controller;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Node;
-import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.*;
+import javafx.scene.control.Button;
+import javafx.scene.control.ScrollPane;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
-import javafx.scene.layout.*;
-import javafx.scene.text.Text;
+import javafx.scene.layout.AnchorPane;
+import javafx.scene.layout.HBox;
+import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
-import logicPackage.model.BestFitModel;
 import logicPackage.processing.Coloured;
 import sample.Main;
 
-import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
-import static logicPackage.processing.Calculate.algoCalculationResult;
-import static logicPackage.processing.Calculate.statisticsBestFit;
 
 public class SecondPageController extends Main {
     @FXML
@@ -68,31 +61,6 @@ public class SecondPageController extends Main {
         loadHisto1.setImage(image);
     }
 
-    public void getHistograms2(ActionEvent actionEvent) throws FileNotFoundException {
-        List<String> histogramAddresses = new ArrayList<>();
-        List<Image> images = new ArrayList<Image>();
-        int index =0;
-        for (File f : populateWIithPicsAddr2) {
-            String result = f.toString();
-            result = result.substring(result.length()- 15, result.length());
-
-            histogramAddresses.add(coloured.getHistogram(f.toString()));
-            images.add(new Image(new FileInputStream(coloured.getHistogram(f.toString()))));
-          //  vertical1.getChildren().add(index, new ImageView(new Image(new FileInputStream(coloured.getHistogram(f.toString())),220,220,true,false)));
-            vertical2.getChildren().add(index, new Label(result));
-           // vertical2.getChildren().add(index, new Label(" " ));
-          //  vertical1.setAccessibleText().add(label,2,index);
-         //   paneForHisto.add(new ImageView(new Image(new FileInputStream(coloured.getHistogram(f.toString())))),2,index);
-          //  paneForHisto.getChildren().add(new ImageView(new Image(new FileInputStream(coloured.getHistogram(f.toString())))));
-            index++;
-            vBox1.getChildren().add(new ImageView(new Image(new FileInputStream(coloured.getHistogram(f.toString())))));
-            scPane1.setContent(vBox1);
-            //hboxNou.getChildren().add(new ImageView(new Image(new FileInputStream(coloured.getHistogram(f.toString())))));
-
-        }
-
-    }
-
     public void showColouredHisto1(MouseEvent mouseEvent) throws FileNotFoundException {
         Image image = new Image(new FileInputStream(coloured.getHistogram(populateWIithPicsAddr1.toString())));
         loadHisto1.setImage(image);
@@ -112,5 +80,6 @@ public class SecondPageController extends Main {
     public void goBack(ActionEvent actionEvent) throws IOException {
 //        AnchorPane pane = FXMLLoader.load(getClass().getResource("view/FirstPage.fxml"));
 //        anchorSecondPane.getChildren().setAll(pane);
+
     }
 }

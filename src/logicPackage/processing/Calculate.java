@@ -6,6 +6,7 @@ import logicPackage.model.Model;
 import logicPackage.model.Results;
 import logicPackage.enums.AlgoName;
 
+import javax.swing.text.html.ListView;
 import java.io.*;
 import java.util.*;
 
@@ -13,11 +14,8 @@ public class Calculate extends Algorithms {
     public static HashMap<AlgoName, Command> keepAlgoFunc = new HashMap<AlgoName, Command>();
     public static List<String> algoCalculationResult = new ArrayList<String>();
     public static Integer contor = 0;
-    static List<BestFitModel> bestFitModels = new ArrayList<BestFitModel>();
-    static List<BestFitModel> bestCalculatedModels = new ArrayList<BestFitModel>();
-    static Set<File> bestimages = new HashSet<>();
-    static int indicator = 0;
-    static Model model = new Model();
+
+       static int indicator = 0;
 
     static Map<Integer, AlgoName> algoNameMap = new HashMap<Integer, AlgoName>();
 
@@ -29,9 +27,10 @@ public class Calculate extends Algorithms {
         }
     }
 
-    public static void calculateDistance(File populateWIithPicsAddr1, File populateWIithPicsAddr2, Results results, float P[], float Q[], int channelIndicator) {
+    public static Map<Integer, List<BestFitModel>> calculateDistance(List<BestFitModel> helper, Map<Integer, List<BestFitModel>>bestFitModels,File populateWIithPicsAddr1, File populateWIithPicsAddr2, Results results, float P[], float Q[], int channelIndicator) {
         indicator = 0;
         buildNameMaps();
+      //  List<BestFitModel>helper = new ArrayList<>();
 
         if (results.getAlgoName().name().equals("all")) {
             for (AlgoName a : AlgoName.values()) {
@@ -41,38 +40,23 @@ public class Calculate extends Algorithms {
             }
             for (int i = 0; i < algoCalculationResult.size(); i++) {
                 BestFitModel model = new BestFitModel(algoNameMap.get(i), algoCalculationResult.get(i).toString(), populateWIithPicsAddr1, populateWIithPicsAddr2, channelIndicator);
-                bestFitModels.add(model);
+                helper.add(model);
+
             }
+            bestFitModels.put(channelIndicator,helper);
         } else {
             keepAlgoFunc.put(results.getAlgoName(), new Help(results, P, Q));
             receiveCommand(results.getAlgoName(), P, Q);
 
             BestFitModel model = new BestFitModel(results.getAlgoName(), algoCalculationResult, populateWIithPicsAddr1, populateWIithPicsAddr2, channelIndicator);
-            bestFitModels.add(model);
+            helper.add(model);
+            bestFitModels.put(channelIndicator,helper);
         }
 
 
         writeInFile(results.getAlgoName(), algoCalculationResult, populateWIithPicsAddr1, populateWIithPicsAddr2, channelIndicator);
+        return  bestFitModels;
     }
-
-    public static Set<File> computeBestFit() {
-        //bestimages
-        for (BestFitModel model : bestFitModels) {
-            if (model.getAlgo().name().contains("similarity") && Double.parseDouble(model.getAlgoCalculationSingleResult()) == 1 && !model.getAlgo().name().contains("all")) {
-                bestimages.add(model.getPopulateWIithPicsAddr2());
-                bestCalculatedModels.add(model);
-            } else if (Double.parseDouble(model.getAlgoCalculationSingleResult()) == 0 && !model.getAlgo().name().contains("similarity") && !model.getAlgo().name().contains("all")) {
-                bestimages.add(model.getPopulateWIithPicsAddr2());
-                bestCalculatedModels.add(model);
-            }
-        }
-        return bestimages;
-    }
-
-    public static List<BestFitModel> statisticsBestFit() {
-        return bestCalculatedModels;
-    }
-
 
     public static void receiveCommand(AlgoName command, float P[], float Q[]) {
         Object damerge = keepAlgoFunc.get(command).execute(command, P, Q);

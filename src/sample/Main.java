@@ -4,34 +4,30 @@ import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
-import javafx.geometry.Insets;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.ListView;
 import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.input.DragEvent;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.input.TransferMode;
 import javafx.scene.layout.AnchorPane;
-import javafx.scene.layout.FlowPane;
-import javafx.scene.layout.GridPane;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
-
-import javafx.scene.image.ImageView;
 import logicPackage.enums.AlgoName;
-import logicPackage.processing.Coloured;
+import logicPackage.enums.DatabaseName;
+import logicPackage.model.BestFitModel;
 import org.opencv.core.Core;
 import sample.controller.LogicController;
-import sun.misc.IOUtils;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class Main extends Application {
 
@@ -42,20 +38,20 @@ public class Main extends Application {
     @FXML
     private ImageView imageView1;
     @FXML
-    private ImageView imageView2;
-    @FXML
     private Button startCalculating;
 
     LogicController logicController = new LogicController();
     public static File populateWIithPicsAddr1 = null;
-    public static List<File> populateWIithPicsAddr2 = new ArrayList<File>();
     public static List<AlgoName> algoNames = new ArrayList<>();
-
+    public static List<DatabaseName> databaseName = new ArrayList<>();
+    public static List<Integer> nrOfIterations = new ArrayList<>();
+    public static final String documentSufix = "C:\\forMaster\\temaDisertatie\\backupPic\\Corel1000\\";
+    public static List<File> backGroundPicsAddressesList = new ArrayList<>();
     public static List<File> initialImages1 = new ArrayList<>();
-    public static List<File> initialImages2 = new ArrayList<>();
-
-    @FXML
-    private Button seeAllHistograms;
+    public static List<Map< Integer, List<BestFitModel>>> similarPhotosResults = new ArrayList<>();
+    public static List<Map< Integer, List<BestFitModel>>> nonSimilarPhotosResults = new ArrayList<>();
+    public static List<Map<Integer, Double>>finalResultSimilar = new ArrayList<>();
+    public static List<Map<Integer,Double>>finalResultNonSimilar = new ArrayList<>();
 
     @FXML
     private AnchorPane anchorFirstPage;
@@ -65,12 +61,6 @@ public class Main extends Application {
             dragEvent.acceptTransferModes(TransferMode.ANY);
     }
 
-
-    public void handleDragPics2(DragEvent dragEvent) {
-        if (dragEvent.getDragboard().hasFiles()) {
-            dragEvent.acceptTransferModes(TransferMode.ANY);
-        }
-    }
 
     @Override
     public void start(Stage primaryStage) throws Exception {
@@ -95,31 +85,6 @@ public class Main extends Application {
         populateWIithPicsAddr1 = images.get(0);
     }
 
-    public void handleDrop2(DragEvent dragEvent) throws FileNotFoundException, IOException {
-        List<File> images = dragEvent.getDragboard().getFiles();
-        for (int i = 0; i < images.size(); i++) {
-            initialImages2.add(images.get(i));
-            Image image = new Image(new FileInputStream(images.get(i)));
-            imageView2.setImage(image);
-            populateWIithPicsAddr2.add(images.get(i));
-        }
-    }
-
-    public void fileChooser2(ActionEvent actionEvent) throws IOException {
-        FileChooser fileChooser = new FileChooser();
-        List<File> selectedFiles = fileChooser.showOpenMultipleDialog(null);
-
-        for (int i = 0; i < selectedFiles.size(); i++) {
-            if (selectedFiles.get(i) != null) {
-
-                Image image = new Image(new FileInputStream(selectedFiles.get(i)));
-                imageView2.setImage(image);
-                initialImages2.add(selectedFiles.get(i));
-            }
-        }
-        populateWIithPicsAddr2.addAll(selectedFiles);
-    }
-
     public void fileChooser1(ActionEvent actionEvent) throws FileNotFoundException {
         FileChooser fileChooser = new FileChooser();
         File selectedFile = fileChooser.showOpenDialog(null);
@@ -131,17 +96,6 @@ public class Main extends Application {
             initialImages1.add(selectedFile);
             populateWIithPicsAddr1 = selectedFile;
         }
-    }
-
-    public void onMouseClick(MouseEvent mouseEvent) throws IOException {
-        if (algoNames.isEmpty())
-            logicController.getImgAndDoCalculatins(AlgoName.all, populateWIithPicsAddr1, populateWIithPicsAddr2);
-        else {
-            for (AlgoName algo : algoNames) {
-                logicController.getImgAndDoCalculatins(algo, populateWIithPicsAddr1, populateWIithPicsAddr2);
-            }
-        }
-        startCalculating.setDisable(true);
     }
 
     public void chooseAlgorithm(MouseEvent mouseEvent) {
@@ -404,5 +358,186 @@ public class Main extends Application {
     public void launchWIn4(ActionEvent actionEvent) throws IOException {
         AnchorPane pane = FXMLLoader.load(getClass().getResource("view/FourthPage.fxml"));
         anchorFirstPage.getChildren().setAll(pane);
+    }
+
+    public void chooseDataBase(MouseEvent mouseEvent) {
+    }
+
+    public void Africa(ActionEvent actionEvent) {
+        databaseName.add(DatabaseName.Africa);
+    }
+
+    public void Beach(ActionEvent actionEvent) {
+        databaseName.add(DatabaseName.Beach);
+    }
+
+    public void Buildings(ActionEvent actionEvent) {
+        databaseName.add(DatabaseName.Buildings);
+    }
+
+    public void Buses(ActionEvent actionEvent) {
+        databaseName.add(DatabaseName.Buses);
+    }
+
+    public void Dinosaurs(ActionEvent actionEvent) {
+        databaseName.add(DatabaseName.Dinosaurs);
+    }
+
+    public void Elephants(ActionEvent actionEvent) {
+        databaseName.add(DatabaseName.Elephants);
+    }
+
+    public void Flowers(ActionEvent actionEvent) {
+        databaseName.add(DatabaseName.Flowers);
+    }
+
+    public void Food(ActionEvent actionEvent) {
+        databaseName.add(DatabaseName.Food);
+    }
+
+    public void Horses(ActionEvent actionEvent) {
+        databaseName.add(DatabaseName.Horses);
+    }
+
+    public void Mountains(ActionEvent actionEvent) {
+        databaseName.add(DatabaseName.Mountains);
+    }
+
+    public void choose500(ActionEvent actionEvent) {
+        nrOfIterations.add(5);
+    }
+
+    public void choose1000(ActionEvent actionEvent) {
+        nrOfIterations.add(10);
+    }
+
+    public void choose10000(ActionEvent actionEvent) {
+        nrOfIterations.add(15);
+    }
+
+    public void choose100000(ActionEvent actionEvent) {
+        nrOfIterations.add(20);
+    }
+
+    public static void buildBackGroundPicsAddresses() {
+        File folder = new File(documentSufix.concat("backgroundSet"));
+        File[] listOfFiles = folder.listFiles();
+        for (File firstFileEntry : listOfFiles) {
+            if (firstFileEntry.getAbsolutePath().contains("jpg") || firstFileEntry.getAbsolutePath().contains("JPG")) {
+                backGroundPicsAddressesList.add(new File(firstFileEntry.getAbsolutePath()));
+            }
+        }
+    }
+
+
+    public void trainChooseSet(ActionEvent actionEvent) throws IOException {
+        buildBackGroundPicsAddresses();
+        Map< Integer, List<BestFitModel>>sim = new HashMap<>();
+        Map< Integer, List<BestFitModel>> nonSim = new HashMap<>();
+        String nameOfSet = databaseName.get(0).name();
+        Integer nrOfIterationsChoosen = nrOfIterations.get(0);
+        File folder = new File(documentSufix.concat(nameOfSet));
+        File[] listOfFiles = folder.listFiles();
+                for (File firstFileEntry : listOfFiles) {
+                    if (firstFileEntry.getAbsolutePath().contains("jpg") || firstFileEntry.getAbsolutePath().contains("JPG")) {
+                     //   if (k == 0) {
+                            if (algoNames.isEmpty()) {
+                                sim.putAll(logicController.getImgAndDoCalculatins(AlgoName.all, new File(firstFileEntry.getAbsolutePath()), Arrays.asList(listOfFiles)));
+                            similarPhotosResults.add(sim);
+                            } else {
+                                for (AlgoName algo : algoNames) {
+                                    sim.putAll(logicController.getImgAndDoCalculatins(algo, new File(firstFileEntry.getAbsolutePath()), Arrays.asList(listOfFiles)));
+                                    similarPhotosResults.add(sim);
+                                }
+                            }
+                      //  } else {
+
+                            }
+                       // }
+                    }
+
+
+
+
+
+
+            for (File firstFileEntry : listOfFiles) {
+                if (firstFileEntry.getAbsolutePath().contains("jpg") || firstFileEntry.getAbsolutePath().contains("JPG")) {
+                    if (algoNames.isEmpty()) {
+                        nonSim.putAll(logicController.getImgAndDoCalculatins(AlgoName.all, new File(firstFileEntry.getAbsolutePath()), backGroundPicsAddressesList));
+                        nonSimilarPhotosResults.add(nonSim);
+                    } else {
+                        for (AlgoName algo : algoNames) {
+                            nonSim.putAll(logicController.getImgAndDoCalculatins(algo, new File(firstFileEntry.getAbsolutePath()), backGroundPicsAddressesList));
+                        nonSimilarPhotosResults.add(nonSim);
+                        }
+
+                    }
+                }
+            }
+
+     //   takeFinalResults();
+    }
+
+
+    public static Double helpMeCalculate(List<Double> resultsForChannel){
+        Double sum=0.00;
+        for(int i=0; i<resultsForChannel.size();i++)
+            sum= sum + resultsForChannel.get(i);
+        return sum;
+    }
+
+//    public void takeFinalResults (){
+//
+//        Map <Integer, List<Double>> sim = displayOnScreen(similarPhotosResults);
+//        Map <Integer, List<Double>> NonSim = displayOnScreen(nonSimilarPhotosResults);
+//        List <Double> listOfDoubleValues = new ArrayList<Double>();
+//        Map<Integer, Double>helper = new HashMap<>();
+//        for(int j=0;j<=2;j++){
+//            for(int i =0;i<=sim.get(j).size();i++){
+//                listOfDoubleValues=sim.get(j);
+//            }
+//            helper.put(j, helpMeCalculate(listOfDoubleValues));
+//            finalResultSimilar.add(helper);
+//            helper = new HashMap<>();
+//        }
+//        helper = new HashMap<>();
+//
+//        for(int j=0;j<=2;j++){
+//            for(int i =0;i<=sim.get(j).size();i++){
+//                listOfDoubleValues=sim.get(j);
+//            }
+//            helper.put(j, helpMeCalculate(listOfDoubleValues));
+//            finalResultNonSimilar.add(helper);
+//            helper = new HashMap<>();
+//        }
+//        System.out.println("similar");
+//        for(int i =0;i<finalResultSimilar.size();i++){
+//            System.out.println(finalResultSimilar.get(i).get(0));;
+//        }
+//        System.out.println("nesimilar");
+//        for(int i =0;i<finalResultSimilar.size();i++){
+//            System.out.println(finalResultNonSimilar.get(i).get(0));;
+//        }
+//
+//    }
+
+
+    public Map <Integer, List<Double>> displayOnScreen(Map< Integer, List<BestFitModel>>similarPhotosResults1){
+        Integer oldIndex = 0;
+        List<Double>doubleValues = new ArrayList<>();
+        Map <Integer, List<Double>> similarStuff = new HashMap<>();
+        for(int j=0;j<similarPhotosResults1.size();j++) {
+            for (int i = 0; i < similarPhotosResults1.get(j).size(); i++) {
+                String result = similarPhotosResults1.get(j).get(i).getAlgoCalculationResult().get(0);
+                Double resultDouble = Double.parseDouble(result);
+                doubleValues.add(resultDouble);
+            }
+            similarStuff.put(j, doubleValues);
+            doubleValues = new ArrayList<>();
+        }
+        return similarStuff;
+    }
+    public void onMouseClick(MouseEvent mouseEvent) {
     }
 }

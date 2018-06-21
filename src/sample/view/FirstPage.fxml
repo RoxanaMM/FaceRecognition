@@ -9,7 +9,6 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.VBox?>
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.web.HTMLEditor?>
@@ -18,18 +17,12 @@
    <children>
       <HTMLEditor htmlText="&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body contenteditable=&quot;true&quot;&gt;&lt;/body&gt;&lt;/html&gt;" layoutX="-664.0" layoutY="-139.0" prefHeight="200.0" prefWidth="506.0" />
       <Line endX="100.0" startX="-100.0" />
-      <ImageView fx:id="imageView1" fitHeight="150.0" fitWidth="200.0" layoutX="150.0" layoutY="171.0" onDragDropped="#handleDrop1" onDragOver="#handleDragPic1" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="imageView1" fitHeight="150.0" fitWidth="200.0" layoutX="904.0" layoutY="358.0" onDragDropped="#handleDrop1" onDragOver="#handleDragPic1" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@button.png" />
          </image></ImageView>
-      <ImageView fx:id="imageView2" fitHeight="150.0" fitWidth="200.0" layoutX="698.0" layoutY="171.0" onDragDropped="#handleDrop2" onDragOver="#handleDragPics2" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@button.png" />
-         </image></ImageView>
-      <Label layoutX="159.0" layoutY="225.0" text="Drag And Drop Pic1" />
-      <Label layoutX="700.0" layoutY="225.0" text="Drag and Drop Pic(s)2" />
-      <Button id="fileChooser1" fx:id="fileChooser1" layoutX="150.0" layoutY="186.0" mnemonicParsing="false" onAction="#fileChooser1" opacity="0.0" prefHeight="121.0" prefWidth="150.0" />
-      <Button id="fileChooser1" fx:id="fileChooser2" layoutX="693.0" layoutY="189.0" mnemonicParsing="false" onAction="#fileChooser2" opacity="0.0" prefHeight="121.0" prefWidth="160.0" />
+      <Label layoutX="913.0" layoutY="412.0" text="Drag And Drop Pic1" />
+      <Button id="fileChooser1" fx:id="fileChooser1" layoutX="913.0" layoutY="373.0" mnemonicParsing="false" onAction="#fileChooser1" opacity="0.0" prefHeight="121.0" prefWidth="150.0" />
       <MenuBar fx:id="chooseAlgorithms" layoutX="384.0" layoutY="147.0" onMouseClicked="#chooseAlgorithm" prefHeight="32.0" prefWidth="179.0">
         <menus>
             <Menu mnemonicParsing="false" text="Choose Algorithms">
@@ -102,8 +95,38 @@
       <ImageView id="histoViewer2_4" fx:id="histoViewer2_4" fitHeight="150.0" fitWidth="200.0" layoutX="1099.0" layoutY="736.0" pickOnBounds="true" preserveRatio="true" />
       <ButtonBar layoutX="72.0" layoutY="70.0" prefHeight="40.0" prefWidth="200.0" />
     <Button fx:id="buttonNext" layoutX="394.0" layoutY="396.0" mnemonicParsing="false" onAction="#launchWIn2" text="See Photos Histogram" />
-      <VBox layoutY="1.0" prefHeight="575.0" prefWidth="150.0" />
-      <Button fx:id="mostSimilar" layoutX="381.0" layoutY="462.0" mnemonicParsing="false" onAction="#launchWIn3p" text="Show Most Similar Photos" />
-      <Button layoutX="378.0" layoutY="508.0" mnemonicParsing="false" onAction="#launchWIn4" prefHeight="31.0" prefWidth="200.0" text="Show Algorithm Statistics" />
+      <Button layoutX="378.0" layoutY="461.0" mnemonicParsing="false" onAction="#launchWIn4" prefHeight="31.0" prefWidth="200.0" text="Show Algorithm Statistics" />
+      <Label layoutX="101.0" layoutY="169.0" text="Training phase" />
+      <MenuBar layoutX="72.0" layoutY="205.0" onMouseClicked="#chooseDataBase" prefHeight="32.0" prefWidth="185.0">
+        <menus>
+            <Menu mnemonicParsing="false" text="Choose Data Base">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#Africa" text="Africa" />
+                  <MenuItem mnemonicParsing="false" onAction="#Beach" text="Beach" />
+                  <MenuItem mnemonicParsing="false" onAction="#Buildings" text="Buildings" />
+                  <MenuItem mnemonicParsing="false" onAction="#Buses" text="Buses" />
+                  <MenuItem mnemonicParsing="false" onAction="#Dinosaurs" text="Dinosaurs" />
+                  <MenuItem mnemonicParsing="false" onAction="#Elephants" text="Elephants" />
+                  <MenuItem mnemonicParsing="false" onAction="#Flowers" text="Flowers" />
+                  <MenuItem mnemonicParsing="false" onAction="#Food" text="Food" />
+                  <MenuItem mnemonicParsing="false" onAction="#Horses" text="Horses" />
+                  <MenuItem mnemonicParsing="false" onAction="#Mountains" text="Mountains" />
+              </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+      <MenuBar layoutX="69.0" layoutY="272.0">
+        <menus>
+            <Menu mnemonicParsing="false" text="Choose Nr of Iterations">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#choose500" text="500" />
+                  <MenuItem mnemonicParsing="false" onAction="#choose1000" text="1000" />
+                  <MenuItem mnemonicParsing="false" onAction="#choose10000" text="10000" />
+                  <MenuItem mnemonicParsing="false" onAction="#choose100000" text="100000" />
+              </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+      <Button layoutX="114.0" layoutY="330.0" mnemonicParsing="false" onAction="#trainChooseSet" text="Train this set" />
    </children>
 </AnchorPane>
