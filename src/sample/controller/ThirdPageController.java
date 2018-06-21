@@ -13,6 +13,7 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.Pane;
+import javafx.scene.layout.VBox;
 import javafx.scene.text.Text;
 import javafx.scene.text.TextBuilder;
 import javafx.scene.text.TextFlow;
@@ -39,8 +40,6 @@ public class ThirdPageController extends Main {
     @FXML
     private AnchorPane anchorThird;
     @FXML
-    private Pane paneForPics2;
-    @FXML
     private ImageView imageLayout1;
 
     private List<ImageView> imageLayout2;
@@ -53,6 +52,13 @@ public class ThirdPageController extends Main {
     static String concatEverythingHereGreen = new String();
     static String concatEverythingHereBlue = new String();
 
+
+    @FXML
+    private VBox vBox3rd;
+
+
+    @FXML
+    private ScrollPane scrollPane3rd;
 
     @FXML
     private Label bigRedText;
@@ -91,7 +97,8 @@ public class ThirdPageController extends Main {
             labelSorry.setText("Sorry but none of the images given fit the test image");
         }else {
             for(File f: imagesForImageViewer22) {
-                paneForPics2.getChildren().add(new ImageView(new Image(new FileInputStream(String.valueOf(f)), 220, 220,false,false)));
+            vBox3rd.getChildren().add(new ImageView(new Image(new FileInputStream(String.valueOf(f)), 220, 220,false,false)));
+            scrollPane3rd.setContent(vBox3rd);
             }
             algoResults.setText("The algorithms with best restults are:  ");
 

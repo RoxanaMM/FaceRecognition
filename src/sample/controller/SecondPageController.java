@@ -6,9 +6,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.control.ListView;
+import javafx.scene.control.*;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
@@ -34,30 +32,11 @@ import static logicPackage.processing.Calculate.statisticsBestFit;
 public class SecondPageController extends Main {
     @FXML
     private ImageView loadHisto1;
-//    @FXML
-//    private ImageView histoViewer2_1;
-//    @FXML
-//    private ImageView histoViewer2_2;
-//    @FXML
-//    private ImageView histoViewer2_3;
-//    @FXML
-//    private ImageView histoViewer2_4;
-//    @FXML
-//    private ImageView histoViewer2_5;
-//    @FXML
-//    private ImageView histoViewer2_6;
-//    @FXML
-//    private ImageView histoViewer2_7;
-//    @FXML
-//    private ImageView histoViewer2_8;
-//    @FXML
-//    private ImageView histoViewer2_9;
-//    @FXML
-//    private ImageView histoViewer2_10;
-//    @FXML
-//    private ImageView histoViewer2_11;
-//    @FXML
-//    private ImageView histoViewer2_12;
+    @FXML
+    private ScrollPane scPane1;
+
+    @FXML
+    private VBox vBox1;
     @FXML
     private Button mostSimilar1;
     private List<ImageView>histoImages = new ArrayList<ImageView>();
@@ -99,13 +78,15 @@ public class SecondPageController extends Main {
 
             histogramAddresses.add(coloured.getHistogram(f.toString()));
             images.add(new Image(new FileInputStream(coloured.getHistogram(f.toString()))));
-            vertical1.getChildren().add(index, new ImageView(new Image(new FileInputStream(coloured.getHistogram(f.toString())),220,220,false,false)));
+          //  vertical1.getChildren().add(index, new ImageView(new Image(new FileInputStream(coloured.getHistogram(f.toString())),220,220,true,false)));
             vertical2.getChildren().add(index, new Label(result));
-            vertical2.getChildren().add(index, new Label(" " ));
+           // vertical2.getChildren().add(index, new Label(" " ));
           //  vertical1.setAccessibleText().add(label,2,index);
          //   paneForHisto.add(new ImageView(new Image(new FileInputStream(coloured.getHistogram(f.toString())))),2,index);
           //  paneForHisto.getChildren().add(new ImageView(new Image(new FileInputStream(coloured.getHistogram(f.toString())))));
             index++;
+            vBox1.getChildren().add(new ImageView(new Image(new FileInputStream(coloured.getHistogram(f.toString())))));
+            scPane1.setContent(vBox1);
             //hboxNou.getChildren().add(new ImageView(new Image(new FileInputStream(coloured.getHistogram(f.toString())))));
 
         }
