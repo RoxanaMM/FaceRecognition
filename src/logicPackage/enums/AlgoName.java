@@ -1,7 +1,6 @@
 package logicPackage.enums;
 
 public enum AlgoName {
-    all,
     euclidianL2,
     cityBlockL1,
     minkowskiLp,

@@ -20,14 +20,13 @@ import static logicPackage.processing.Calculate.calculateDistance;
 public class LogicController {
 
 
-    public Map<Integer, List<BestFitModel>> getImgAndDoCalculatins(AlgoName algoNamesGiven, File populateWIithPicsAddr1, List<File> populateWIithPicsAddr2) throws IOException {
-        Map<Integer, List<BestFitModel>> res = new HashMap<>();
+    public List<String> getImgAndDoCalculatins(AlgoName algoNamesGiven, File populateWIithPicsAddr1, List<File> populateWIithPicsAddr2) throws IOException {
+        List<String> res = new ArrayList<>();
         List<BestFitModel> helper = new ArrayList<>();
         for (int i = 0; i < populateWIithPicsAddr2.size(); i++) {
             Results results = new Results();
             results.setPicA(populateWIithPicsAddr1.getAbsolutePath());
             results.setPicB(populateWIithPicsAddr2.get(i).getAbsolutePath());
-            results.setTypesOfSet(TypesOfSet.Coloured);
             results.setAlgoName(algoNamesGiven);
 
             Coloured coloured = new Coloured();
@@ -35,7 +34,8 @@ public class LogicController {
             float[][] pixelArray3Channels2 = coloured.calculateHistogram(results.getPicB());
 
             for (int j = 0; j < pixelArray3Channels1.length; j++) {
-                res = calculateDistance(helper, res, populateWIithPicsAddr1, populateWIithPicsAddr2.get(i), results, pixelArray3Channels1[j], pixelArray3Channels2[j], j);
+                res.add(calculateDistance(populateWIithPicsAddr1, populateWIithPicsAddr2.get(i), results, pixelArray3Channels1[j], pixelArray3Channels2[j], j));
+
             }
         }
         return res;

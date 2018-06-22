@@ -17,13 +17,13 @@
    <children>
       <HTMLEditor htmlText="&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body contenteditable=&quot;true&quot;&gt;&lt;/body&gt;&lt;/html&gt;" layoutX="-664.0" layoutY="-139.0" prefHeight="200.0" prefWidth="506.0" />
       <Line endX="100.0" startX="-100.0" />
-      <ImageView fx:id="imageView1" fitHeight="150.0" fitWidth="200.0" layoutX="904.0" layoutY="358.0" onDragDropped="#handleDrop1" onDragOver="#handleDragPic1" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="imageView1" fitHeight="150.0" fitWidth="200.0" layoutX="684.0" layoutY="140.0" onDragDropped="#handleDrop1" onDragOver="#handleDragPic1" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@button.png" />
          </image></ImageView>
-      <Label layoutX="913.0" layoutY="412.0" text="Drag And Drop Pic1" />
-      <Button id="fileChooser1" fx:id="fileChooser1" layoutX="913.0" layoutY="373.0" mnemonicParsing="false" onAction="#fileChooser1" opacity="0.0" prefHeight="121.0" prefWidth="150.0" />
-      <MenuBar fx:id="chooseAlgorithms" layoutX="384.0" layoutY="147.0" onMouseClicked="#chooseAlgorithm" prefHeight="32.0" prefWidth="179.0">
+      <Label layoutX="693.0" layoutY="194.0" text="Drag And Drop Pic1" />
+      <Button id="fileChooser1" fx:id="fileChooser1" layoutX="684.0" layoutY="144.0" mnemonicParsing="false" onAction="#fileChooser1" opacity="0.0" prefHeight="121.0" prefWidth="150.0" />
+      <MenuBar fx:id="chooseAlgorithms" layoutX="69.0" layoutY="330.0" onMouseClicked="#chooseAlgorithm" prefHeight="32.0" prefWidth="194.0">
         <menus>
             <Menu mnemonicParsing="false" text="Choose Algorithms">
               <items>
@@ -82,14 +82,17 @@
             </Menu>
         </menus>
       </MenuBar>
-      <Button fx:id="startCalculating" layoutX="410.0" layoutY="230.0" mnemonicParsing="false" onMouseClicked="#onMouseClick" text="Start calculating" />
-      <Button fx:id="donwloadResults" layoutX="404.0" layoutY="299.0" mnemonicParsing="false" onMouseClicked="#downloadResults" text="Download Results" />
+      <Button fx:id="startCalculating" layoutX="813.0" layoutY="347.0" mnemonicParsing="false" onAction="#startCalculating" onMouseClicked="#onMouseClick" text="Test this image" />
+      <Button fx:id="donwloadResults" layoutX="97.0" layoutY="508.0" mnemonicParsing="false" onMouseClicked="#downloadResults" text="Download Results" />
       <Label fx:id="title1" alignment="CENTER" layoutX="211.0" layoutY="24.0" prefHeight="66.0" prefWidth="496.0" text="Algorithm Distance Demo">
          <font>
             <Font size="28.0" />
          </font>
       </Label>
-      <ImageView id="histoViewer2_1" fx:id="histoViewer2_1" fitHeight="150.0" fitWidth="200.0" layoutX="873.0" layoutY="536.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="histoViewer2_1" fx:id="histoViewer2_1" fitHeight="150.0" fitWidth="200.0" layoutX="873.0" layoutY="151.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../Users/Roxana/Desktop/classify.png" />
+         </image></ImageView>
       <ImageView id="histoViewer2_2" fx:id="histoViewer2_2" fitHeight="150.0" fitWidth="200.0" layoutX="1099.0" layoutY="539.0" pickOnBounds="true" preserveRatio="true" />
       <ImageView id="histoViewer2_3" fx:id="histoViewer2_3" fitHeight="150.0" fitWidth="200.0" layoutX="873.0" layoutY="736.0" pickOnBounds="true" preserveRatio="true" />
       <ImageView id="histoViewer2_4" fx:id="histoViewer2_4" fitHeight="150.0" fitWidth="200.0" layoutX="1099.0" layoutY="736.0" pickOnBounds="true" preserveRatio="true" />
@@ -97,7 +100,7 @@
     <Button fx:id="buttonNext" layoutX="394.0" layoutY="396.0" mnemonicParsing="false" onAction="#launchWIn2" text="See Photos Histogram" />
       <Button layoutX="378.0" layoutY="461.0" mnemonicParsing="false" onAction="#launchWIn4" prefHeight="31.0" prefWidth="200.0" text="Show Algorithm Statistics" />
       <Label layoutX="101.0" layoutY="169.0" text="Training phase" />
-      <MenuBar layoutX="72.0" layoutY="205.0" onMouseClicked="#chooseDataBase" prefHeight="32.0" prefWidth="185.0">
+      <MenuBar layoutX="72.0" layoutY="205.0" onMouseClicked="#chooseDataBase" prefHeight="32.0" prefWidth="194.0">
         <menus>
             <Menu mnemonicParsing="false" text="Choose Data Base">
               <items>
@@ -127,6 +130,8 @@
             </Menu>
         </menus>
       </MenuBar>
-      <Button layoutX="114.0" layoutY="330.0" mnemonicParsing="false" onAction="#trainChooseSet" text="Train this set" />
+      <Button layoutX="114.0" layoutY="396.0" mnemonicParsing="false" onAction="#trainChooseSet" text="Train this set" />
+      <Label fx:id="labelTrainned" layoutX="402.0" layoutY="226.0" prefHeight="89.0" prefWidth="201.0" />
+      <Label fx:id="labelWithName" layoutX="155.0" layoutY="461.0" />
    </children>
 </AnchorPane>

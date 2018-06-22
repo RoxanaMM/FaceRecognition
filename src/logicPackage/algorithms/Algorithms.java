@@ -471,5 +471,4 @@ public class Algorithms {
         }
         return dAcc;
     }
-    public static double all(float P[],float Q[]){return 0.00;}
 }

@@ -7,7 +7,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
-import javafx.scene.control.ListView;
+import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.DragEvent;
@@ -18,7 +18,6 @@ import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 import logicPackage.enums.AlgoName;
 import logicPackage.enums.DatabaseName;
-import logicPackage.model.BestFitModel;
 import org.opencv.core.Core;
 import sample.controller.LogicController;
 
@@ -27,7 +26,10 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 
 public class Main extends Application {
 
@@ -40,6 +42,9 @@ public class Main extends Application {
     @FXML
     private Button startCalculating;
 
+    @FXML
+    private Label labelTrainned;
+
     LogicController logicController = new LogicController();
     public static File populateWIithPicsAddr1 = null;
     public static List<AlgoName> algoNames = new ArrayList<>();
@@ -48,20 +53,21 @@ public class Main extends Application {
     public static final String documentSufix = "C:\\forMaster\\temaDisertatie\\backupPic\\Corel1000\\";
     public static List<File> backGroundPicsAddressesList = new ArrayList<>();
     public static List<File> initialImages1 = new ArrayList<>();
-    public static List<Map< Integer, List<BestFitModel>>> similarPhotosResults = new ArrayList<>();
-    public static List<Map< Integer, List<BestFitModel>>> nonSimilarPhotosResults = new ArrayList<>();
-    public static List<Map<Integer, Double>>finalResultSimilar = new ArrayList<>();
-    public static List<Map<Integer,Double>>finalResultNonSimilar = new ArrayList<>();
-
+    public static List<String> similarPhotosResults = new ArrayList<>();
+    public static List<String> nonSimilarPhotosResults = new ArrayList<>();
+    public static List<Double> trainingResultsRGB = new ArrayList<>();
+    public static List<Double> trainingNonSimResultsRGB = new ArrayList<>();
+    public static List<Double> testResultsRGB = new ArrayList<>();
+    public static String nameOfSet = new String();
     @FXML
     private AnchorPane anchorFirstPage;
+    @FXML
+    private Label labelWithName;
 
     public void handleDragPic1(DragEvent dragEvent) {
         if (dragEvent.getDragboard().hasFiles())
             dragEvent.acceptTransferModes(TransferMode.ANY);
     }
-
-
     @Override
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("view/FirstPage.fxml"));
@@ -71,8 +77,7 @@ public class Main extends Application {
         primaryStage.show();
 
     }
-
-
+    //<editor-fold desc="Description">
     public static void main(String[] args) {
         launch(args);
     }
@@ -418,6 +423,7 @@ public class Main extends Application {
     public void choose100000(ActionEvent actionEvent) {
         nrOfIterations.add(20);
     }
+    //</editor-fold>
 
     public static void buildBackGroundPicsAddresses() {
         File folder = new File(documentSufix.concat("backgroundSet"));
@@ -430,114 +436,134 @@ public class Main extends Application {
     }
 
 
+    public void compareWithAllSimilar() throws IOException {
+        List<Double> currentVals = new ArrayList<>();
+        File folder = new File(documentSufix.concat(nameOfSet));
+        File[] listOfFiles = folder.listFiles();
+        for (AlgoName algo : algoNames) {
+            similarPhotosResults = logicController.getImgAndDoCalculatins(algo, populateWIithPicsAddr1, Arrays.asList(listOfFiles));
+            Collections.sort(similarPhotosResults);
+            String min =similarPhotosResults.get(0);
+            Collections.reverse(similarPhotosResults);
+            String max = similarPhotosResults.get(0);
+            currentVals = takeFinalResults(normalizaVals(similarPhotosResults, min, max), currentVals);
+        }
+        if (currentVals.get(0) <= trainingResultsRGB.get(0) && currentVals.get(0) >= 0) {
+            if (currentVals.get(1) <= trainingResultsRGB.get(1) && currentVals.get(1) >= 0) {
+                if (currentVals.get(2) <= trainingResultsRGB.get(2) && currentVals.get(2) >= 0) {
+                    System.out.println("Photos recognised as containing " + nameOfSet + "elements");
+                }
+            }
+            writeInFileTrainValues("test - pure results ", currentVals );
+            writeInFileTrainValues("train - non OK values ", trainingNonSimResultsRGB );
+        }
+    }
+
+    public void writeInFileTrainValues(String testOrTrain, List<Double> trainingResultsRGB) throws IOException {
+        PrintWriter writer = null;
+
+        writer = new PrintWriter(new FileWriter("results1.txt", true));
+        writer.println(nameOfSet);
+        writer.println(algoNames.get(0));
+        writer.println(testOrTrain);
+        writer.println(trainingResultsRGB.get(0));
+        writer.println(trainingResultsRGB.get(1));
+        writer.println(trainingResultsRGB.get(2));
+        writer.println("\n");
+        writer.close();
+    }
+
+    public List<Double> normalizaVals(List<String>sim, String min, String max){
+        List<Double> newList = new ArrayList<>();
+        for(int i=0;i<sim.size();i++){
+            Double a = Double.parseDouble(sim.get(i));
+            Double minim = Double.parseDouble(min);
+            Double maxim = Double.parseDouble(max);
+            Double numarator = (maxim- minim)== 0 ? 1 : (maxim- minim);
+
+            a = (a - minim)/numarator;
+            newList.add(a);
+
+        }
+        return newList;
+    }
+
     public void trainChooseSet(ActionEvent actionEvent) throws IOException {
         buildBackGroundPicsAddresses();
-        Map< Integer, List<BestFitModel>>sim = new HashMap<>();
-        Map< Integer, List<BestFitModel>> nonSim = new HashMap<>();
-        String nameOfSet = databaseName.get(0).name();
+        String train = "train";
+        int indicator = 0;
+        nameOfSet = databaseName.get(0).name();
+        labelWithName.setText(nameOfSet);
         Integer nrOfIterationsChoosen = nrOfIterations.get(0);
         File folder = new File(documentSufix.concat(nameOfSet));
         File[] listOfFiles = folder.listFiles();
-                for (File firstFileEntry : listOfFiles) {
-                    if (firstFileEntry.getAbsolutePath().contains("jpg") || firstFileEntry.getAbsolutePath().contains("JPG")) {
-                     //   if (k == 0) {
-                            if (algoNames.isEmpty()) {
-                                sim.putAll(logicController.getImgAndDoCalculatins(AlgoName.all, new File(firstFileEntry.getAbsolutePath()), Arrays.asList(listOfFiles)));
-                            similarPhotosResults.add(sim);
-                            } else {
-                                for (AlgoName algo : algoNames) {
-                                    sim.putAll(logicController.getImgAndDoCalculatins(algo, new File(firstFileEntry.getAbsolutePath()), Arrays.asList(listOfFiles)));
-                                    similarPhotosResults.add(sim);
-                                }
-                            }
-                      //  } else {
-
-                            }
-                       // }
-                    }
-
-
-
-
-
-
+        for(int i =0;i<=1;i++) {
             for (File firstFileEntry : listOfFiles) {
                 if (firstFileEntry.getAbsolutePath().contains("jpg") || firstFileEntry.getAbsolutePath().contains("JPG")) {
-                    if (algoNames.isEmpty()) {
-                        nonSim.putAll(logicController.getImgAndDoCalculatins(AlgoName.all, new File(firstFileEntry.getAbsolutePath()), backGroundPicsAddressesList));
-                        nonSimilarPhotosResults.add(nonSim);
-                    } else {
-                        for (AlgoName algo : algoNames) {
-                            nonSim.putAll(logicController.getImgAndDoCalculatins(algo, new File(firstFileEntry.getAbsolutePath()), backGroundPicsAddressesList));
-                        nonSimilarPhotosResults.add(nonSim);
-                        }
+                    for (AlgoName algo : algoNames) {
+                        similarPhotosResults = logicController.getImgAndDoCalculatins(algo, new File(firstFileEntry.getAbsolutePath()), Arrays.asList(listOfFiles));
+                        Collections.sort(similarPhotosResults);
+                        String min = indicator == 1 ? similarPhotosResults.get(0) : "0";
+                        Collections.reverse(similarPhotosResults);
+                        String max = indicator == 1 ? similarPhotosResults.get(0) : "0";
+                        trainingResultsRGB = takeFinalResults(normalizaVals(similarPhotosResults, min, max), trainingResultsRGB);
+                    }
+                    for (AlgoName algo : algoNames) {
+                        nonSimilarPhotosResults = logicController.getImgAndDoCalculatins(algo, new File(firstFileEntry.getAbsolutePath()), backGroundPicsAddressesList);
+                        Collections.sort(nonSimilarPhotosResults);
+                        String min = indicator == 1 ? nonSimilarPhotosResults.get(0) : "0";
+                        Collections.reverse(similarPhotosResults);
+                        String max = indicator == 1 ? nonSimilarPhotosResults.get(0) : "0";
 
+                        trainingNonSimResultsRGB = takeFinalResults(normalizaVals(similarPhotosResults, min, max), trainingNonSimResultsRGB);
                     }
                 }
             }
-
-     //   takeFinalResults();
-    }
-
-
-    public static Double helpMeCalculate(List<Double> resultsForChannel){
-        Double sum=0.00;
-        for(int i=0; i<resultsForChannel.size();i++)
-            sum= sum + resultsForChannel.get(i);
-        return sum;
-    }
-
-//    public void takeFinalResults (){
-//
-//        Map <Integer, List<Double>> sim = displayOnScreen(similarPhotosResults);
-//        Map <Integer, List<Double>> NonSim = displayOnScreen(nonSimilarPhotosResults);
-//        List <Double> listOfDoubleValues = new ArrayList<Double>();
-//        Map<Integer, Double>helper = new HashMap<>();
-//        for(int j=0;j<=2;j++){
-//            for(int i =0;i<=sim.get(j).size();i++){
-//                listOfDoubleValues=sim.get(j);
-//            }
-//            helper.put(j, helpMeCalculate(listOfDoubleValues));
-//            finalResultSimilar.add(helper);
-//            helper = new HashMap<>();
-//        }
-//        helper = new HashMap<>();
-//
-//        for(int j=0;j<=2;j++){
-//            for(int i =0;i<=sim.get(j).size();i++){
-//                listOfDoubleValues=sim.get(j);
-//            }
-//            helper.put(j, helpMeCalculate(listOfDoubleValues));
-//            finalResultNonSimilar.add(helper);
-//            helper = new HashMap<>();
-//        }
-//        System.out.println("similar");
-//        for(int i =0;i<finalResultSimilar.size();i++){
-//            System.out.println(finalResultSimilar.get(i).get(0));;
-//        }
-//        System.out.println("nesimilar");
-//        for(int i =0;i<finalResultSimilar.size();i++){
-//            System.out.println(finalResultNonSimilar.get(i).get(0));;
-//        }
-//
-//    }
-
-
-    public Map <Integer, List<Double>> displayOnScreen(Map< Integer, List<BestFitModel>>similarPhotosResults1){
-        Integer oldIndex = 0;
-        List<Double>doubleValues = new ArrayList<>();
-        Map <Integer, List<Double>> similarStuff = new HashMap<>();
-        for(int j=0;j<similarPhotosResults1.size();j++) {
-            for (int i = 0; i < similarPhotosResults1.get(j).size(); i++) {
-                String result = similarPhotosResults1.get(j).get(i).getAlgoCalculationResult().get(0);
-                Double resultDouble = Double.parseDouble(result);
-                doubleValues.add(resultDouble);
-            }
-            similarStuff.put(j, doubleValues);
-            doubleValues = new ArrayList<>();
+            indicator = 1;
+            System.out.println("Done");
+            labelTrainned.setText("Set trainned!");
         }
-        return similarStuff;
+        writeInFileTrainValues(train, trainingResultsRGB);
     }
+
+
+    public static Double helpMeCalculate(List<Double> resultsForChannel ) {
+        Double sum = 0.00;
+        for (int i = 0; i < resultsForChannel.size(); i++)
+            sum = sum + resultsForChannel.get(i);
+        return sum / resultsForChannel.size();
+    }
+
+    public List<Double> takeFinalResults(List<Double> sim, List<Double> trainingResultsRGB) {
+        List<Double> helperRed = new ArrayList<>();
+        List<Double> helperBlue = new ArrayList<>();
+        List<Double> helperGreen = new ArrayList<>();
+
+        helperRed.add(sim.get(0));
+        helperGreen.add(sim.get(1));
+        helperBlue.add(sim.get(2));
+        for (int i = 3; i < sim.size(); i = i + 3) {
+            helperRed.add(sim.get(i));
+            helperGreen.add(sim.get(i + 1));
+            helperBlue.add(sim.get(i + 2));
+        }
+
+        if (trainingResultsRGB.size() > 0) {
+            trainingResultsRGB.set(0,(trainingResultsRGB.get(0) + helpMeCalculate(helperRed)) / 2);
+            trainingResultsRGB.set(1,(trainingResultsRGB.get(1) + helpMeCalculate(helperGreen)) / 2);
+            trainingResultsRGB.set(2,(trainingResultsRGB.get(2) + helpMeCalculate(helperBlue)) / 2);
+        }else {
+            trainingResultsRGB.add(helpMeCalculate(helperRed));
+            trainingResultsRGB.add(helpMeCalculate(helperGreen));
+            trainingResultsRGB.add(helpMeCalculate(helperBlue));
+        }
+        return trainingResultsRGB;
+    }
+
     public void onMouseClick(MouseEvent mouseEvent) {
+    }
+
+    public void startCalculating(ActionEvent actionEvent) throws IOException {
+        compareWithAllSimilar();
     }
 }
