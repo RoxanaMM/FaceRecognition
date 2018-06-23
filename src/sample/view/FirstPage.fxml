@@ -99,7 +99,7 @@
       <ButtonBar layoutX="72.0" layoutY="70.0" prefHeight="40.0" prefWidth="200.0" />
     <Button fx:id="buttonNext" layoutX="394.0" layoutY="456.0" mnemonicParsing="false" onAction="#launchWIn2" text="See Photos Histogram" />
       <Button layoutX="394.0" layoutY="508.0" mnemonicParsing="false" onAction="#launchWIn4" prefHeight="31.0" prefWidth="228.0" text="Show Algorithm Statistics" />
-      <Label layoutX="101.0" layoutY="169.0" text="Training phase" />
+      <Label layoutX="101.0" layoutY="169.0" text="Initialize phase" />
       <MenuBar layoutX="72.0" layoutY="205.0" onMouseClicked="#chooseDataBase" prefHeight="32.0" prefWidth="194.0">
         <menus>
             <Menu mnemonicParsing="false" text="Choose Data Base">
@@ -130,9 +130,11 @@
             </Menu>
         </menus>
       </MenuBar>
-      <Button layoutX="114.0" layoutY="396.0" mnemonicParsing="false" onAction="#trainChooseSet" text="Train this set" />
+      <Button layoutX="114.0" layoutY="397.0" mnemonicParsing="false" onAction="#initializeChooseSet" text="Initialize this set" />
       <Label fx:id="labelTrainned" layoutX="402.0" layoutY="226.0" prefHeight="89.0" prefWidth="201.0" />
-      <Label fx:id="labelWithName" layoutX="155.0" layoutY="461.0" />
+      <Label fx:id="labelWithName" layoutX="155.0" layoutY="431.0" />
       <Label layoutX="808.0" layoutY="169.0" text="Testing phase" />
+      <Button layoutX="438.0" layoutY="205.0" mnemonicParsing="false" onAction="#trainThisSet" text="Train this set" />
+      <Label fx:id="labelInitilize" layoutX="138.0" layoutY="461.0" />
    </children>
 </AnchorPane>

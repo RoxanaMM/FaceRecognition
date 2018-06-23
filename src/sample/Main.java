@@ -43,6 +43,8 @@ public class Main extends Application {
     private Button startCalculating;
 
     @FXML
+    private Label labelInitilize;
+    @FXML
     private Label labelTrainned;
 
     LogicController logicController = new LogicController();
@@ -430,7 +432,7 @@ public class Main extends Application {
     //</editor-fold>
 
     public static void buildBackGroundPicsAddresses() {
-        File folder = new File(documentSufix.concat("backgroundSet"));
+        File folder = new File(documentSufix.concat("Mountains"));
         File[] listOfFiles = folder.listFiles();
         for (File firstFileEntry : listOfFiles) {
             if (firstFileEntry.getAbsolutePath().contains("jpg") || firstFileEntry.getAbsolutePath().contains("JPG")) {
@@ -448,21 +450,71 @@ public class Main extends Application {
     }
 
     public void compareWithAllSimilar() throws IOException {
-        List<Double> currentVals = new ArrayList<>();
+        List<Double> currentValsSim = new ArrayList<>();
+        List<Double> currentValsNotSim = new ArrayList<>();
+
+        List<Double>finalSim = new ArrayList<>();
+        List<Double>finalNonSim = new ArrayList<>();
+
+
+        List<List<Double>>allInOneSim = new ArrayList<>();
+        List<List<Double>>allInOneNonSim = new ArrayList<>();
+
+        int similar = 0;
+        int nonSimilar = 0;
+
         File folder = new File(documentSufix.concat(nameOfSet));
         for (AlgoName algo : algoNames) {
             similarPhotosResults = logicController.getImgAndDoCalculatins(algo, populateWIithPicsAddr1, Arrays.asList(listOfFiles));
+          //  currentValsSim = takeFinalResults(normalizaVals(transformToDouble(similarPhotosResults)), currentValsSim);
+        }
+        for (AlgoName algo : algoNames) {
+            nonSimilarPhotosResults = logicController.getImgAndDoCalculatins(algo, populateWIithPicsAddr1, backGroundPicsAddressesList);
+            //currentValsNotSim = takeFinalResults(normalizaVals(transformToDouble(nonSimilarPhotosResults)), trainingNonSimResultsRGB);
+        }
+        finalSim = transformToDouble(similarPhotosResults);
+        allInOneSim = takeRgbInOne(finalSim);
 
-            currentVals = takeFinalResults(normalizaVals(transformToDouble(similarPhotosResults)), currentVals);
-        }
-        if (currentVals.get(0) <= trainingResultsRGB.get(0) && currentVals.get(0) >= 0) {
-            if (currentVals.get(1) <= trainingResultsRGB.get(1) && currentVals.get(1) >= 0) {
-                if (currentVals.get(2) <= trainingResultsRGB.get(2) && currentVals.get(2) >= 0) {
-                    System.out.println("Photos recognised as containing " + nameOfSet + "elements");
-                }
+        finalNonSim = transformToDouble(nonSimilarPhotosResults);
+        allInOneNonSim = takeRgbInOne(finalNonSim);
+
+
+        Collections.sort(allInOneSim.get(0));
+        Collections.sort(allInOneSim.get(1));
+        Collections.sort(allInOneSim.get(2));
+        Collections.sort(allInOneNonSim.get(0));
+        Collections.sort(allInOneNonSim.get(1));
+        Collections.sort(allInOneNonSim.get(2));
+
+
+        finalSim.clear();
+        finalNonSim.clear();
+        for( int i=0;i< nrOfIterationsChoosen;i++){
+            if(allInOneSim.get(0).get(i) < allInOneNonSim.get(0).get(i)){
+                similar++;
+            }else {
+                nonSimilar++;
             }
-            writeInFileTrainValues("test - pure results ", currentVals);
+
+            if(allInOneSim.get(1).get(i) < allInOneNonSim.get(1).get(i)){
+                similar++;
+            }else {
+                nonSimilar++;
+            }
+
+            if(allInOneSim.get(2).get(i) < allInOneNonSim.get(2).get(i)){
+
+            }else {
+                nonSimilar++;
+            }
+
         }
+        if(similar>nonSimilar){
+            System.out.println("Photo is found as being " + nameOfSet );
+        }
+
+         //   writeInFileTrainValues("test - pure results ", currentValsNotSim);
+
     }
 
     public void writeInFileTrainValues(String testOrTrain, List<Double> trainingResultsRGB) throws IOException {
@@ -496,41 +548,36 @@ public class Main extends Application {
         return newList;
     }
 
-    public void trainChooseSet(ActionEvent actionEvent) throws IOException {
-        buildBackGroundPicsAddresses();
+    public void calculations() throws IOException {
         String train = "train";
-        int indicator = 0;
-        nameOfSet = databaseName.get(0).name();
-        labelWithName.setText(nameOfSet);
-        nrOfIterationsChoosen = nrOfIterations.get(0);
-        File folder = new File(documentSufix.concat(nameOfSet));
-        File[] listOfFiles1 = folder.listFiles();
-        int p = 0;
-        listOfFiles = new File[nrOfIterationsChoosen];
-        for (File file : listOfFiles1) {
-            while (p < nrOfIterationsChoosen) {
-                listOfFiles[p] = listOfFiles1[p];
-                p++;
-            }
-        }
         for (int i = 0; i <= 1; i++) {
             for (File firstFileEntry : listOfFiles) {
                 if (firstFileEntry.getAbsolutePath().contains("jpg") || firstFileEntry.getAbsolutePath().contains("JPG")) {
                     for (AlgoName algo : algoNames) {
                         similarPhotosResults = logicController.getImgAndDoCalculatins(algo, new File(firstFileEntry.getAbsolutePath()), Arrays.asList(listOfFiles));
-                        trainingResultsRGB = takeFinalResults(normalizaVals(transformToDouble(similarPhotosResults)), trainingResultsRGB);
+                       // trainingResultsRGB = takeFinalResults(normalizaVals(transformToDouble(similarPhotosResults)), trainingResultsRGB);
                     }
                     for (AlgoName algo : algoNames) {
                         nonSimilarPhotosResults = logicController.getImgAndDoCalculatins(algo, new File(firstFileEntry.getAbsolutePath()), backGroundPicsAddressesList);
-                        trainingNonSimResultsRGB = takeFinalResults(normalizaVals(transformToDouble(similarPhotosResults)), trainingNonSimResultsRGB);
+                     //   trainingNonSimResultsRGB = takeFinalResults(normalizaVals(transformToDouble(nonSimilarPhotosResults)), trainingNonSimResultsRGB);
                     }
                 }
             }
-            indicator = 1;
             System.out.println("Done");
             labelTrainned.setText("Set trainned!");
         }
         writeInFileTrainValues(train, trainingResultsRGB);
+    }
+
+    public void initializeChooseSet(ActionEvent actionEvent) throws IOException {
+        buildBackGroundPicsAddresses();
+
+        nameOfSet = databaseName.get(0).name();
+        labelWithName.setText(nameOfSet);
+        nrOfIterationsChoosen = nrOfIterations.get(0);
+        File folder = new File(documentSufix.concat(nameOfSet));
+        listOfFiles = folder.listFiles();
+        labelInitilize.setText("Set initilized");
     }
 
 
@@ -541,11 +588,11 @@ public class Main extends Application {
         return sum / resultsForChannel.size();
     }
 
-    public List<Double> takeFinalResults(List<Double> sim, List<Double> trainingResultsRGB) {
+    public List<List<Double>> takeRgbInOne(List<Double> sim) {
         List<Double> helperRed = new ArrayList<>();
         List<Double> helperBlue = new ArrayList<>();
         List<Double> helperGreen = new ArrayList<>();
-
+        List<List<Double>> allChannelsInOne = new ArrayList<>();
         helperRed.add(sim.get(0));
         helperGreen.add(sim.get(1));
         helperBlue.add(sim.get(2));
@@ -555,16 +602,19 @@ public class Main extends Application {
             helperBlue.add(sim.get(i + 2));
         }
 
-        if (trainingResultsRGB.size() > 0) {
-            trainingResultsRGB.set(0, (trainingResultsRGB.get(0) + helpMeCalculate(helperRed)) / 2);
-            trainingResultsRGB.set(1, (trainingResultsRGB.get(1) + helpMeCalculate(helperGreen)) / 2);
-            trainingResultsRGB.set(2, (trainingResultsRGB.get(2) + helpMeCalculate(helperBlue)) / 2);
-        } else {
-            trainingResultsRGB.add(helpMeCalculate(helperRed));
-            trainingResultsRGB.add(helpMeCalculate(helperGreen));
-            trainingResultsRGB.add(helpMeCalculate(helperBlue));
-        }
-        return trainingResultsRGB;
+        allChannelsInOne.add(helperRed);
+        allChannelsInOne.add(helperGreen);
+        allChannelsInOne.add(helperBlue);
+//        if (trainingResultsRGB.size() > 0) {
+//            trainingResultsRGB.set(0, (trainingResultsRGB.get(0) + helpMeCalculate(helperRed)) / 2);
+//            trainingResultsRGB.set(1, (trainingResultsRGB.get(1) + helpMeCalculate(helperGreen)) / 2);
+//            trainingResultsRGB.set(2, (trainingResultsRGB.get(2) + helpMeCalculate(helperBlue)) / 2);
+//        } else {
+//            trainingResultsRGB.add(helpMeCalculate(helperRed));
+//            trainingResultsRGB.add(helpMeCalculate(helperGreen));
+//            trainingResultsRGB.add(helpMeCalculate(helperBlue));
+//        }
+        return allChannelsInOne;
     }
 
     public void onMouseClick(MouseEvent mouseEvent) {
@@ -572,5 +622,9 @@ public class Main extends Application {
 
     public void startCalculating(ActionEvent actionEvent) throws IOException {
         compareWithAllSimilar();
+    }
+
+    public void trainThisSet(ActionEvent actionEvent) throws IOException {
+        calculations();
     }
 }
