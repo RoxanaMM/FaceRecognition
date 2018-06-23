@@ -59,6 +59,8 @@ public class Main extends Application {
     public static List<Double> trainingNonSimResultsRGB = new ArrayList<>();
     public static List<Double> testResultsRGB = new ArrayList<>();
     public static String nameOfSet = new String();
+    public static Integer nrOfIterationsChoosen;
+    public static File[] listOfFiles;
     @FXML
     private AnchorPane anchorFirstPage;
     @FXML
@@ -68,6 +70,7 @@ public class Main extends Application {
         if (dragEvent.getDragboard().hasFiles())
             dragEvent.acceptTransferModes(TransferMode.ANY);
     }
+
     @Override
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("view/FirstPage.fxml"));
@@ -77,6 +80,7 @@ public class Main extends Application {
         primaryStage.show();
 
     }
+
     //<editor-fold desc="Description">
     public static void main(String[] args) {
         launch(args);
@@ -381,7 +385,7 @@ public class Main extends Application {
     }
 
     public void Buses(ActionEvent actionEvent) {
-        databaseName.add(DatabaseName.Buses);
+        databaseName.add(DatabaseName.Busses);
     }
 
     public void Dinosaurs(ActionEvent actionEvent) {
@@ -417,11 +421,11 @@ public class Main extends Application {
     }
 
     public void choose10000(ActionEvent actionEvent) {
-        nrOfIterations.add(15);
+        nrOfIterations.add(50);
     }
 
     public void choose100000(ActionEvent actionEvent) {
-        nrOfIterations.add(20);
+        nrOfIterations.add(90);
     }
     //</editor-fold>
 
@@ -435,18 +439,21 @@ public class Main extends Application {
         }
     }
 
+    public List<Double> transformToDouble(List<String> stringList) {
+        List<Double> doubleList = new ArrayList<>();
+        for (int i = 0; i < stringList.size(); i++) {
+            doubleList.add(Double.parseDouble(stringList.get(i)));
+        }
+        return doubleList;
+    }
 
     public void compareWithAllSimilar() throws IOException {
         List<Double> currentVals = new ArrayList<>();
         File folder = new File(documentSufix.concat(nameOfSet));
-        File[] listOfFiles = folder.listFiles();
         for (AlgoName algo : algoNames) {
             similarPhotosResults = logicController.getImgAndDoCalculatins(algo, populateWIithPicsAddr1, Arrays.asList(listOfFiles));
-            Collections.sort(similarPhotosResults);
-            String min =similarPhotosResults.get(0);
-            Collections.reverse(similarPhotosResults);
-            String max = similarPhotosResults.get(0);
-            currentVals = takeFinalResults(normalizaVals(similarPhotosResults, min, max), currentVals);
+
+            currentVals = takeFinalResults(normalizaVals(transformToDouble(similarPhotosResults)), currentVals);
         }
         if (currentVals.get(0) <= trainingResultsRGB.get(0) && currentVals.get(0) >= 0) {
             if (currentVals.get(1) <= trainingResultsRGB.get(1) && currentVals.get(1) >= 0) {
@@ -454,8 +461,7 @@ public class Main extends Application {
                     System.out.println("Photos recognised as containing " + nameOfSet + "elements");
                 }
             }
-            writeInFileTrainValues("test - pure results ", currentVals );
-            writeInFileTrainValues("train - non OK values ", trainingNonSimResultsRGB );
+            writeInFileTrainValues("test - pure results ", currentVals);
         }
     }
 
@@ -473,16 +479,18 @@ public class Main extends Application {
         writer.close();
     }
 
-    public List<Double> normalizaVals(List<String>sim, String min, String max){
+    public List<Double> normalizaVals(List<Double> sim) {
         List<Double> newList = new ArrayList<>();
-        for(int i=0;i<sim.size();i++){
-            Double a = Double.parseDouble(sim.get(i));
-            Double minim = Double.parseDouble(min);
-            Double maxim = Double.parseDouble(max);
-            Double numarator = (maxim- minim)== 0 ? 1 : (maxim- minim);
+        Collections.sort(sim);
+        Double minim = sim.get(0);
+        Collections.reverse(sim);
+        Double maxim = sim.get(0);
+        Double helper;
+        for (int i = 0; i < sim.size(); i++) {
+            Double numarator = (maxim - minim) == 0 ? 1 : (maxim - minim);
 
-            a = (a - minim)/numarator;
-            newList.add(a);
+            helper = (sim.get(i) - minim) / numarator;
+            newList.add(helper);
 
         }
         return newList;
@@ -494,28 +502,27 @@ public class Main extends Application {
         int indicator = 0;
         nameOfSet = databaseName.get(0).name();
         labelWithName.setText(nameOfSet);
-        Integer nrOfIterationsChoosen = nrOfIterations.get(0);
+        nrOfIterationsChoosen = nrOfIterations.get(0);
         File folder = new File(documentSufix.concat(nameOfSet));
-        File[] listOfFiles = folder.listFiles();
-        for(int i =0;i<=1;i++) {
+        File[] listOfFiles1 = folder.listFiles();
+        int p = 0;
+        listOfFiles = new File[nrOfIterationsChoosen];
+        for (File file : listOfFiles1) {
+            while (p < nrOfIterationsChoosen) {
+                listOfFiles[p] = listOfFiles1[p];
+                p++;
+            }
+        }
+        for (int i = 0; i <= 1; i++) {
             for (File firstFileEntry : listOfFiles) {
                 if (firstFileEntry.getAbsolutePath().contains("jpg") || firstFileEntry.getAbsolutePath().contains("JPG")) {
                     for (AlgoName algo : algoNames) {
                         similarPhotosResults = logicController.getImgAndDoCalculatins(algo, new File(firstFileEntry.getAbsolutePath()), Arrays.asList(listOfFiles));
-                        Collections.sort(similarPhotosResults);
-                        String min = indicator == 1 ? similarPhotosResults.get(0) : "0";
-                        Collections.reverse(similarPhotosResults);
-                        String max = indicator == 1 ? similarPhotosResults.get(0) : "0";
-                        trainingResultsRGB = takeFinalResults(normalizaVals(similarPhotosResults, min, max), trainingResultsRGB);
+                        trainingResultsRGB = takeFinalResults(normalizaVals(transformToDouble(similarPhotosResults)), trainingResultsRGB);
                     }
                     for (AlgoName algo : algoNames) {
                         nonSimilarPhotosResults = logicController.getImgAndDoCalculatins(algo, new File(firstFileEntry.getAbsolutePath()), backGroundPicsAddressesList);
-                        Collections.sort(nonSimilarPhotosResults);
-                        String min = indicator == 1 ? nonSimilarPhotosResults.get(0) : "0";
-                        Collections.reverse(similarPhotosResults);
-                        String max = indicator == 1 ? nonSimilarPhotosResults.get(0) : "0";
-
-                        trainingNonSimResultsRGB = takeFinalResults(normalizaVals(similarPhotosResults, min, max), trainingNonSimResultsRGB);
+                        trainingNonSimResultsRGB = takeFinalResults(normalizaVals(transformToDouble(similarPhotosResults)), trainingNonSimResultsRGB);
                     }
                 }
             }
@@ -527,7 +534,7 @@ public class Main extends Application {
     }
 
 
-    public static Double helpMeCalculate(List<Double> resultsForChannel ) {
+    public static Double helpMeCalculate(List<Double> resultsForChannel) {
         Double sum = 0.00;
         for (int i = 0; i < resultsForChannel.size(); i++)
             sum = sum + resultsForChannel.get(i);
@@ -549,10 +556,10 @@ public class Main extends Application {
         }
 
         if (trainingResultsRGB.size() > 0) {
-            trainingResultsRGB.set(0,(trainingResultsRGB.get(0) + helpMeCalculate(helperRed)) / 2);
-            trainingResultsRGB.set(1,(trainingResultsRGB.get(1) + helpMeCalculate(helperGreen)) / 2);
-            trainingResultsRGB.set(2,(trainingResultsRGB.get(2) + helpMeCalculate(helperBlue)) / 2);
-        }else {
+            trainingResultsRGB.set(0, (trainingResultsRGB.get(0) + helpMeCalculate(helperRed)) / 2);
+            trainingResultsRGB.set(1, (trainingResultsRGB.get(1) + helpMeCalculate(helperGreen)) / 2);
+            trainingResultsRGB.set(2, (trainingResultsRGB.get(2) + helpMeCalculate(helperBlue)) / 2);
+        } else {
             trainingResultsRGB.add(helpMeCalculate(helperRed));
             trainingResultsRGB.add(helpMeCalculate(helperGreen));
             trainingResultsRGB.add(helpMeCalculate(helperBlue));

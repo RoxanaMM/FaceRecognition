@@ -4,7 +4,7 @@ public enum DatabaseName {
    Africa,
     Beach,
     Buildings,
-    Buses,
+    Busses,
     Dinosaurs,
     Elephants,
     Flowers,
