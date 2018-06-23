@@ -27,7 +27,7 @@
         <menus>
             <Menu mnemonicParsing="false" text="Choose Algorithms">
               <items>
-                <MenuItem mnemonicParsing="false" text="All" />
+                <MenuItem mnemonicParsing="false" onAction="#all" text="All" />
                   <MenuItem mnemonicParsing="false" onAction="#euclidian" text="Euclidian" />
                   <MenuItem mnemonicParsing="false" onAction="#cityBlock" text="CityBlock" />
                   <MenuItem mnemonicParsing="false" onAction="#minkowski" text="Minkowski" />

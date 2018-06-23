@@ -1,83 +1,2556 @@
-
-
-
-Flowers
+Busses
+Number of iterations: 
+5
 euclidianL2
-train
-1.1935001094025741
-1.1861351633416914
-1.2182785552524256
-
-
-Horses
-euclidianL2
-train
-0.5194236650201398
-0.5134560695428774
-0.5080319288759252
-
-
-Horses
-euclidianL2
-test - pure results 
-0.45454706209464396
-0.44831705023025054
-0.4426048228673667
-
-
-Horses
-euclidianL2
-test - pure results 
-0.4673537701682715
-0.4627952059722526
-0.45352749290035477
-
-
-Horses
-euclidianL2
-test - pure results 
-0.4591337677272911
-0.4529490226141701
-0.44326715216576884
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+14
 
 
 Busses
-cebyshevLinf
-train
-0.55751245822069
-0.5014333967808323
-0.4435484531922611
+Number of iterations: 
+10
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+29
 
 
 Busses
-cebyshevLinf
-test - pure results 
-0.5137236236712677
-0.469109947643979
-0.34437569411391394
+Number of iterations: 
+50
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+149
 
 
 Busses
-cebyshevLinf
-test - pure results 
-0.47144152311876697
-0.450081595648232
-0.3213055303717135
+Number of iterations: 
+90
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+9
+Similare pentru : Mountains
+220
 
 
 Busses
-cebyshevLinf
-test - pure results 
-0.4988922780542623
-0.45740889388344846
-0.3275646171135013
+Number of iterations: 
+5
+cityBlockL1
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+15
 
 
 Busses
+Number of iterations: 
+10
+cityBlockL1
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+30
+
+
+Busses
+Number of iterations: 
+50
+cityBlockL1
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+150
+
+
+Busses
+Number of iterations: 
+90
+cityBlockL1
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+270
+
+
+Busses
+Number of iterations: 
+5
+minkowskiLp
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+15
+
+
+Busses
+Number of iterations: 
+10
+minkowskiLp
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+30
+
+
+Busses
+Number of iterations: 
+50
+minkowskiLp
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+150
+
+
+Busses
+Number of iterations: 
+90
+minkowskiLp
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+12
+Similare pentru : Mountains
+257
+
+
+Busses
+Number of iterations: 
+5
 cebyshevLinf
-test - pure results 
-0.3760429574555969
-0.3312680710450227
-0.19314332920280877
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+14
+
+
+Busses
+Number of iterations: 
+10
+cebyshevLinf
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+29
+
+
+Busses
+Number of iterations: 
+50
+cebyshevLinf
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+149
+
+
+Busses
+Number of iterations: 
+90
+cebyshevLinf
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+264
+
+
+Busses
+Number of iterations: 
+5
+sorensen
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+14
+
+
+Busses
+Number of iterations: 
+10
+sorensen
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+27
+
+
+Busses
+Number of iterations: 
+50
+sorensen
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+107
+
+
+Busses
+Number of iterations: 
+90
+sorensen
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+12
+Similare pentru : Mountains
+175
+
+
+Busses
+Number of iterations: 
+5
+gower
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+14
+
+
+Busses
+Number of iterations: 
+10
+gower
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+27
+
+
+Busses
+Number of iterations: 
+50
+gower
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+107
+
+
+Busses
+Number of iterations: 
+90
+gower
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+12
+Similare pentru : Mountains
+175
+
+
+Busses
+Number of iterations: 
+5
+soergel
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+14
+
+
+Busses
+Number of iterations: 
+10
+soergel
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+27
+
+
+Busses
+Number of iterations: 
+50
+soergel
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+107
+
+
+Busses
+Number of iterations: 
+90
+soergel
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+12
+Similare pentru : Mountains
+175
+
+
+Busses
+Number of iterations: 
+5
+kulczynskid
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+14
+
+
+Busses
+Number of iterations: 
+10
+kulczynskid
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+27
+
+
+Busses
+Number of iterations: 
+50
+kulczynskid
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+107
+
+
+Busses
+Number of iterations: 
+90
+kulczynskid
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+12
+Similare pentru : Mountains
+175
+
+
+Busses
+Number of iterations: 
+5
+canberra
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+5
+Similare pentru : Mountains
+10
+
+
+Busses
+Number of iterations: 
+10
+canberra
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+20
+
+
+Busses
+Number of iterations: 
+50
+canberra
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+100
+
+
+Busses
+Number of iterations: 
+90
+canberra
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+90
+Similare pentru : Mountains
+180
+
+
+Busses
+Number of iterations: 
+5
+lorentzian
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+15
+
+
+Busses
+Number of iterations: 
+10
+lorentzian
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+30
+
+
+Busses
+Number of iterations: 
+50
+lorentzian
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+150
+
+
+Busses
+Number of iterations: 
+90
+lorentzian
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+15
+Similare pentru : Mountains
+254
+
+
+Busses
+Number of iterations: 
+5
+intersectionDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+14
+
+
+Busses
+Number of iterations: 
+10
+intersectionDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+27
+
+
+Busses
+Number of iterations: 
+50
+intersectionDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+107
+
+
+Busses
+Number of iterations: 
+90
+intersectionDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+12
+Similare pentru : Mountains
+175
+
+
+Busses
+Number of iterations: 
+5
+waveHedgesDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+12
+
+
+Busses
+Number of iterations: 
+10
+waveHedgesDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+22
+
+
+Busses
+Number of iterations: 
+50
+waveHedgesDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+102
+
+
+Busses
+Number of iterations: 
+90
+waveHedgesDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+53
+Similare pentru : Mountains
+129
+
+
+Busses
+Number of iterations: 
+5
+similarityCzekanowski
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+1
+Similare pentru : Mountains
+14
+
+
+Busses
+Number of iterations: 
+10
+similarityCzekanowski
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+3
+Similare pentru : Mountains
+27
+
+
+Busses
+Number of iterations: 
+50
+similarityCzekanowski
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+76
+Similare pentru : Mountains
+74
+
+
+Busses
+Number of iterations: 
+90
+similarityCzekanowski
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+156
+Similare pentru : Mountains
+112
+
+
+Busses
+Number of iterations: 
+5
+distanceCzekanowski
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+14
+
+
+Busses
+Number of iterations: 
+10
+distanceCzekanowski
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+27
+
+
+Busses
+Number of iterations: 
+50
+distanceCzekanowski
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+107
+
+
+Busses
+Number of iterations: 
+90
+distanceCzekanowski
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+12
+Similare pentru : Mountains
+175
+
+
+Busses
+Number of iterations: 
+5
+similarityMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+1
+Similare pentru : Mountains
+14
+
+
+Busses
+Number of iterations: 
+10
+similarityMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+3
+Similare pentru : Mountains
+27
+
+
+Busses
+Number of iterations: 
+50
+similarityMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+76
+Similare pentru : Mountains
+74
+
+
+Busses
+Number of iterations: 
+90
+similarityMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+156
+Similare pentru : Mountains
+112
+
+
+Busses
+Number of iterations: 
+5
+distanceMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+14
+
+
+Busses
+Number of iterations: 
+10
+distanceMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+27
+
+
+Busses
+Number of iterations: 
+50
+distanceMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+107
+
+
+Busses
+Number of iterations: 
+90
+distanceMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+12
+Similare pentru : Mountains
+175
+
+
+Busses
+Number of iterations: 
+5
+similarityKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+1
+Similare pentru : Mountains
+14
+
+
+Busses
+Number of iterations: 
+10
+similarityKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+3
+Similare pentru : Mountains
+27
+
+
+Busses
+Number of iterations: 
+50
+similarityKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+76
+Similare pentru : Mountains
+74
+
+
+Busses
+Number of iterations: 
+90
+similarityKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+156
+Similare pentru : Mountains
+112
+
+
+Busses
+Number of iterations: 
+5
+distanceKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+14
+
+
+Busses
+Number of iterations: 
+10
+distanceKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+27
+
+
+Busses
+Number of iterations: 
+50
+distanceKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+107
+
+
+Busses
+Number of iterations: 
+90
+distanceKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+12
+Similare pentru : Mountains
+175
+
+
+Busses
+Number of iterations: 
+5
+ruzicka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+1
+Similare pentru : Mountains
+14
+
+
+Busses
+Number of iterations: 
+10
+ruzicka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+3
+Similare pentru : Mountains
+27
+
+
+Busses
+Number of iterations: 
+50
+ruzicka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+76
+Similare pentru : Mountains
+74
+
+
+Busses
+Number of iterations: 
+90
+ruzicka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+156
+Similare pentru : Mountains
+112
+
+
+Busses
+Number of iterations: 
+5
+tanimoto
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+14
+
+
+Busses
+Number of iterations: 
+10
+tanimoto
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+27
+
+
+Busses
+Number of iterations: 
+50
+tanimoto
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+107
+
+
+Busses
+Number of iterations: 
+90
+tanimoto
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+12
+Similare pentru : Mountains
+175
+
+
+Busses
+Number of iterations: 
+5
+innerProductSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+8
+Similare pentru : Mountains
+5
+
+
+Busses
+Number of iterations: 
+10
+innerProductSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+18
+Similare pentru : Mountains
+5
+
+
+Busses
+Number of iterations: 
+50
+innerProductSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+98
+Similare pentru : Mountains
+5
+
+
+Busses
+Number of iterations: 
+90
+innerProductSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+178
+Similare pentru : Mountains
+5
+
+
+Busses
+Number of iterations: 
+5
+harmonicMeanSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+15
+
+
+Busses
+Number of iterations: 
+10
+harmonicMeanSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+30
+
+
+Busses
+Number of iterations: 
+50
+harmonicMeanSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+30
+Similare pentru : Mountains
+120
+
+
+Busses
+Number of iterations: 
+90
+harmonicMeanSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+89
+Similare pentru : Mountains
+181
+
+
+Busses
+Number of iterations: 
+5
+cosineSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+6
+Similare pentru : Mountains
+4
+
+
+Busses
+Number of iterations: 
+10
+cosineSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+11
+Similare pentru : Mountains
+9
+
+
+Busses
+Number of iterations: 
+50
+cosineSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+58
+Similare pentru : Mountains
+42
+
+
+Busses
+Number of iterations: 
+90
+cosineSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+138
+Similare pentru : Mountains
+42
+
+
+Busses
+Number of iterations: 
+5
+kumarHassebrookDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+4
+Similare pentru : Mountains
+11
+
+
+Busses
+Number of iterations: 
+10
+kumarHassebrookDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+9
+Similare pentru : Mountains
+21
+
+
+Busses
+Number of iterations: 
+50
+kumarHassebrookDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+85
+Similare pentru : Mountains
+63
+
+
+Busses
+Number of iterations: 
+90
+kumarHassebrookDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+165
+Similare pentru : Mountains
+81
+
+
+Busses
+Number of iterations: 
+5
+similarityJaccard
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+4
+Similare pentru : Mountains
+11
+
+
+Busses
+Number of iterations: 
+10
+similarityJaccard
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+9
+Similare pentru : Mountains
+21
+
+
+Busses
+Number of iterations: 
+50
+similarityJaccard
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+85
+Similare pentru : Mountains
+63
+
+
+Busses
+Number of iterations: 
+90
+similarityJaccard
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+165
+Similare pentru : Mountains
+81
+
+
+Busses
+Number of iterations: 
+5
+distanceJaccard
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+14
+
+
+Busses
+Number of iterations: 
+10
+distanceJaccard
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+29
+
+
+Busses
+Number of iterations: 
+50
+distanceJaccard
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+125
+
+
+Busses
+Number of iterations: 
+90
+distanceJaccard
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+6
+Similare pentru : Mountains
+200
+
+
+Busses
+Number of iterations: 
+5
+similarityDice
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+5
+Similare pentru : Mountains
+10
+
+
+Busses
+Number of iterations: 
+10
+similarityDice
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+12
+Similare pentru : Mountains
+18
+
+
+Busses
+Number of iterations: 
+50
+similarityDice
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+91
+Similare pentru : Mountains
+37
+
+
+Busses
+Number of iterations: 
+90
+similarityDice
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+171
+Similare pentru : Mountains
+37
+
+
+Busses
+Number of iterations: 
+5
+distanceDice
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+14
+
+
+Busses
+Number of iterations: 
+10
+distanceDice
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+29
+
+
+Busses
+Number of iterations: 
+50
+distanceDice
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+149
+
+
+Busses
+Number of iterations: 
+90
+distanceDice
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+2
+Similare pentru : Mountains
+247
+
+
+Busses
+Number of iterations: 
+5
+similarityFidelity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+3
+Similare pentru : Mountains
+12
+
+
+Busses
+Number of iterations: 
+10
+similarityFidelity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+8
+Similare pentru : Mountains
+22
+
+
+Busses
+Number of iterations: 
+50
+similarityFidelity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+84
+Similare pentru : Mountains
+66
+
+
+Busses
+Number of iterations: 
+90
+similarityFidelity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+164
+Similare pentru : Mountains
+93
+
+
+Busses
+Number of iterations: 
+5
+distanceBhattacharyya
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+14
+
+
+Busses
+Number of iterations: 
+10
+distanceBhattacharyya
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+29
+
+
+Busses
+Number of iterations: 
+50
+distanceBhattacharyya
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+117
+
+
+Busses
+Number of iterations: 
+90
+distanceBhattacharyya
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+6
+Similare pentru : Mountains
+191
+
+
+Busses
+Number of iterations: 
+5
+distanceHellinger
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+14
+
+
+Busses
+Number of iterations: 
+10
+distanceHellinger
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+29
+
+
+Busses
+Number of iterations: 
+50
+distanceHellinger
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+117
+
+
+Busses
+Number of iterations: 
+90
+distanceHellinger
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+6
+Similare pentru : Mountains
+191
+
+
+Busses
+Number of iterations: 
+5
+distanceMatusita
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+14
+
+
+Busses
+Number of iterations: 
+10
+distanceMatusita
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+29
+
+
+Busses
+Number of iterations: 
+50
+distanceMatusita
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+117
+
+
+Busses
+Number of iterations: 
+90
+distanceMatusita
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+6
+Similare pentru : Mountains
+191
+
+
+Busses
+Number of iterations: 
+5
+distanceSquaredChord
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+14
+
+
+Busses
+Number of iterations: 
+10
+distanceSquaredChord
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+29
+
+
+Busses
+Number of iterations: 
+50
+distanceSquaredChord
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+117
+
+
+Busses
+Number of iterations: 
+90
+distanceSquaredChord
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+6
+Similare pentru : Mountains
+191
+
+
+Busses
+Number of iterations: 
+5
+similaritySquaredChord
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+3
+Similare pentru : Mountains
+12
+
+
+Busses
+Number of iterations: 
+10
+similaritySquaredChord
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+8
+Similare pentru : Mountains
+22
+
+
+Busses
+Number of iterations: 
+50
+similaritySquaredChord
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+84
+Similare pentru : Mountains
+66
+
+
+Busses
+Number of iterations: 
+90
+similaritySquaredChord
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+164
+Similare pentru : Mountains
+93
+
+
+Busses
+Number of iterations: 
+5
+distanceSquaredEuclidian
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+14
+
+
+Busses
+Number of iterations: 
+10
+distanceSquaredEuclidian
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+29
+
+
+Busses
+Number of iterations: 
+50
+distanceSquaredEuclidian
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+149
+
+
+Busses
+Number of iterations: 
+90
+distanceSquaredEuclidian
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+9
+Similare pentru : Mountains
+220
+
+
+Busses
+Number of iterations: 
+5
+distancePearson
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+4
+Similare pentru : Mountains
+11
+
+
+Busses
+Number of iterations: 
+10
+distancePearson
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+9
+Similare pentru : Mountains
+21
+
+
+Busses
+Number of iterations: 
+50
+distancePearson
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+49
+Similare pentru : Mountains
+101
+
+
+Busses
+Number of iterations: 
+90
+distancePearson
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+96
+Similare pentru : Mountains
+174
+
+
+Busses
+Number of iterations: 
+5
+distanceNeyman
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+5
+Similare pentru : Mountains
+10
+
+
+Busses
+Number of iterations: 
+10
+distanceNeyman
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+20
+
+
+Busses
+Number of iterations: 
+50
+distanceNeyman
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+100
+
+
+Busses
+Number of iterations: 
+90
+distanceNeyman
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+90
+Similare pentru : Mountains
+180
+
+
+Busses
+Number of iterations: 
+5
+distanceSquared
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+5
+Similare pentru : Mountains
+10
+
+
+Busses
+Number of iterations: 
+10
+distanceSquared
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+20
+
+
+Busses
+Number of iterations: 
+50
+distanceSquared
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+100
+
+
+Busses
+Number of iterations: 
+90
+distanceSquared
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+90
+Similare pentru : Mountains
+180
+
+
+Busses
+Number of iterations: 
+5
+distanceProbabilisticSymmetric
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+5
+Similare pentru : Mountains
+10
+
+
+Busses
+Number of iterations: 
+10
+distanceProbabilisticSymmetric
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+20
+
+
+Busses
+Number of iterations: 
+50
+distanceProbabilisticSymmetric
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+100
+
+
+Busses
+Number of iterations: 
+90
+distanceProbabilisticSymmetric
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+90
+Similare pentru : Mountains
+180
+
+
+Busses
+Number of iterations: 
+5
+distanceDivergence
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+5
+Similare pentru : Mountains
+10
+
+
+Busses
+Number of iterations: 
+10
+distanceDivergence
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+20
+
+
+Busses
+Number of iterations: 
+50
+distanceDivergence
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+100
+
+
+Busses
+Number of iterations: 
+90
+distanceDivergence
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+90
+Similare pentru : Mountains
+145
+
+
+Busses
+Number of iterations: 
+5
+distanceClark
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+15
+
+
+Busses
+Number of iterations: 
+10
+distanceClark
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+30
+
+
+Busses
+Number of iterations: 
+50
+distanceClark
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+114
+
+
+Busses
+Number of iterations: 
+90
+distanceClark
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+51
+Similare pentru : Mountains
+143
+
+
+Busses
+Number of iterations: 
+5
+distanceAdditiceSymmetric
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+13
+
+
+Busses
+Number of iterations: 
+10
+distanceAdditiceSymmetric
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+28
+
+
+Busses
+Number of iterations: 
+50
+distanceAdditiceSymmetric
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+147
+
+
+Busses
+Number of iterations: 
+90
+distanceAdditiceSymmetric
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+6
+Similare pentru : Mountains
+237
+
+
+Busses
+Number of iterations: 
+5
+distanceKullbackLeibler
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+11
+
+
+Busses
+Number of iterations: 
+10
+distanceKullbackLeibler
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+21
+
+
+Busses
+Number of iterations: 
+50
+distanceKullbackLeibler
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+101
+
+
+Busses
+Number of iterations: 
+90
+distanceKullbackLeibler
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+12
+Similare pentru : Mountains
+169
+
+
+Busses
+Number of iterations: 
+5
+distanceJeffreys
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+13
+
+
+Busses
+Number of iterations: 
+10
+distanceJeffreys
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+28
+
+
+Busses
+Number of iterations: 
+50
+distanceJeffreys
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+121
+
+
+Busses
+Number of iterations: 
+90
+distanceJeffreys
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+6
+Similare pentru : Mountains
+195
+
+
+Busses
+Number of iterations: 
+5
+distanceKDivergence
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+14
+
+
+Busses
+Number of iterations: 
+10
+distanceKDivergence
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+29
+
+
+Busses
+Number of iterations: 
+50
+distanceKDivergence
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+142
+
+
+Busses
+Number of iterations: 
+90
+distanceKDivergence
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+2
+Similare pentru : Mountains
+220
+
+
+Busses
+Number of iterations: 
+5
+distanceTopsoe
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+14
+
+
+Busses
+Number of iterations: 
+10
+distanceTopsoe
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+29
+
+
+Busses
+Number of iterations: 
+50
+distanceTopsoe
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+116
+
+
+Busses
+Number of iterations: 
+90
+distanceTopsoe
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+7
+Similare pentru : Mountains
+189
+
+
+Busses
+Number of iterations: 
+5
+distanceJensenShannon
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+7
+Similare pentru : Mountains
+8
+
+
+Busses
+Number of iterations: 
+10
+distanceJensenShannon
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+17
+Similare pentru : Mountains
+13
+
+
+Busses
+Number of iterations: 
+50
+distanceJensenShannon
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+97
+Similare pentru : Mountains
+18
+
+
+Busses
+Number of iterations: 
+90
+distanceJensenShannon
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+177
+Similare pentru : Mountains
+18
+
+
+Busses
+Number of iterations: 
+5
+distanceJensenDifference
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+14
+
+
+Busses
+Number of iterations: 
+10
+distanceJensenDifference
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+29
+
+
+Busses
+Number of iterations: 
+50
+distanceJensenDifference
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+116
+
+
+Busses
+Number of iterations: 
+90
+distanceJensenDifference
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+8
+Similare pentru : Mountains
+188
+
+
+Busses
+Number of iterations: 
+5
+distanceKumarJohnson
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+14
+
+
+Busses
+Number of iterations: 
+10
+distanceKumarJohnson
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+29
+
+
+Busses
+Number of iterations: 
+50
+distanceKumarJohnson
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+149
+
+
+Busses
+Number of iterations: 
+90
+distanceKumarJohnson
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+6
+Similare pentru : Mountains
+247
+
+
+Busses
+Number of iterations: 
+5
+distanceAvg
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+13
+
+
+Busses
+Number of iterations: 
+10
+distanceAvg
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+25
+
+
+Busses
+Number of iterations: 
+50
+distanceAvg
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+105
+
+
+Busses
+Number of iterations: 
+90
+distanceAvg
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+6
+Similare pentru : Mountains
+179
+
+
+Busses
+Number of iterations: 
+5
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+14
+
+
+Busses
+Number of iterations: 
+10
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+29
+
+
+Busses
+Number of iterations: 
+50
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+149
+
+
+Busses
+Number of iterations: 
+90
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+9
+Similare pentru : Mountains
+220
+
+
+Busses
+Number of iterations: 
+5
+cityBlockL1
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+15
+
+
+Busses
+Number of iterations: 
+10
+cityBlockL1
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+30
+
+
+Busses
+Number of iterations: 
+50
+cityBlockL1
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+150
+
+
+Busses
+Number of iterations: 
+90
+cityBlockL1
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+270
+
+
+Busses
+Number of iterations: 
+5
+minkowskiLp
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+15
+
+
+Busses
+Number of iterations: 
+10
+minkowskiLp
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+30
+
+
+Busses
+Number of iterations: 
+50
+minkowskiLp
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+150
+
+
+Busses
+Number of iterations: 
+90
+minkowskiLp
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+4
+Similare pentru : Mountains
+266
+
+
+Busses
+Number of iterations: 
+5
+cebyshevLinf
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+14
 
 

@@ -21,6 +21,7 @@ import logicPackage.enums.DatabaseName;
 import org.opencv.core.Core;
 import sample.controller.LogicController;
 
+import javax.xml.crypto.Data;
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
@@ -63,6 +64,7 @@ public class Main extends Application {
     public static String nameOfSet = new String();
     public static Integer nrOfIterationsChoosen;
     public static File[] listOfFiles;
+    private static String backgroundFile = "Mountains";
     @FXML
     private AnchorPane anchorFirstPage;
     @FXML
@@ -432,7 +434,7 @@ public class Main extends Application {
     //</editor-fold>
 
     public static void buildBackGroundPicsAddresses() {
-        File folder = new File(documentSufix.concat("Mountains"));
+        File folder = new File(documentSufix.concat(backgroundFile));
         File[] listOfFiles = folder.listFiles();
         for (File firstFileEntry : listOfFiles) {
             if (firstFileEntry.getAbsolutePath().contains("jpg") || firstFileEntry.getAbsolutePath().contains("JPG")) {
@@ -453,12 +455,12 @@ public class Main extends Application {
         List<Double> currentValsSim = new ArrayList<>();
         List<Double> currentValsNotSim = new ArrayList<>();
 
-        List<Double>finalSim = new ArrayList<>();
-        List<Double>finalNonSim = new ArrayList<>();
+        List<Double> finalSim = new ArrayList<>();
+        List<Double> finalNonSim = new ArrayList<>();
 
 
-        List<List<Double>>allInOneSim = new ArrayList<>();
-        List<List<Double>>allInOneNonSim = new ArrayList<>();
+        List<List<Double>> allInOneSim = new ArrayList<>();
+        List<List<Double>> allInOneNonSim = new ArrayList<>();
 
         int similar = 0;
         int nonSimilar = 0;
@@ -466,67 +468,76 @@ public class Main extends Application {
         File folder = new File(documentSufix.concat(nameOfSet));
         for (AlgoName algo : algoNames) {
             similarPhotosResults = logicController.getImgAndDoCalculatins(algo, populateWIithPicsAddr1, Arrays.asList(listOfFiles));
-          //  currentValsSim = takeFinalResults(normalizaVals(transformToDouble(similarPhotosResults)), currentValsSim);
-        }
-        for (AlgoName algo : algoNames) {
             nonSimilarPhotosResults = logicController.getImgAndDoCalculatins(algo, populateWIithPicsAddr1, backGroundPicsAddressesList);
-            //currentValsNotSim = takeFinalResults(normalizaVals(transformToDouble(nonSimilarPhotosResults)), trainingNonSimResultsRGB);
-        }
-        finalSim = transformToDouble(similarPhotosResults);
-        allInOneSim = takeRgbInOne(finalSim);
 
-        finalNonSim = transformToDouble(nonSimilarPhotosResults);
-        allInOneNonSim = takeRgbInOne(finalNonSim);
+            finalSim = transformToDouble(similarPhotosResults);
+            allInOneSim = takeRgbInOne(finalSim);
 
-
-        Collections.sort(allInOneSim.get(0));
-        Collections.sort(allInOneSim.get(1));
-        Collections.sort(allInOneSim.get(2));
-        Collections.sort(allInOneNonSim.get(0));
-        Collections.sort(allInOneNonSim.get(1));
-        Collections.sort(allInOneNonSim.get(2));
+            finalNonSim = transformToDouble(nonSimilarPhotosResults);
+            allInOneNonSim = takeRgbInOne(finalNonSim);
 
 
-        finalSim.clear();
-        finalNonSim.clear();
-        for( int i=0;i< nrOfIterationsChoosen;i++){
-            if(allInOneSim.get(0).get(i) < allInOneNonSim.get(0).get(i)){
-                similar++;
-            }else {
-                nonSimilar++;
+            Collections.sort(allInOneSim.get(0));
+            Collections.sort(allInOneSim.get(1));
+            Collections.sort(allInOneSim.get(2));
+            Collections.sort(allInOneNonSim.get(0));
+            Collections.sort(allInOneNonSim.get(1));
+            Collections.sort(allInOneNonSim.get(2));
+
+            finalSim.clear();
+            finalNonSim.clear();
+            List<Integer>nrOfIterationsChoosen1 = new ArrayList<>();
+            nrOfIterationsChoosen1.add(5);
+            nrOfIterationsChoosen1.add(10);
+            nrOfIterationsChoosen1.add(50);
+            nrOfIterationsChoosen1.add(90);
+            for(int j=0;j<4;j++) {
+                for (int i = 0; i < nrOfIterationsChoosen1.get(j); i++) {
+                    if (allInOneSim.get(0).get(i) < allInOneNonSim.get(0).get(i)) {
+                        similar++;
+                    } else {
+                        nonSimilar++;
+                    }
+
+                    if (allInOneSim.get(1).get(i) < allInOneNonSim.get(1).get(i)) {
+                        similar++;
+                    } else {
+                        nonSimilar++;
+                    }
+
+                    if (allInOneSim.get(2).get(i) < allInOneNonSim.get(2).get(i)) {
+
+                    } else {
+                        nonSimilar++;
+                    }
+
+                }
+                if (similar > nonSimilar) {
+                    System.out.println("Photo is found as being " + nameOfSet);
+                }
+
+                writeInFileTrainValues("test", populateWIithPicsAddr1.getAbsolutePath(), algo, nrOfIterationsChoosen1.get(j), similar, nonSimilar);
+                similar = 0;
+                nonSimilar = 0;
             }
-
-            if(allInOneSim.get(1).get(i) < allInOneNonSim.get(1).get(i)){
-                similar++;
-            }else {
-                nonSimilar++;
-            }
-
-            if(allInOneSim.get(2).get(i) < allInOneNonSim.get(2).get(i)){
-
-            }else {
-                nonSimilar++;
-            }
-
         }
-        if(similar>nonSimilar){
-            System.out.println("Photo is found as being " + nameOfSet );
-        }
-
-         //   writeInFileTrainValues("test - pure results ", currentValsNotSim);
 
     }
 
-    public void writeInFileTrainValues(String testOrTrain, List<Double> trainingResultsRGB) throws IOException {
+    public void writeInFileTrainValues(String testOrTrain, String populateWithPicAddr, AlgoName a, Integer nrOfIterationsChoosen1, int siimilar, int nonSimilar) throws IOException {
         PrintWriter writer = null;
 
         writer = new PrintWriter(new FileWriter("results1.txt", true));
         writer.println(nameOfSet);
-        writer.println(algoNames.get(0));
+        writer.println("Number of iterations: ");
+        writer.println(nrOfIterationsChoosen1);
+        writer.println(a);
         writer.println(testOrTrain);
-        writer.println(trainingResultsRGB.get(0));
-        writer.println(trainingResultsRGB.get(1));
-        writer.println(trainingResultsRGB.get(2));
+        writer.println(populateWithPicAddr);
+        writer.println("Similare pentru : " + nameOfSet);
+        writer.println(siimilar);
+        writer.println("Similare pentru : " + backgroundFile);
+        writer.println(nonSimilar);
         writer.println("\n");
         writer.close();
     }
@@ -555,18 +566,18 @@ public class Main extends Application {
                 if (firstFileEntry.getAbsolutePath().contains("jpg") || firstFileEntry.getAbsolutePath().contains("JPG")) {
                     for (AlgoName algo : algoNames) {
                         similarPhotosResults = logicController.getImgAndDoCalculatins(algo, new File(firstFileEntry.getAbsolutePath()), Arrays.asList(listOfFiles));
-                       // trainingResultsRGB = takeFinalResults(normalizaVals(transformToDouble(similarPhotosResults)), trainingResultsRGB);
+                        // trainingResultsRGB = takeFinalResults(normalizaVals(transformToDouble(similarPhotosResults)), trainingResultsRGB);
                     }
                     for (AlgoName algo : algoNames) {
                         nonSimilarPhotosResults = logicController.getImgAndDoCalculatins(algo, new File(firstFileEntry.getAbsolutePath()), backGroundPicsAddressesList);
-                     //   trainingNonSimResultsRGB = takeFinalResults(normalizaVals(transformToDouble(nonSimilarPhotosResults)), trainingNonSimResultsRGB);
+                        //   trainingNonSimResultsRGB = takeFinalResults(normalizaVals(transformToDouble(nonSimilarPhotosResults)), trainingNonSimResultsRGB);
                     }
                 }
             }
             System.out.println("Done");
             labelTrainned.setText("Set trainned!");
         }
-        writeInFileTrainValues(train, trainingResultsRGB);
+        //writeInFileTrainValues(train, trainingResultsRGB);
     }
 
     public void initializeChooseSet(ActionEvent actionEvent) throws IOException {
@@ -626,5 +637,59 @@ public class Main extends Application {
 
     public void trainThisSet(ActionEvent actionEvent) throws IOException {
         calculations();
+    }
+
+    public void all(ActionEvent actionEvent) {
+        algoNames.add(AlgoName.euclidianL2);
+        algoNames.add(AlgoName.cityBlockL1);
+        algoNames.add(AlgoName.minkowskiLp);
+        algoNames.add(AlgoName.cebyshevLinf);
+        algoNames.add(AlgoName.sorensen);
+        algoNames.add(AlgoName.gower);
+        algoNames.add(AlgoName.soergel);
+        algoNames.add(AlgoName.kulczynskid);
+        algoNames.add(AlgoName.canberra);
+        algoNames.add(AlgoName.lorentzian);
+        algoNames.add(AlgoName.intersectionDistance);
+        algoNames.add(AlgoName.waveHedgesDistance);
+        algoNames.add(AlgoName.similarityCzekanowski);
+        algoNames.add(AlgoName.distanceCzekanowski);
+        algoNames.add(AlgoName.similarityMotyka);
+        algoNames.add(AlgoName.distanceMotyka);
+        algoNames.add(AlgoName.similarityKulczynkyS);
+        algoNames.add(AlgoName.distanceKulczynkyS);
+        algoNames.add(AlgoName.ruzicka);
+        algoNames.add(AlgoName.tanimoto);
+        algoNames.add(AlgoName.innerProductSimilarity);
+        algoNames.add(AlgoName.harmonicMeanSimilarity);
+        algoNames.add(AlgoName.cosineSimilarity);
+        algoNames.add(AlgoName.kumarHassebrookDistance);
+        algoNames.add(AlgoName.similarityJaccard);
+        algoNames.add(AlgoName.distanceJaccard);
+        algoNames.add(AlgoName.similarityDice);
+        algoNames.add(AlgoName.distanceDice);
+        algoNames.add(AlgoName.similarityFidelity);
+        algoNames.add(AlgoName.distanceBhattacharyya);
+        algoNames.add(AlgoName.distanceHellinger);
+        algoNames.add(AlgoName.distanceMatusita);
+        algoNames.add(AlgoName.distanceSquaredChord);
+        algoNames.add(AlgoName.similaritySquaredChord);
+        algoNames.add(AlgoName.distanceSquaredEuclidian);
+        algoNames.add(AlgoName.distancePearson);
+        algoNames.add(AlgoName.distanceNeyman);
+        algoNames.add(AlgoName.distanceSquared);
+        algoNames.add(AlgoName.distanceProbabilisticSymmetric);
+        algoNames.add(AlgoName.distanceDivergence);
+        algoNames.add(AlgoName.distanceClark);
+        algoNames.add(AlgoName.distanceAdditiceSymmetric);
+        algoNames.add(AlgoName.distanceKullbackLeibler);
+        algoNames.add(AlgoName.distanceJeffreys);
+        algoNames.add(AlgoName.distanceKDivergence);
+        algoNames.add(AlgoName.distanceTopsoe);
+        algoNames.add(AlgoName.distanceJensenShannon);
+        algoNames.add(AlgoName.distanceJensenDifference);
+        algoNames.add(AlgoName.distanceKumarJohnson);
+        algoNames.add(AlgoName.distanceAvg);
+
     }
 }
