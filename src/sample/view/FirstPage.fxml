@@ -6,24 +6,23 @@
 <?import javafx.scene.control.Menu?>
 <?import javafx.scene.control.MenuBar?>
 <?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
-<?import javafx.scene.web.HTMLEditor?>
 
-<AnchorPane fx:id="anchorFirstPage" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="283.0" minWidth="931.0" prefHeight="575.0" prefWidth="1240.0" styleClass="background" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Main">
+<AnchorPane fx:id="anchorFirstPage" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="283.0" minWidth="931.0" prefHeight="1133.0" prefWidth="2325.0" styleClass="background" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Main">
    <children>
-      <HTMLEditor htmlText="&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body contenteditable=&quot;true&quot;&gt;&lt;/body&gt;&lt;/html&gt;" layoutX="-664.0" layoutY="-139.0" prefHeight="200.0" prefWidth="506.0" />
       <Line endX="100.0" startX="-100.0" />
-      <ImageView fx:id="imageView1" fitHeight="150.0" fitWidth="200.0" layoutX="704.0" layoutY="240.0" onDragDropped="#handleDrop1" onDragOver="#handleDragPic1" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="imageView1" fitHeight="150.0" fitWidth="200.0" layoutX="919.0" layoutY="391.0" onDragDropped="#handleDrop1" onDragOver="#handleDragPic1" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@button.png" />
          </image></ImageView>
-      <Label layoutX="713.0" layoutY="294.0" text="Drag And Drop Pic1" />
-      <Button id="fileChooser1" fx:id="fileChooser1" layoutX="704.0" layoutY="244.0" mnemonicParsing="false" onAction="#fileChooser1" opacity="0.0" prefHeight="121.0" prefWidth="150.0" />
-      <MenuBar fx:id="chooseAlgorithms" layoutX="69.0" layoutY="330.0" onMouseClicked="#chooseAlgorithm" prefHeight="32.0" prefWidth="194.0">
+      <Label layoutX="928.0" layoutY="445.0" text="Drag And Drop Pic1" />
+      <Button id="fileChooser1" fx:id="fileChooser1" layoutX="919.0" layoutY="395.0" mnemonicParsing="false" onAction="#fileChooser1" opacity="0.0" prefHeight="121.0" prefWidth="150.0" />
+      <MenuBar fx:id="chooseAlgorithms" layoutX="75.0" layoutY="561.0" onMouseClicked="#chooseAlgorithm" prefHeight="32.0" prefWidth="194.0">
         <menus>
             <Menu mnemonicParsing="false" text="Choose Algorithms">
               <items>
@@ -82,25 +81,23 @@
             </Menu>
         </menus>
       </MenuBar>
-      <Button fx:id="startCalculating" layoutX="840.0" layoutY="467.0" mnemonicParsing="false" onAction="#startCalculating" onMouseClicked="#onMouseClick" text="Test this image" />
-      <Button fx:id="donwloadResults" layoutX="97.0" layoutY="508.0" mnemonicParsing="false" onMouseClicked="#downloadResults" text="Download Results" />
-      <Label fx:id="title1" alignment="CENTER" layoutX="211.0" layoutY="24.0" prefHeight="66.0" prefWidth="496.0" text="Algorithm Distance Demo">
+      <Button fx:id="startCalculating" layoutX="907.0" layoutY="660.0" mnemonicParsing="false" onAction="#startCalculating" onMouseClicked="#onMouseClick" text="Test this image" />
+      <Button fx:id="donwloadResults" layoutX="455.0" layoutY="562.0" mnemonicParsing="false" onMouseClicked="#downloadResults" text="Download Results" />
+      <Label fx:id="title1" alignment="CENTER" layoutX="652.0" layoutY="37.0" prefHeight="66.0" prefWidth="496.0" text="Algorithm Distance Demo">
          <font>
             <Font size="28.0" />
          </font>
       </Label>
-      <ImageView id="histoViewer2_1" fx:id="histoViewer2_1" fitHeight="150.0" fitWidth="200.0" layoutX="948.0" layoutY="245.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView id="histoViewer2_1" fx:id="histoViewer2_1" fitHeight="150.0" fitWidth="200.0" layoutX="1031.0" layoutY="391.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../../../../Users/Roxana/Desktop/classify.png" />
          </image></ImageView>
-      <ImageView id="histoViewer2_2" fx:id="histoViewer2_2" fitHeight="150.0" fitWidth="200.0" layoutX="1099.0" layoutY="539.0" pickOnBounds="true" preserveRatio="true" />
-      <ImageView id="histoViewer2_3" fx:id="histoViewer2_3" fitHeight="150.0" fitWidth="200.0" layoutX="873.0" layoutY="736.0" pickOnBounds="true" preserveRatio="true" />
-      <ImageView id="histoViewer2_4" fx:id="histoViewer2_4" fitHeight="150.0" fitWidth="200.0" layoutX="1099.0" layoutY="736.0" pickOnBounds="true" preserveRatio="true" />
       <ButtonBar layoutX="72.0" layoutY="70.0" prefHeight="40.0" prefWidth="200.0" />
-    <Button fx:id="buttonNext" layoutX="394.0" layoutY="456.0" mnemonicParsing="false" onAction="#launchWIn2" text="See Photos Histogram" />
-      <Button layoutX="394.0" layoutY="508.0" mnemonicParsing="false" onAction="#launchWIn4" prefHeight="31.0" prefWidth="228.0" text="Show Algorithm Statistics" />
-      <Label layoutX="101.0" layoutY="169.0" text="Initialize phase" />
-      <MenuBar layoutX="72.0" layoutY="205.0" onMouseClicked="#chooseDataBase" prefHeight="32.0" prefWidth="194.0">
+      <Label fx:id="init" layoutX="75.0" layoutY="194.0" text="Initialize phase">
+         <font>
+            <Font size="22.0" />
+         </font></Label>
+      <MenuBar layoutX="75.0" layoutY="351.0" onMouseClicked="#chooseDataBase" prefHeight="32.0" prefWidth="194.0">
         <menus>
             <Menu mnemonicParsing="false" text="Choose Data Base">
               <items>
@@ -118,7 +115,7 @@
             </Menu>
         </menus>
       </MenuBar>
-      <MenuBar layoutX="69.0" layoutY="272.0">
+      <MenuBar layoutX="75.0" layoutY="466.0">
         <menus>
             <Menu mnemonicParsing="false" text="Choose K for K-NN neighbours">
               <items>
@@ -130,11 +127,25 @@
             </Menu>
         </menus>
       </MenuBar>
-      <Button layoutX="114.0" layoutY="397.0" mnemonicParsing="false" onAction="#initializeChooseSet" text="Initialize this set" />
-      <Label fx:id="labelTrainned" layoutX="402.0" layoutY="226.0" prefHeight="89.0" prefWidth="201.0" />
-      <Label fx:id="labelWithName" layoutX="155.0" layoutY="431.0" />
-      <Label layoutX="808.0" layoutY="169.0" text="Testing phase" />
-      <Button layoutX="438.0" layoutY="205.0" mnemonicParsing="false" onAction="#trainThisSet" text="Train this set" />
-      <Label fx:id="labelInitilize" layoutX="138.0" layoutY="461.0" />
+      <Button layoutX="75.0" layoutY="660.0" mnemonicParsing="false" onAction="#initializeChooseSet" text="Initialize this set" />
+      <Label fx:id="labelTrainned" layoutX="390.0" layoutY="355.0" prefHeight="89.0" prefWidth="201.0" />
+      <Label fx:id="labelWithName" layoutX="75.0" layoutY="747.0" prefHeight="21.0" prefWidth="120.0" />
+      <Label fx:id="test" layoutX="900.0" layoutY="178.0" text="Testing phase">
+         <font>
+            <Font size="22.0" />
+         </font></Label>
+      <Button layoutX="455.0" layoutY="660.0" mnemonicParsing="false" onAction="#trainThisSet" text="Train this set" />
+      <Label fx:id="labelInitilize" layoutX="75.0" layoutY="799.0" prefHeight="21.0" prefWidth="150.0" />
+      <ScrollPane fx:id="scrolli" layoutX="1207.0" layoutY="213.0" prefHeight="463.0" prefWidth="697.0">
+         <content>
+            <AnchorPane fx:id="panee" prefHeight="454.0" prefWidth="684.0" />
+         </content></ScrollPane>
+      <Label fx:id="nameOfAlgo" layoutX="75.0" layoutY="843.0" prefHeight="21.0" prefWidth="246.0" />
+      <Label fx:id="results" layoutX="1190.0" layoutY="810.0" prefHeight="99.0" prefWidth="554.0" />
+      <ScrollPane layoutX="683.0" layoutY="839.0" prefHeight="140.0" prefWidth="355.0">
+        <content>
+          <AnchorPane fx:id="isOrNot" minHeight="0.0" minWidth="0.0" prefHeight="151.0" prefWidth="350.0" style="-fx-background-color: #383838;" />
+        </content>
+      </ScrollPane>
    </children>
 </AnchorPane>

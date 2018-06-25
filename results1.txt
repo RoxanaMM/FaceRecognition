@@ -2554,3 +2554,11823 @@ Similare pentru : Mountains
 14
 
 
+Busses
+Number of iterations: 
+10
+cebyshevLinf
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+29
+
+
+Dinosaurs
+Number of iterations: 
+5
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testDinosaurs\403.jpg
+Similare pentru : Dinosaurs
+10
+Similare pentru : Mountains
+0
+
+
+Dinosaurs
+Number of iterations: 
+10
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testDinosaurs\403.jpg
+Similare pentru : Dinosaurs
+20
+Similare pentru : Mountains
+0
+
+
+Dinosaurs
+Number of iterations: 
+50
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testDinosaurs\403.jpg
+Similare pentru : Dinosaurs
+94
+Similare pentru : Mountains
+20
+
+
+Dinosaurs
+Number of iterations: 
+90
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testDinosaurs\403.jpg
+Similare pentru : Dinosaurs
+104
+Similare pentru : Mountains
+130
+
+
+Dinosaurs
+Number of iterations: 
+5
+cityBlockL1
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testDinosaurs\403.jpg
+Similare pentru : Dinosaurs
+0
+Similare pentru : Mountains
+15
+
+
+Dinosaurs
+Number of iterations: 
+10
+cityBlockL1
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testDinosaurs\403.jpg
+Similare pentru : Dinosaurs
+0
+Similare pentru : Mountains
+30
+
+
+Dinosaurs
+Number of iterations: 
+50
+cityBlockL1
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testDinosaurs\403.jpg
+Similare pentru : Dinosaurs
+0
+Similare pentru : Mountains
+150
+
+
+Dinosaurs
+Number of iterations: 
+90
+cityBlockL1
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testDinosaurs\403.jpg
+Similare pentru : Dinosaurs
+0
+Similare pentru : Mountains
+270
+
+
+Dinosaurs
+Number of iterations: 
+5
+minkowskiLp
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testDinosaurs\403.jpg
+Similare pentru : Dinosaurs
+0
+Similare pentru : Mountains
+15
+
+
+Dinosaurs
+Number of iterations: 
+10
+minkowskiLp
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testDinosaurs\403.jpg
+Similare pentru : Dinosaurs
+0
+Similare pentru : Mountains
+30
+
+
+Dinosaurs
+Number of iterations: 
+50
+minkowskiLp
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testDinosaurs\403.jpg
+Similare pentru : Dinosaurs
+0
+Similare pentru : Mountains
+150
+
+
+Dinosaurs
+Number of iterations: 
+90
+minkowskiLp
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testDinosaurs\403.jpg
+Similare pentru : Dinosaurs
+2
+Similare pentru : Mountains
+268
+
+
+Dinosaurs
+Number of iterations: 
+5
+cebyshevLinf
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testDinosaurs\403.jpg
+Similare pentru : Dinosaurs
+10
+Similare pentru : Mountains
+0
+
+
+Dinosaurs
+Number of iterations: 
+10
+cebyshevLinf
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testDinosaurs\403.jpg
+Similare pentru : Dinosaurs
+20
+Similare pentru : Mountains
+0
+
+
+Dinosaurs
+Number of iterations: 
+50
+cebyshevLinf
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testDinosaurs\403.jpg
+Similare pentru : Dinosaurs
+100
+Similare pentru : Mountains
+17
+
+
+Dinosaurs
+Number of iterations: 
+90
+cebyshevLinf
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testDinosaurs\403.jpg
+Similare pentru : Dinosaurs
+144
+Similare pentru : Mountains
+93
+
+
+Dinosaurs
+Number of iterations: 
+5
+sorensen
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testDinosaurs\403.jpg
+Similare pentru : Dinosaurs
+10
+Similare pentru : Mountains
+0
+
+
+Dinosaurs
+Number of iterations: 
+10
+sorensen
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testDinosaurs\403.jpg
+Similare pentru : Dinosaurs
+20
+Similare pentru : Mountains
+0
+
+
+Dinosaurs
+Number of iterations: 
+50
+sorensen
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testDinosaurs\403.jpg
+Similare pentru : Dinosaurs
+100
+Similare pentru : Mountains
+0
+
+
+Dinosaurs
+Number of iterations: 
+90
+sorensen
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testDinosaurs\403.jpg
+Similare pentru : Dinosaurs
+180
+Similare pentru : Mountains
+0
+
+
+Dinosaurs
+Number of iterations: 
+5
+gower
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testDinosaurs\403.jpg
+Similare pentru : Dinosaurs
+10
+Similare pentru : Mountains
+0
+
+
+Dinosaurs
+Number of iterations: 
+10
+gower
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testDinosaurs\403.jpg
+Similare pentru : Dinosaurs
+20
+Similare pentru : Mountains
+0
+
+
+Dinosaurs
+Number of iterations: 
+50
+gower
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testDinosaurs\403.jpg
+Similare pentru : Dinosaurs
+100
+Similare pentru : Mountains
+0
+
+
+Dinosaurs
+Number of iterations: 
+90
+gower
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testDinosaurs\403.jpg
+Similare pentru : Dinosaurs
+180
+Similare pentru : Mountains
+0
+
+
+Dinosaurs
+Number of iterations: 
+5
+soergel
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testDinosaurs\403.jpg
+Similare pentru : Dinosaurs
+10
+Similare pentru : Mountains
+0
+
+
+Dinosaurs
+Number of iterations: 
+10
+soergel
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testDinosaurs\403.jpg
+Similare pentru : Dinosaurs
+20
+Similare pentru : Mountains
+0
+
+
+Dinosaurs
+Number of iterations: 
+50
+soergel
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testDinosaurs\403.jpg
+Similare pentru : Dinosaurs
+100
+Similare pentru : Mountains
+0
+
+
+Dinosaurs
+Number of iterations: 
+90
+soergel
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testDinosaurs\403.jpg
+Similare pentru : Dinosaurs
+180
+Similare pentru : Mountains
+0
+
+
+Dinosaurs
+Number of iterations: 
+5
+kulczynskid
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testDinosaurs\403.jpg
+Similare pentru : Dinosaurs
+10
+Similare pentru : Mountains
+0
+
+
+Dinosaurs
+Number of iterations: 
+10
+kulczynskid
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testDinosaurs\403.jpg
+Similare pentru : Dinosaurs
+20
+Similare pentru : Mountains
+0
+
+
+Dinosaurs
+Number of iterations: 
+50
+kulczynskid
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testDinosaurs\403.jpg
+Similare pentru : Dinosaurs
+100
+Similare pentru : Mountains
+0
+
+
+Dinosaurs
+Number of iterations: 
+90
+kulczynskid
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testDinosaurs\403.jpg
+Similare pentru : Dinosaurs
+180
+Similare pentru : Mountains
+0
+
+
+Africa
+Number of iterations: 
+5
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+1
+Similare pentru : Mountains
+9
+
+
+Africa
+Number of iterations: 
+10
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+5
+Similare pentru : Mountains
+15
+
+
+Africa
+Number of iterations: 
+50
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+45
+Similare pentru : Mountains
+55
+
+
+Africa
+Number of iterations: 
+90
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+107
+Similare pentru : Mountains
+73
+
+
+Africa
+Number of iterations: 
+5
+cityBlockL1
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+15
+
+
+Africa
+Number of iterations: 
+10
+cityBlockL1
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+30
+
+
+Africa
+Number of iterations: 
+50
+cityBlockL1
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+150
+
+
+Africa
+Number of iterations: 
+90
+cityBlockL1
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+270
+
+
+Africa
+Number of iterations: 
+5
+minkowskiLp
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+15
+
+
+Africa
+Number of iterations: 
+10
+minkowskiLp
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+30
+
+
+Africa
+Number of iterations: 
+50
+minkowskiLp
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+150
+
+
+Africa
+Number of iterations: 
+90
+minkowskiLp
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+7
+Similare pentru : Mountains
+263
+
+
+Africa
+Number of iterations: 
+5
+cebyshevLinf
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+10
+
+
+Africa
+Number of iterations: 
+10
+cebyshevLinf
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+20
+
+
+Africa
+Number of iterations: 
+50
+cebyshevLinf
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+31
+Similare pentru : Mountains
+69
+
+
+Africa
+Number of iterations: 
+90
+cebyshevLinf
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+96
+Similare pentru : Mountains
+84
+
+
+Africa
+Number of iterations: 
+5
+sorensen
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+1
+Similare pentru : Mountains
+9
+
+
+Africa
+Number of iterations: 
+10
+sorensen
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+6
+Similare pentru : Mountains
+14
+
+
+Africa
+Number of iterations: 
+50
+sorensen
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+46
+Similare pentru : Mountains
+54
+
+
+Africa
+Number of iterations: 
+90
+sorensen
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+90
+Similare pentru : Mountains
+90
+
+
+Africa
+Number of iterations: 
+5
+gower
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+1
+Similare pentru : Mountains
+9
+
+
+Africa
+Number of iterations: 
+10
+gower
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+6
+Similare pentru : Mountains
+14
+
+
+Africa
+Number of iterations: 
+50
+gower
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+46
+Similare pentru : Mountains
+54
+
+
+Africa
+Number of iterations: 
+90
+gower
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+90
+Similare pentru : Mountains
+90
+
+
+Africa
+Number of iterations: 
+5
+soergel
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+1
+Similare pentru : Mountains
+9
+
+
+Africa
+Number of iterations: 
+10
+soergel
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+6
+Similare pentru : Mountains
+14
+
+
+Africa
+Number of iterations: 
+50
+soergel
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+46
+Similare pentru : Mountains
+54
+
+
+Africa
+Number of iterations: 
+90
+soergel
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+90
+Similare pentru : Mountains
+90
+
+
+Africa
+Number of iterations: 
+5
+kulczynskid
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+1
+Similare pentru : Mountains
+9
+
+
+Africa
+Number of iterations: 
+10
+kulczynskid
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+6
+Similare pentru : Mountains
+14
+
+
+Africa
+Number of iterations: 
+50
+kulczynskid
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+46
+Similare pentru : Mountains
+54
+
+
+Africa
+Number of iterations: 
+90
+kulczynskid
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+90
+Similare pentru : Mountains
+90
+
+
+Africa
+Number of iterations: 
+5
+canberra
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+4
+Similare pentru : Mountains
+11
+
+
+Africa
+Number of iterations: 
+10
+canberra
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+9
+Similare pentru : Mountains
+21
+
+
+Africa
+Number of iterations: 
+50
+canberra
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+49
+Similare pentru : Mountains
+101
+
+
+Africa
+Number of iterations: 
+90
+canberra
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+95
+Similare pentru : Mountains
+175
+
+
+Africa
+Number of iterations: 
+5
+lorentzian
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+5
+Similare pentru : Mountains
+7
+
+
+Africa
+Number of iterations: 
+10
+lorentzian
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+9
+Similare pentru : Mountains
+18
+
+
+Africa
+Number of iterations: 
+50
+lorentzian
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+48
+Similare pentru : Mountains
+67
+
+
+Africa
+Number of iterations: 
+90
+lorentzian
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+88
+Similare pentru : Mountains
+107
+
+
+Africa
+Number of iterations: 
+5
+intersectionDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+1
+Similare pentru : Mountains
+9
+
+
+Africa
+Number of iterations: 
+10
+intersectionDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+6
+Similare pentru : Mountains
+14
+
+
+Africa
+Number of iterations: 
+50
+intersectionDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+46
+Similare pentru : Mountains
+54
+
+
+Africa
+Number of iterations: 
+90
+intersectionDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+90
+Similare pentru : Mountains
+90
+
+
+Africa
+Number of iterations: 
+5
+waveHedgesDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+5
+Similare pentru : Mountains
+7
+
+
+Africa
+Number of iterations: 
+10
+waveHedgesDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+9
+Similare pentru : Mountains
+16
+
+
+Africa
+Number of iterations: 
+50
+waveHedgesDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+48
+Similare pentru : Mountains
+57
+
+
+Africa
+Number of iterations: 
+90
+waveHedgesDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+88
+Similare pentru : Mountains
+97
+
+
+Africa
+Number of iterations: 
+5
+similarityCzekanowski
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+15
+
+
+Africa
+Number of iterations: 
+10
+similarityCzekanowski
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+3
+Similare pentru : Mountains
+27
+
+
+Africa
+Number of iterations: 
+50
+similarityCzekanowski
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+42
+Similare pentru : Mountains
+108
+
+
+Africa
+Number of iterations: 
+90
+similarityCzekanowski
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+84
+Similare pentru : Mountains
+186
+
+
+Africa
+Number of iterations: 
+5
+distanceCzekanowski
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+1
+Similare pentru : Mountains
+9
+
+
+Africa
+Number of iterations: 
+10
+distanceCzekanowski
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+6
+Similare pentru : Mountains
+14
+
+
+Africa
+Number of iterations: 
+50
+distanceCzekanowski
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+46
+Similare pentru : Mountains
+54
+
+
+Africa
+Number of iterations: 
+90
+distanceCzekanowski
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+90
+Similare pentru : Mountains
+90
+
+
+Africa
+Number of iterations: 
+5
+similarityMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+15
+
+
+Africa
+Number of iterations: 
+10
+similarityMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+3
+Similare pentru : Mountains
+27
+
+
+Africa
+Number of iterations: 
+50
+similarityMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+42
+Similare pentru : Mountains
+108
+
+
+Africa
+Number of iterations: 
+90
+similarityMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+84
+Similare pentru : Mountains
+186
+
+
+Africa
+Number of iterations: 
+5
+distanceMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+1
+Similare pentru : Mountains
+9
+
+
+Africa
+Number of iterations: 
+10
+distanceMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+6
+Similare pentru : Mountains
+14
+
+
+Africa
+Number of iterations: 
+50
+distanceMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+46
+Similare pentru : Mountains
+54
+
+
+Africa
+Number of iterations: 
+90
+distanceMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+90
+Similare pentru : Mountains
+90
+
+
+Africa
+Number of iterations: 
+5
+similarityKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+15
+
+
+Africa
+Number of iterations: 
+10
+similarityKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+3
+Similare pentru : Mountains
+27
+
+
+Africa
+Number of iterations: 
+50
+similarityKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+42
+Similare pentru : Mountains
+108
+
+
+Africa
+Number of iterations: 
+90
+similarityKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+84
+Similare pentru : Mountains
+186
+
+
+Africa
+Number of iterations: 
+5
+distanceKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+1
+Similare pentru : Mountains
+9
+
+
+Africa
+Number of iterations: 
+10
+distanceKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+6
+Similare pentru : Mountains
+14
+
+
+Africa
+Number of iterations: 
+50
+distanceKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+46
+Similare pentru : Mountains
+54
+
+
+Africa
+Number of iterations: 
+90
+distanceKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+90
+Similare pentru : Mountains
+90
+
+
+Africa
+Number of iterations: 
+5
+ruzicka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+15
+
+
+Africa
+Number of iterations: 
+10
+ruzicka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+3
+Similare pentru : Mountains
+27
+
+
+Africa
+Number of iterations: 
+50
+ruzicka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+42
+Similare pentru : Mountains
+108
+
+
+Africa
+Number of iterations: 
+90
+ruzicka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+84
+Similare pentru : Mountains
+186
+
+
+Africa
+Number of iterations: 
+5
+tanimoto
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+1
+Similare pentru : Mountains
+9
+
+
+Africa
+Number of iterations: 
+10
+tanimoto
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+6
+Similare pentru : Mountains
+14
+
+
+Africa
+Number of iterations: 
+50
+tanimoto
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+46
+Similare pentru : Mountains
+54
+
+
+Africa
+Number of iterations: 
+90
+tanimoto
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+90
+Similare pentru : Mountains
+90
+
+
+Africa
+Number of iterations: 
+5
+innerProductSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+15
+
+
+Africa
+Number of iterations: 
+10
+innerProductSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+30
+
+
+Africa
+Number of iterations: 
+50
+innerProductSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+31
+Similare pentru : Mountains
+119
+
+
+Africa
+Number of iterations: 
+90
+innerProductSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+92
+Similare pentru : Mountains
+165
+
+
+Africa
+Number of iterations: 
+5
+harmonicMeanSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+15
+
+
+Africa
+Number of iterations: 
+10
+harmonicMeanSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+30
+
+
+Africa
+Number of iterations: 
+50
+harmonicMeanSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+29
+Similare pentru : Mountains
+121
+
+
+Africa
+Number of iterations: 
+90
+harmonicMeanSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+71
+Similare pentru : Mountains
+199
+
+
+Africa
+Number of iterations: 
+5
+cosineSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+4
+Similare pentru : Mountains
+6
+
+
+Africa
+Number of iterations: 
+10
+cosineSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+9
+Similare pentru : Mountains
+11
+
+
+Africa
+Number of iterations: 
+50
+cosineSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+10
+Similare pentru : Mountains
+90
+
+
+Africa
+Number of iterations: 
+90
+cosineSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+15
+Similare pentru : Mountains
+165
+
+
+Africa
+Number of iterations: 
+5
+kumarHassebrookDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+15
+
+
+Africa
+Number of iterations: 
+10
+kumarHassebrookDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+30
+
+
+Africa
+Number of iterations: 
+50
+kumarHassebrookDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+24
+Similare pentru : Mountains
+126
+
+
+Africa
+Number of iterations: 
+90
+kumarHassebrookDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+64
+Similare pentru : Mountains
+206
+
+
+Africa
+Number of iterations: 
+5
+similarityJaccard
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+15
+
+
+Africa
+Number of iterations: 
+10
+similarityJaccard
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+30
+
+
+Africa
+Number of iterations: 
+50
+similarityJaccard
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+24
+Similare pentru : Mountains
+126
+
+
+Africa
+Number of iterations: 
+90
+similarityJaccard
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+64
+Similare pentru : Mountains
+206
+
+
+Africa
+Number of iterations: 
+5
+distanceJaccard
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+5
+Similare pentru : Mountains
+5
+
+
+Africa
+Number of iterations: 
+10
+distanceJaccard
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+10
+Similare pentru : Mountains
+10
+
+
+Africa
+Number of iterations: 
+50
+distanceJaccard
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+50
+Similare pentru : Mountains
+50
+
+
+Africa
+Number of iterations: 
+90
+distanceJaccard
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+109
+Similare pentru : Mountains
+71
+
+
+Africa
+Number of iterations: 
+5
+similarityDice
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+15
+
+
+Africa
+Number of iterations: 
+10
+similarityDice
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+30
+
+
+Africa
+Number of iterations: 
+50
+similarityDice
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+27
+Similare pentru : Mountains
+123
+
+
+Africa
+Number of iterations: 
+90
+similarityDice
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+69
+Similare pentru : Mountains
+201
+
+
+Africa
+Number of iterations: 
+5
+distanceDice
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+1
+Similare pentru : Mountains
+10
+
+
+Africa
+Number of iterations: 
+10
+distanceDice
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+3
+Similare pentru : Mountains
+18
+
+
+Africa
+Number of iterations: 
+50
+distanceDice
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+43
+Similare pentru : Mountains
+58
+
+
+Africa
+Number of iterations: 
+90
+distanceDice
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+101
+Similare pentru : Mountains
+80
+
+
+Africa
+Number of iterations: 
+5
+similarityFidelity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+15
+
+
+Africa
+Number of iterations: 
+10
+similarityFidelity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+30
+
+
+Africa
+Number of iterations: 
+50
+similarityFidelity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+35
+Similare pentru : Mountains
+115
+
+
+Africa
+Number of iterations: 
+90
+similarityFidelity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+76
+Similare pentru : Mountains
+194
+
+
+Africa
+Number of iterations: 
+5
+distanceBhattacharyya
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+1
+Similare pentru : Mountains
+9
+
+
+Africa
+Number of iterations: 
+10
+distanceBhattacharyya
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+6
+Similare pentru : Mountains
+14
+
+
+Africa
+Number of iterations: 
+50
+distanceBhattacharyya
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+46
+Similare pentru : Mountains
+54
+
+
+Africa
+Number of iterations: 
+90
+distanceBhattacharyya
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+95
+Similare pentru : Mountains
+85
+
+
+Africa
+Number of iterations: 
+5
+distanceHellinger
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+1
+Similare pentru : Mountains
+9
+
+
+Africa
+Number of iterations: 
+10
+distanceHellinger
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+6
+Similare pentru : Mountains
+14
+
+
+Africa
+Number of iterations: 
+50
+distanceHellinger
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+46
+Similare pentru : Mountains
+54
+
+
+Africa
+Number of iterations: 
+90
+distanceHellinger
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+95
+Similare pentru : Mountains
+85
+
+
+Africa
+Number of iterations: 
+5
+distanceMatusita
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+1
+Similare pentru : Mountains
+9
+
+
+Africa
+Number of iterations: 
+10
+distanceMatusita
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+6
+Similare pentru : Mountains
+14
+
+
+Africa
+Number of iterations: 
+50
+distanceMatusita
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+46
+Similare pentru : Mountains
+54
+
+
+Africa
+Number of iterations: 
+90
+distanceMatusita
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+95
+Similare pentru : Mountains
+85
+
+
+Africa
+Number of iterations: 
+5
+distanceSquaredChord
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+1
+Similare pentru : Mountains
+9
+
+
+Africa
+Number of iterations: 
+10
+distanceSquaredChord
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+6
+Similare pentru : Mountains
+14
+
+
+Africa
+Number of iterations: 
+50
+distanceSquaredChord
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+46
+Similare pentru : Mountains
+54
+
+
+Africa
+Number of iterations: 
+90
+distanceSquaredChord
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+95
+Similare pentru : Mountains
+85
+
+
+Africa
+Number of iterations: 
+5
+similaritySquaredChord
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+15
+
+
+Africa
+Number of iterations: 
+10
+similaritySquaredChord
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+30
+
+
+Africa
+Number of iterations: 
+50
+similaritySquaredChord
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+35
+Similare pentru : Mountains
+115
+
+
+Africa
+Number of iterations: 
+90
+similaritySquaredChord
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+76
+Similare pentru : Mountains
+194
+
+
+Africa
+Number of iterations: 
+5
+distanceSquaredEuclidian
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+1
+Similare pentru : Mountains
+9
+
+
+Africa
+Number of iterations: 
+10
+distanceSquaredEuclidian
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+5
+Similare pentru : Mountains
+15
+
+
+Africa
+Number of iterations: 
+50
+distanceSquaredEuclidian
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+45
+Similare pentru : Mountains
+55
+
+
+Africa
+Number of iterations: 
+90
+distanceSquaredEuclidian
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+107
+Similare pentru : Mountains
+73
+
+
+Africa
+Number of iterations: 
+5
+distancePearson
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+4
+Similare pentru : Mountains
+11
+
+
+Africa
+Number of iterations: 
+10
+distancePearson
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+9
+Similare pentru : Mountains
+21
+
+
+Africa
+Number of iterations: 
+50
+distancePearson
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+10
+Similare pentru : Mountains
+140
+
+
+Africa
+Number of iterations: 
+90
+distancePearson
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+16
+Similare pentru : Mountains
+235
+
+
+Africa
+Number of iterations: 
+5
+distanceNeyman
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+4
+Similare pentru : Mountains
+11
+
+
+Africa
+Number of iterations: 
+10
+distanceNeyman
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+8
+Similare pentru : Mountains
+22
+
+
+Africa
+Number of iterations: 
+50
+distanceNeyman
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+8
+Similare pentru : Mountains
+142
+
+
+Africa
+Number of iterations: 
+90
+distanceNeyman
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+8
+Similare pentru : Mountains
+262
+
+
+Africa
+Number of iterations: 
+5
+distanceSquared
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+4
+Similare pentru : Mountains
+11
+
+
+Africa
+Number of iterations: 
+10
+distanceSquared
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+9
+Similare pentru : Mountains
+21
+
+
+Africa
+Number of iterations: 
+50
+distanceSquared
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+9
+Similare pentru : Mountains
+141
+
+
+Africa
+Number of iterations: 
+90
+distanceSquared
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+9
+Similare pentru : Mountains
+261
+
+
+Africa
+Number of iterations: 
+5
+distanceProbabilisticSymmetric
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+4
+Similare pentru : Mountains
+11
+
+
+Africa
+Number of iterations: 
+10
+distanceProbabilisticSymmetric
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+9
+Similare pentru : Mountains
+21
+
+
+Africa
+Number of iterations: 
+50
+distanceProbabilisticSymmetric
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+9
+Similare pentru : Mountains
+141
+
+
+Africa
+Number of iterations: 
+90
+distanceProbabilisticSymmetric
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+9
+Similare pentru : Mountains
+261
+
+
+Africa
+Number of iterations: 
+5
+distanceDivergence
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+4
+Similare pentru : Mountains
+11
+
+
+Africa
+Number of iterations: 
+10
+distanceDivergence
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+9
+Similare pentru : Mountains
+21
+
+
+Africa
+Number of iterations: 
+50
+distanceDivergence
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+9
+Similare pentru : Mountains
+141
+
+
+Africa
+Number of iterations: 
+90
+distanceDivergence
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+9
+Similare pentru : Mountains
+225
+
+
+Africa
+Number of iterations: 
+5
+distanceClark
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+5
+Similare pentru : Mountains
+6
+
+
+Africa
+Number of iterations: 
+10
+distanceClark
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+9
+Similare pentru : Mountains
+12
+
+
+Africa
+Number of iterations: 
+50
+distanceClark
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+48
+Similare pentru : Mountains
+53
+
+
+Africa
+Number of iterations: 
+90
+distanceClark
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+89
+Similare pentru : Mountains
+92
+
+
+Africa
+Number of iterations: 
+5
+distanceAdditiceSymmetric
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+1
+Similare pentru : Mountains
+11
+
+
+Africa
+Number of iterations: 
+10
+distanceAdditiceSymmetric
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+6
+Similare pentru : Mountains
+16
+
+
+Africa
+Number of iterations: 
+50
+distanceAdditiceSymmetric
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+46
+Similare pentru : Mountains
+56
+
+
+Africa
+Number of iterations: 
+90
+distanceAdditiceSymmetric
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+96
+Similare pentru : Mountains
+86
+
+
+Africa
+Number of iterations: 
+5
+distanceKullbackLeibler
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+10
+
+
+Africa
+Number of iterations: 
+10
+distanceKullbackLeibler
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+20
+
+
+Africa
+Number of iterations: 
+50
+distanceKullbackLeibler
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+38
+Similare pentru : Mountains
+62
+
+
+Africa
+Number of iterations: 
+90
+distanceKullbackLeibler
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+78
+Similare pentru : Mountains
+102
+
+
+Africa
+Number of iterations: 
+5
+distanceJeffreys
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+1
+Similare pentru : Mountains
+9
+
+
+Africa
+Number of iterations: 
+10
+distanceJeffreys
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+6
+Similare pentru : Mountains
+14
+
+
+Africa
+Number of iterations: 
+50
+distanceJeffreys
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+46
+Similare pentru : Mountains
+54
+
+
+Africa
+Number of iterations: 
+90
+distanceJeffreys
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+95
+Similare pentru : Mountains
+85
+
+
+Africa
+Number of iterations: 
+5
+distanceKDivergence
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+2
+Similare pentru : Mountains
+8
+
+
+Africa
+Number of iterations: 
+10
+distanceKDivergence
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+6
+Similare pentru : Mountains
+14
+
+
+Africa
+Number of iterations: 
+50
+distanceKDivergence
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+46
+Similare pentru : Mountains
+54
+
+
+Africa
+Number of iterations: 
+90
+distanceKDivergence
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+98
+Similare pentru : Mountains
+82
+
+
+Africa
+Number of iterations: 
+5
+distanceTopsoe
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+1
+Similare pentru : Mountains
+9
+
+
+Africa
+Number of iterations: 
+10
+distanceTopsoe
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+6
+Similare pentru : Mountains
+14
+
+
+Africa
+Number of iterations: 
+50
+distanceTopsoe
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+46
+Similare pentru : Mountains
+54
+
+
+Africa
+Number of iterations: 
+90
+distanceTopsoe
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+93
+Similare pentru : Mountains
+87
+
+
+Africa
+Number of iterations: 
+5
+distanceJensenShannon
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+15
+
+
+Africa
+Number of iterations: 
+10
+distanceJensenShannon
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+30
+
+
+Africa
+Number of iterations: 
+50
+distanceJensenShannon
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+26
+Similare pentru : Mountains
+124
+
+
+Africa
+Number of iterations: 
+90
+distanceJensenShannon
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+66
+Similare pentru : Mountains
+204
+
+
+Africa
+Number of iterations: 
+5
+distanceJensenDifference
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+1
+Similare pentru : Mountains
+9
+
+
+Africa
+Number of iterations: 
+10
+distanceJensenDifference
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+6
+Similare pentru : Mountains
+14
+
+
+Africa
+Number of iterations: 
+50
+distanceJensenDifference
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+46
+Similare pentru : Mountains
+54
+
+
+Africa
+Number of iterations: 
+90
+distanceJensenDifference
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+94
+Similare pentru : Mountains
+86
+
+
+Africa
+Number of iterations: 
+5
+distanceKumarJohnson
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+1
+Similare pentru : Mountains
+10
+
+
+Africa
+Number of iterations: 
+10
+distanceKumarJohnson
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+3
+Similare pentru : Mountains
+18
+
+
+Africa
+Number of iterations: 
+50
+distanceKumarJohnson
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+43
+Similare pentru : Mountains
+58
+
+
+Africa
+Number of iterations: 
+90
+distanceKumarJohnson
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+87
+Similare pentru : Mountains
+94
+
+
+Africa
+Number of iterations: 
+5
+distanceAvg
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+1
+Similare pentru : Mountains
+9
+
+
+Africa
+Number of iterations: 
+10
+distanceAvg
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+6
+Similare pentru : Mountains
+14
+
+
+Africa
+Number of iterations: 
+50
+distanceAvg
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+46
+Similare pentru : Mountains
+54
+
+
+Africa
+Number of iterations: 
+90
+distanceAvg
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+90
+Similare pentru : Mountains
+90
+
+
+Africa
+Number of iterations: 
+5
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+1
+Similare pentru : Mountains
+9
+
+
+Africa
+Number of iterations: 
+10
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+5
+Similare pentru : Mountains
+15
+
+
+Africa
+Number of iterations: 
+50
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+45
+Similare pentru : Mountains
+55
+
+
+Africa
+Number of iterations: 
+90
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+107
+Similare pentru : Mountains
+73
+
+
+Africa
+Number of iterations: 
+5
+cityBlockL1
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+15
+
+
+Africa
+Number of iterations: 
+10
+cityBlockL1
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+30
+
+
+Africa
+Number of iterations: 
+50
+cityBlockL1
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+150
+
+
+Africa
+Number of iterations: 
+90
+cityBlockL1
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+270
+
+
+Africa
+Number of iterations: 
+5
+minkowskiLp
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+15
+
+
+Africa
+Number of iterations: 
+10
+minkowskiLp
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+30
+
+
+Africa
+Number of iterations: 
+50
+minkowskiLp
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+150
+
+
+Africa
+Number of iterations: 
+90
+minkowskiLp
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+7
+Similare pentru : Mountains
+263
+
+
+Africa
+Number of iterations: 
+5
+cebyshevLinf
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+10
+
+
+Africa
+Number of iterations: 
+10
+cebyshevLinf
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+20
+
+
+Africa
+Number of iterations: 
+50
+cebyshevLinf
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+31
+Similare pentru : Mountains
+69
+
+
+Africa
+Number of iterations: 
+90
+cebyshevLinf
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+96
+Similare pentru : Mountains
+84
+
+
+Africa
+Number of iterations: 
+5
+sorensen
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+1
+Similare pentru : Mountains
+9
+
+
+Africa
+Number of iterations: 
+10
+sorensen
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+6
+Similare pentru : Mountains
+14
+
+
+Africa
+Number of iterations: 
+50
+sorensen
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+46
+Similare pentru : Mountains
+54
+
+
+Africa
+Number of iterations: 
+90
+sorensen
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+90
+Similare pentru : Mountains
+90
+
+
+Africa
+Number of iterations: 
+5
+gower
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+1
+Similare pentru : Mountains
+9
+
+
+Africa
+Number of iterations: 
+10
+gower
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+6
+Similare pentru : Mountains
+14
+
+
+Africa
+Number of iterations: 
+50
+gower
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+46
+Similare pentru : Mountains
+54
+
+
+Africa
+Number of iterations: 
+90
+gower
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+90
+Similare pentru : Mountains
+90
+
+
+Africa
+Number of iterations: 
+5
+soergel
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+1
+Similare pentru : Mountains
+9
+
+
+Africa
+Number of iterations: 
+10
+soergel
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+6
+Similare pentru : Mountains
+14
+
+
+Africa
+Number of iterations: 
+50
+soergel
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+46
+Similare pentru : Mountains
+54
+
+
+Africa
+Number of iterations: 
+90
+soergel
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+90
+Similare pentru : Mountains
+90
+
+
+Africa
+Number of iterations: 
+5
+kulczynskid
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+1
+Similare pentru : Mountains
+9
+
+
+Africa
+Number of iterations: 
+10
+kulczynskid
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+6
+Similare pentru : Mountains
+14
+
+
+Africa
+Number of iterations: 
+50
+kulczynskid
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+46
+Similare pentru : Mountains
+54
+
+
+Africa
+Number of iterations: 
+90
+kulczynskid
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+90
+Similare pentru : Mountains
+90
+
+
+Africa
+Number of iterations: 
+5
+canberra
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+4
+Similare pentru : Mountains
+11
+
+
+Africa
+Number of iterations: 
+10
+canberra
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+9
+Similare pentru : Mountains
+21
+
+
+Africa
+Number of iterations: 
+50
+canberra
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+49
+Similare pentru : Mountains
+101
+
+
+Africa
+Number of iterations: 
+90
+canberra
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+95
+Similare pentru : Mountains
+175
+
+
+Africa
+Number of iterations: 
+5
+lorentzian
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+5
+Similare pentru : Mountains
+7
+
+
+Africa
+Number of iterations: 
+10
+lorentzian
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+9
+Similare pentru : Mountains
+18
+
+
+Africa
+Number of iterations: 
+50
+lorentzian
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+48
+Similare pentru : Mountains
+67
+
+
+Africa
+Number of iterations: 
+90
+lorentzian
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+88
+Similare pentru : Mountains
+107
+
+
+Africa
+Number of iterations: 
+5
+intersectionDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+1
+Similare pentru : Mountains
+9
+
+
+Africa
+Number of iterations: 
+10
+intersectionDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+6
+Similare pentru : Mountains
+14
+
+
+Africa
+Number of iterations: 
+50
+intersectionDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+46
+Similare pentru : Mountains
+54
+
+
+Africa
+Number of iterations: 
+90
+intersectionDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+90
+Similare pentru : Mountains
+90
+
+
+Africa
+Number of iterations: 
+5
+waveHedgesDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+5
+Similare pentru : Mountains
+7
+
+
+Africa
+Number of iterations: 
+10
+waveHedgesDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+9
+Similare pentru : Mountains
+16
+
+
+Africa
+Number of iterations: 
+50
+waveHedgesDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+48
+Similare pentru : Mountains
+57
+
+
+Africa
+Number of iterations: 
+90
+waveHedgesDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+88
+Similare pentru : Mountains
+97
+
+
+Africa
+Number of iterations: 
+5
+similarityCzekanowski
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+15
+
+
+Africa
+Number of iterations: 
+10
+similarityCzekanowski
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+3
+Similare pentru : Mountains
+27
+
+
+Africa
+Number of iterations: 
+50
+similarityCzekanowski
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+42
+Similare pentru : Mountains
+108
+
+
+Africa
+Number of iterations: 
+90
+similarityCzekanowski
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+84
+Similare pentru : Mountains
+186
+
+
+Africa
+Number of iterations: 
+5
+distanceCzekanowski
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+1
+Similare pentru : Mountains
+9
+
+
+Africa
+Number of iterations: 
+10
+distanceCzekanowski
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+6
+Similare pentru : Mountains
+14
+
+
+Africa
+Number of iterations: 
+50
+distanceCzekanowski
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+46
+Similare pentru : Mountains
+54
+
+
+Africa
+Number of iterations: 
+90
+distanceCzekanowski
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+90
+Similare pentru : Mountains
+90
+
+
+Africa
+Number of iterations: 
+5
+similarityMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+15
+
+
+Africa
+Number of iterations: 
+10
+similarityMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+3
+Similare pentru : Mountains
+27
+
+
+Africa
+Number of iterations: 
+50
+similarityMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+42
+Similare pentru : Mountains
+108
+
+
+Africa
+Number of iterations: 
+90
+similarityMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+84
+Similare pentru : Mountains
+186
+
+
+Africa
+Number of iterations: 
+5
+distanceMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+1
+Similare pentru : Mountains
+9
+
+
+Africa
+Number of iterations: 
+10
+distanceMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+6
+Similare pentru : Mountains
+14
+
+
+Africa
+Number of iterations: 
+50
+distanceMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+46
+Similare pentru : Mountains
+54
+
+
+Africa
+Number of iterations: 
+90
+distanceMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+90
+Similare pentru : Mountains
+90
+
+
+Africa
+Number of iterations: 
+5
+similarityKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+15
+
+
+Africa
+Number of iterations: 
+10
+similarityKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+3
+Similare pentru : Mountains
+27
+
+
+Africa
+Number of iterations: 
+50
+similarityKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+42
+Similare pentru : Mountains
+108
+
+
+Africa
+Number of iterations: 
+90
+similarityKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+84
+Similare pentru : Mountains
+186
+
+
+Africa
+Number of iterations: 
+5
+distanceKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+1
+Similare pentru : Mountains
+9
+
+
+Africa
+Number of iterations: 
+10
+distanceKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+6
+Similare pentru : Mountains
+14
+
+
+Africa
+Number of iterations: 
+50
+distanceKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+46
+Similare pentru : Mountains
+54
+
+
+Africa
+Number of iterations: 
+90
+distanceKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+90
+Similare pentru : Mountains
+90
+
+
+Africa
+Number of iterations: 
+5
+ruzicka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+15
+
+
+Africa
+Number of iterations: 
+10
+ruzicka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+3
+Similare pentru : Mountains
+27
+
+
+Africa
+Number of iterations: 
+50
+ruzicka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+42
+Similare pentru : Mountains
+108
+
+
+Africa
+Number of iterations: 
+90
+ruzicka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+84
+Similare pentru : Mountains
+186
+
+
+Africa
+Number of iterations: 
+5
+tanimoto
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+1
+Similare pentru : Mountains
+9
+
+
+Africa
+Number of iterations: 
+10
+tanimoto
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+6
+Similare pentru : Mountains
+14
+
+
+Africa
+Number of iterations: 
+50
+tanimoto
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+46
+Similare pentru : Mountains
+54
+
+
+Africa
+Number of iterations: 
+90
+tanimoto
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+90
+Similare pentru : Mountains
+90
+
+
+Africa
+Number of iterations: 
+5
+innerProductSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+15
+
+
+Africa
+Number of iterations: 
+10
+innerProductSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+30
+
+
+Africa
+Number of iterations: 
+50
+innerProductSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+31
+Similare pentru : Mountains
+119
+
+
+Africa
+Number of iterations: 
+90
+innerProductSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+92
+Similare pentru : Mountains
+165
+
+
+Africa
+Number of iterations: 
+5
+harmonicMeanSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+15
+
+
+Africa
+Number of iterations: 
+10
+harmonicMeanSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+30
+
+
+Africa
+Number of iterations: 
+50
+harmonicMeanSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+29
+Similare pentru : Mountains
+121
+
+
+Africa
+Number of iterations: 
+90
+harmonicMeanSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+71
+Similare pentru : Mountains
+199
+
+
+Africa
+Number of iterations: 
+5
+cosineSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+4
+Similare pentru : Mountains
+6
+
+
+Africa
+Number of iterations: 
+10
+cosineSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+9
+Similare pentru : Mountains
+11
+
+
+Africa
+Number of iterations: 
+50
+cosineSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+10
+Similare pentru : Mountains
+90
+
+
+Africa
+Number of iterations: 
+90
+cosineSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+15
+Similare pentru : Mountains
+165
+
+
+Africa
+Number of iterations: 
+5
+kumarHassebrookDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+15
+
+
+Africa
+Number of iterations: 
+10
+kumarHassebrookDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+30
+
+
+Africa
+Number of iterations: 
+50
+kumarHassebrookDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+24
+Similare pentru : Mountains
+126
+
+
+Africa
+Number of iterations: 
+90
+kumarHassebrookDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+64
+Similare pentru : Mountains
+206
+
+
+Africa
+Number of iterations: 
+5
+similarityJaccard
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+15
+
+
+Africa
+Number of iterations: 
+10
+similarityJaccard
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+30
+
+
+Africa
+Number of iterations: 
+50
+similarityJaccard
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+24
+Similare pentru : Mountains
+126
+
+
+Africa
+Number of iterations: 
+90
+similarityJaccard
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+64
+Similare pentru : Mountains
+206
+
+
+Africa
+Number of iterations: 
+5
+distanceJaccard
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+5
+Similare pentru : Mountains
+5
+
+
+Africa
+Number of iterations: 
+10
+distanceJaccard
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+10
+Similare pentru : Mountains
+10
+
+
+Africa
+Number of iterations: 
+50
+distanceJaccard
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+50
+Similare pentru : Mountains
+50
+
+
+Africa
+Number of iterations: 
+90
+distanceJaccard
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+109
+Similare pentru : Mountains
+71
+
+
+Africa
+Number of iterations: 
+5
+similarityDice
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+15
+
+
+Africa
+Number of iterations: 
+10
+similarityDice
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+30
+
+
+Africa
+Number of iterations: 
+50
+similarityDice
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+27
+Similare pentru : Mountains
+123
+
+
+Africa
+Number of iterations: 
+90
+similarityDice
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+69
+Similare pentru : Mountains
+201
+
+
+Africa
+Number of iterations: 
+5
+distanceDice
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+1
+Similare pentru : Mountains
+10
+
+
+Africa
+Number of iterations: 
+10
+distanceDice
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+3
+Similare pentru : Mountains
+18
+
+
+Africa
+Number of iterations: 
+50
+distanceDice
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+43
+Similare pentru : Mountains
+58
+
+
+Africa
+Number of iterations: 
+90
+distanceDice
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+101
+Similare pentru : Mountains
+80
+
+
+Africa
+Number of iterations: 
+5
+similarityFidelity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+15
+
+
+Africa
+Number of iterations: 
+10
+similarityFidelity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+30
+
+
+Africa
+Number of iterations: 
+50
+similarityFidelity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+35
+Similare pentru : Mountains
+115
+
+
+Africa
+Number of iterations: 
+90
+similarityFidelity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+76
+Similare pentru : Mountains
+194
+
+
+Africa
+Number of iterations: 
+5
+distanceBhattacharyya
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+1
+Similare pentru : Mountains
+9
+
+
+Africa
+Number of iterations: 
+10
+distanceBhattacharyya
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+6
+Similare pentru : Mountains
+14
+
+
+Africa
+Number of iterations: 
+50
+distanceBhattacharyya
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+46
+Similare pentru : Mountains
+54
+
+
+Africa
+Number of iterations: 
+90
+distanceBhattacharyya
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+95
+Similare pentru : Mountains
+85
+
+
+Africa
+Number of iterations: 
+5
+distanceHellinger
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+1
+Similare pentru : Mountains
+9
+
+
+Africa
+Number of iterations: 
+10
+distanceHellinger
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+6
+Similare pentru : Mountains
+14
+
+
+Africa
+Number of iterations: 
+50
+distanceHellinger
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+46
+Similare pentru : Mountains
+54
+
+
+Africa
+Number of iterations: 
+90
+distanceHellinger
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+95
+Similare pentru : Mountains
+85
+
+
+Africa
+Number of iterations: 
+5
+distanceMatusita
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+1
+Similare pentru : Mountains
+9
+
+
+Africa
+Number of iterations: 
+10
+distanceMatusita
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+6
+Similare pentru : Mountains
+14
+
+
+Africa
+Number of iterations: 
+50
+distanceMatusita
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+46
+Similare pentru : Mountains
+54
+
+
+Africa
+Number of iterations: 
+90
+distanceMatusita
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+95
+Similare pentru : Mountains
+85
+
+
+Africa
+Number of iterations: 
+5
+distanceSquaredChord
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+1
+Similare pentru : Mountains
+9
+
+
+Africa
+Number of iterations: 
+10
+distanceSquaredChord
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+6
+Similare pentru : Mountains
+14
+
+
+Africa
+Number of iterations: 
+50
+distanceSquaredChord
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+46
+Similare pentru : Mountains
+54
+
+
+Africa
+Number of iterations: 
+90
+distanceSquaredChord
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+95
+Similare pentru : Mountains
+85
+
+
+Africa
+Number of iterations: 
+5
+similaritySquaredChord
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+15
+
+
+Africa
+Number of iterations: 
+10
+similaritySquaredChord
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+30
+
+
+Africa
+Number of iterations: 
+50
+similaritySquaredChord
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+35
+Similare pentru : Mountains
+115
+
+
+Africa
+Number of iterations: 
+90
+similaritySquaredChord
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+76
+Similare pentru : Mountains
+194
+
+
+Africa
+Number of iterations: 
+5
+distanceSquaredEuclidian
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+1
+Similare pentru : Mountains
+9
+
+
+Africa
+Number of iterations: 
+10
+distanceSquaredEuclidian
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+5
+Similare pentru : Mountains
+15
+
+
+Africa
+Number of iterations: 
+50
+distanceSquaredEuclidian
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+45
+Similare pentru : Mountains
+55
+
+
+Africa
+Number of iterations: 
+90
+distanceSquaredEuclidian
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+107
+Similare pentru : Mountains
+73
+
+
+Africa
+Number of iterations: 
+5
+distancePearson
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+4
+Similare pentru : Mountains
+11
+
+
+Africa
+Number of iterations: 
+10
+distancePearson
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+9
+Similare pentru : Mountains
+21
+
+
+Africa
+Number of iterations: 
+50
+distancePearson
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+10
+Similare pentru : Mountains
+140
+
+
+Africa
+Number of iterations: 
+90
+distancePearson
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+16
+Similare pentru : Mountains
+235
+
+
+Africa
+Number of iterations: 
+5
+distanceNeyman
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+4
+Similare pentru : Mountains
+11
+
+
+Africa
+Number of iterations: 
+10
+distanceNeyman
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+8
+Similare pentru : Mountains
+22
+
+
+Africa
+Number of iterations: 
+50
+distanceNeyman
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+8
+Similare pentru : Mountains
+142
+
+
+Africa
+Number of iterations: 
+90
+distanceNeyman
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+8
+Similare pentru : Mountains
+262
+
+
+Africa
+Number of iterations: 
+5
+distanceSquared
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+4
+Similare pentru : Mountains
+11
+
+
+Africa
+Number of iterations: 
+10
+distanceSquared
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+9
+Similare pentru : Mountains
+21
+
+
+Africa
+Number of iterations: 
+50
+distanceSquared
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+9
+Similare pentru : Mountains
+141
+
+
+Africa
+Number of iterations: 
+90
+distanceSquared
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+9
+Similare pentru : Mountains
+261
+
+
+Africa
+Number of iterations: 
+5
+distanceProbabilisticSymmetric
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+4
+Similare pentru : Mountains
+11
+
+
+Africa
+Number of iterations: 
+10
+distanceProbabilisticSymmetric
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+9
+Similare pentru : Mountains
+21
+
+
+Africa
+Number of iterations: 
+50
+distanceProbabilisticSymmetric
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+9
+Similare pentru : Mountains
+141
+
+
+Africa
+Number of iterations: 
+90
+distanceProbabilisticSymmetric
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+9
+Similare pentru : Mountains
+261
+
+
+Africa
+Number of iterations: 
+5
+distanceDivergence
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+4
+Similare pentru : Mountains
+11
+
+
+Africa
+Number of iterations: 
+10
+distanceDivergence
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+9
+Similare pentru : Mountains
+21
+
+
+Africa
+Number of iterations: 
+50
+distanceDivergence
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+9
+Similare pentru : Mountains
+141
+
+
+Africa
+Number of iterations: 
+90
+distanceDivergence
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+9
+Similare pentru : Mountains
+225
+
+
+Africa
+Number of iterations: 
+5
+distanceClark
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+5
+Similare pentru : Mountains
+6
+
+
+Africa
+Number of iterations: 
+10
+distanceClark
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+9
+Similare pentru : Mountains
+12
+
+
+Africa
+Number of iterations: 
+50
+distanceClark
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+48
+Similare pentru : Mountains
+53
+
+
+Africa
+Number of iterations: 
+90
+distanceClark
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+89
+Similare pentru : Mountains
+92
+
+
+Africa
+Number of iterations: 
+5
+distanceAdditiceSymmetric
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+1
+Similare pentru : Mountains
+11
+
+
+Africa
+Number of iterations: 
+10
+distanceAdditiceSymmetric
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+6
+Similare pentru : Mountains
+16
+
+
+Africa
+Number of iterations: 
+50
+distanceAdditiceSymmetric
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+46
+Similare pentru : Mountains
+56
+
+
+Africa
+Number of iterations: 
+90
+distanceAdditiceSymmetric
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+96
+Similare pentru : Mountains
+86
+
+
+Africa
+Number of iterations: 
+5
+distanceKullbackLeibler
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+10
+
+
+Africa
+Number of iterations: 
+10
+distanceKullbackLeibler
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+20
+
+
+Africa
+Number of iterations: 
+50
+distanceKullbackLeibler
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+38
+Similare pentru : Mountains
+62
+
+
+Africa
+Number of iterations: 
+90
+distanceKullbackLeibler
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+78
+Similare pentru : Mountains
+102
+
+
+Africa
+Number of iterations: 
+5
+distanceJeffreys
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+1
+Similare pentru : Mountains
+9
+
+
+Africa
+Number of iterations: 
+10
+distanceJeffreys
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+6
+Similare pentru : Mountains
+14
+
+
+Africa
+Number of iterations: 
+50
+distanceJeffreys
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+46
+Similare pentru : Mountains
+54
+
+
+Africa
+Number of iterations: 
+90
+distanceJeffreys
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+95
+Similare pentru : Mountains
+85
+
+
+Africa
+Number of iterations: 
+5
+distanceKDivergence
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+2
+Similare pentru : Mountains
+8
+
+
+Africa
+Number of iterations: 
+10
+distanceKDivergence
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+6
+Similare pentru : Mountains
+14
+
+
+Africa
+Number of iterations: 
+50
+distanceKDivergence
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+46
+Similare pentru : Mountains
+54
+
+
+Africa
+Number of iterations: 
+90
+distanceKDivergence
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+98
+Similare pentru : Mountains
+82
+
+
+Africa
+Number of iterations: 
+5
+distanceTopsoe
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+1
+Similare pentru : Mountains
+9
+
+
+Africa
+Number of iterations: 
+10
+distanceTopsoe
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+6
+Similare pentru : Mountains
+14
+
+
+Africa
+Number of iterations: 
+50
+distanceTopsoe
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+46
+Similare pentru : Mountains
+54
+
+
+Africa
+Number of iterations: 
+90
+distanceTopsoe
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+93
+Similare pentru : Mountains
+87
+
+
+Africa
+Number of iterations: 
+5
+distanceJensenShannon
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+15
+
+
+Africa
+Number of iterations: 
+10
+distanceJensenShannon
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+30
+
+
+Africa
+Number of iterations: 
+50
+distanceJensenShannon
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+26
+Similare pentru : Mountains
+124
+
+
+Africa
+Number of iterations: 
+90
+distanceJensenShannon
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+66
+Similare pentru : Mountains
+204
+
+
+Africa
+Number of iterations: 
+5
+distanceJensenDifference
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+1
+Similare pentru : Mountains
+9
+
+
+Africa
+Number of iterations: 
+10
+distanceJensenDifference
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+6
+Similare pentru : Mountains
+14
+
+
+Africa
+Number of iterations: 
+50
+distanceJensenDifference
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+46
+Similare pentru : Mountains
+54
+
+
+Africa
+Number of iterations: 
+90
+distanceJensenDifference
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+94
+Similare pentru : Mountains
+86
+
+
+Africa
+Number of iterations: 
+5
+distanceKumarJohnson
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+1
+Similare pentru : Mountains
+10
+
+
+Africa
+Number of iterations: 
+10
+distanceKumarJohnson
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+3
+Similare pentru : Mountains
+18
+
+
+Africa
+Number of iterations: 
+50
+distanceKumarJohnson
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+43
+Similare pentru : Mountains
+58
+
+
+Africa
+Number of iterations: 
+90
+distanceKumarJohnson
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+87
+Similare pentru : Mountains
+94
+
+
+Africa
+Number of iterations: 
+5
+distanceAvg
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+1
+Similare pentru : Mountains
+9
+
+
+Africa
+Number of iterations: 
+10
+distanceAvg
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+6
+Similare pentru : Mountains
+14
+
+
+Africa
+Number of iterations: 
+50
+distanceAvg
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+46
+Similare pentru : Mountains
+54
+
+
+Africa
+Number of iterations: 
+90
+distanceAvg
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+90
+Similare pentru : Mountains
+90
+
+
+Africa
+Number of iterations: 
+5
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+4
+Similare pentru : Mountains
+6
+
+
+Africa
+Number of iterations: 
+10
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+9
+Similare pentru : Mountains
+11
+
+
+Africa
+Number of iterations: 
+50
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+49
+Similare pentru : Mountains
+51
+
+
+Africa
+Number of iterations: 
+90
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+98
+Similare pentru : Mountains
+82
+
+
+Beach
+Number of iterations: 
+5
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+15
+
+
+Beach
+Number of iterations: 
+10
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+30
+
+
+Beach
+Number of iterations: 
+50
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+150
+
+
+Beach
+Number of iterations: 
+90
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+260
+
+
+Beach
+Number of iterations: 
+5
+cityBlockL1
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+15
+
+
+Beach
+Number of iterations: 
+10
+cityBlockL1
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+30
+
+
+Beach
+Number of iterations: 
+50
+cityBlockL1
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+150
+
+
+Beach
+Number of iterations: 
+90
+cityBlockL1
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+270
+
+
+Beach
+Number of iterations: 
+5
+minkowskiLp
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+15
+
+
+Beach
+Number of iterations: 
+10
+minkowskiLp
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+30
+
+
+Beach
+Number of iterations: 
+50
+minkowskiLp
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+150
+
+
+Beach
+Number of iterations: 
+90
+minkowskiLp
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+3
+Similare pentru : Mountains
+267
+
+
+Beach
+Number of iterations: 
+5
+cebyshevLinf
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+15
+
+
+Beach
+Number of iterations: 
+10
+cebyshevLinf
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+30
+
+
+Beach
+Number of iterations: 
+50
+cebyshevLinf
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+150
+
+
+Beach
+Number of iterations: 
+90
+cebyshevLinf
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+12
+Similare pentru : Mountains
+246
+
+
+Beach
+Number of iterations: 
+5
+sorensen
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+15
+
+
+Beach
+Number of iterations: 
+10
+sorensen
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+30
+
+
+Beach
+Number of iterations: 
+50
+sorensen
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+150
+
+
+Beach
+Number of iterations: 
+90
+sorensen
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+270
+
+
+Beach
+Number of iterations: 
+5
+gower
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+15
+
+
+Beach
+Number of iterations: 
+10
+gower
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+30
+
+
+Beach
+Number of iterations: 
+50
+gower
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+150
+
+
+Beach
+Number of iterations: 
+90
+gower
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+270
+
+
+Beach
+Number of iterations: 
+5
+soergel
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+15
+
+
+Beach
+Number of iterations: 
+10
+soergel
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+30
+
+
+Beach
+Number of iterations: 
+50
+soergel
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+150
+
+
+Beach
+Number of iterations: 
+90
+soergel
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+270
+
+
+Beach
+Number of iterations: 
+5
+kulczynskid
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+15
+
+
+Beach
+Number of iterations: 
+10
+kulczynskid
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+30
+
+
+Beach
+Number of iterations: 
+50
+kulczynskid
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+150
+
+
+Beach
+Number of iterations: 
+90
+kulczynskid
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+270
+
+
+Beach
+Number of iterations: 
+5
+canberra
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+14
+
+
+Beach
+Number of iterations: 
+10
+canberra
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+29
+
+
+Beach
+Number of iterations: 
+50
+canberra
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+149
+
+
+Beach
+Number of iterations: 
+90
+canberra
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+1
+Similare pentru : Mountains
+268
+
+
+Beach
+Number of iterations: 
+5
+lorentzian
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+15
+
+
+Beach
+Number of iterations: 
+10
+lorentzian
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+30
+
+
+Beach
+Number of iterations: 
+50
+lorentzian
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+150
+
+
+Beach
+Number of iterations: 
+90
+lorentzian
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+270
+
+
+Beach
+Number of iterations: 
+5
+intersectionDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+15
+
+
+Beach
+Number of iterations: 
+10
+intersectionDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+30
+
+
+Beach
+Number of iterations: 
+50
+intersectionDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+150
+
+
+Beach
+Number of iterations: 
+90
+intersectionDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+270
+
+
+Beach
+Number of iterations: 
+5
+waveHedgesDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+15
+
+
+Beach
+Number of iterations: 
+10
+waveHedgesDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+30
+
+
+Beach
+Number of iterations: 
+50
+waveHedgesDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+150
+
+
+Beach
+Number of iterations: 
+90
+waveHedgesDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+269
+
+
+Beach
+Number of iterations: 
+5
+similarityCzekanowski
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+5
+Similare pentru : Mountains
+6
+
+
+Beach
+Number of iterations: 
+10
+similarityCzekanowski
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+14
+Similare pentru : Mountains
+7
+
+
+Beach
+Number of iterations: 
+50
+similarityCzekanowski
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+94
+Similare pentru : Mountains
+7
+
+
+Beach
+Number of iterations: 
+90
+similarityCzekanowski
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+174
+Similare pentru : Mountains
+7
+
+
+Beach
+Number of iterations: 
+5
+distanceCzekanowski
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+15
+
+
+Beach
+Number of iterations: 
+10
+distanceCzekanowski
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+30
+
+
+Beach
+Number of iterations: 
+50
+distanceCzekanowski
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+150
+
+
+Beach
+Number of iterations: 
+90
+distanceCzekanowski
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+270
+
+
+Beach
+Number of iterations: 
+5
+similarityMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+5
+Similare pentru : Mountains
+6
+
+
+Beach
+Number of iterations: 
+10
+similarityMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+14
+Similare pentru : Mountains
+7
+
+
+Beach
+Number of iterations: 
+50
+similarityMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+94
+Similare pentru : Mountains
+7
+
+
+Beach
+Number of iterations: 
+90
+similarityMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+174
+Similare pentru : Mountains
+7
+
+
+Beach
+Number of iterations: 
+5
+distanceMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+15
+
+
+Beach
+Number of iterations: 
+10
+distanceMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+30
+
+
+Beach
+Number of iterations: 
+50
+distanceMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+150
+
+
+Beach
+Number of iterations: 
+90
+distanceMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+270
+
+
+Beach
+Number of iterations: 
+5
+similarityKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+5
+Similare pentru : Mountains
+6
+
+
+Beach
+Number of iterations: 
+10
+similarityKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+14
+Similare pentru : Mountains
+7
+
+
+Beach
+Number of iterations: 
+50
+similarityKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+94
+Similare pentru : Mountains
+7
+
+
+Beach
+Number of iterations: 
+90
+similarityKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+174
+Similare pentru : Mountains
+7
+
+
+Beach
+Number of iterations: 
+5
+distanceKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+15
+
+
+Beach
+Number of iterations: 
+10
+distanceKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+30
+
+
+Beach
+Number of iterations: 
+50
+distanceKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+150
+
+
+Beach
+Number of iterations: 
+90
+distanceKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+270
+
+
+Beach
+Number of iterations: 
+5
+ruzicka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+5
+Similare pentru : Mountains
+6
+
+
+Beach
+Number of iterations: 
+10
+ruzicka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+14
+Similare pentru : Mountains
+7
+
+
+Beach
+Number of iterations: 
+50
+ruzicka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+94
+Similare pentru : Mountains
+7
+
+
+Beach
+Number of iterations: 
+90
+ruzicka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+174
+Similare pentru : Mountains
+7
+
+
+Beach
+Number of iterations: 
+5
+tanimoto
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+15
+
+
+Beach
+Number of iterations: 
+10
+tanimoto
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+30
+
+
+Beach
+Number of iterations: 
+50
+tanimoto
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+150
+
+
+Beach
+Number of iterations: 
+90
+tanimoto
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+270
+
+
+Beach
+Number of iterations: 
+5
+innerProductSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+9
+Similare pentru : Mountains
+4
+
+
+Beach
+Number of iterations: 
+10
+innerProductSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+19
+Similare pentru : Mountains
+4
+
+
+Beach
+Number of iterations: 
+50
+innerProductSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+99
+Similare pentru : Mountains
+4
+
+
+Beach
+Number of iterations: 
+90
+innerProductSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+179
+Similare pentru : Mountains
+4
+
+
+Beach
+Number of iterations: 
+5
+harmonicMeanSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+15
+
+
+Beach
+Number of iterations: 
+10
+harmonicMeanSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+30
+
+
+Beach
+Number of iterations: 
+50
+harmonicMeanSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+29
+Similare pentru : Mountains
+121
+
+
+Beach
+Number of iterations: 
+90
+harmonicMeanSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+76
+Similare pentru : Mountains
+194
+
+
+Beach
+Number of iterations: 
+5
+cosineSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+10
+
+
+Beach
+Number of iterations: 
+10
+cosineSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+3
+Similare pentru : Mountains
+17
+
+
+Beach
+Number of iterations: 
+50
+cosineSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+43
+Similare pentru : Mountains
+57
+
+
+Beach
+Number of iterations: 
+90
+cosineSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+83
+Similare pentru : Mountains
+97
+
+
+Beach
+Number of iterations: 
+5
+kumarHassebrookDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+4
+Similare pentru : Mountains
+11
+
+
+Beach
+Number of iterations: 
+10
+kumarHassebrookDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+12
+Similare pentru : Mountains
+18
+
+
+Beach
+Number of iterations: 
+50
+kumarHassebrookDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+92
+Similare pentru : Mountains
+27
+
+
+Beach
+Number of iterations: 
+90
+kumarHassebrookDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+172
+Similare pentru : Mountains
+27
+
+
+Beach
+Number of iterations: 
+5
+similarityJaccard
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+4
+Similare pentru : Mountains
+11
+
+
+Beach
+Number of iterations: 
+10
+similarityJaccard
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+12
+Similare pentru : Mountains
+18
+
+
+Beach
+Number of iterations: 
+50
+similarityJaccard
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+92
+Similare pentru : Mountains
+27
+
+
+Beach
+Number of iterations: 
+90
+similarityJaccard
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+172
+Similare pentru : Mountains
+27
+
+
+Beach
+Number of iterations: 
+5
+distanceJaccard
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+15
+
+
+Beach
+Number of iterations: 
+10
+distanceJaccard
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+30
+
+
+Beach
+Number of iterations: 
+50
+distanceJaccard
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+150
+
+
+Beach
+Number of iterations: 
+90
+distanceJaccard
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+259
+
+
+Beach
+Number of iterations: 
+5
+similarityDice
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+4
+Similare pentru : Mountains
+11
+
+
+Beach
+Number of iterations: 
+10
+similarityDice
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+12
+Similare pentru : Mountains
+18
+
+
+Beach
+Number of iterations: 
+50
+similarityDice
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+92
+Similare pentru : Mountains
+24
+
+
+Beach
+Number of iterations: 
+90
+similarityDice
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+172
+Similare pentru : Mountains
+24
+
+
+Beach
+Number of iterations: 
+5
+distanceDice
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+15
+
+
+Beach
+Number of iterations: 
+10
+distanceDice
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+30
+
+
+Beach
+Number of iterations: 
+50
+distanceDice
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+150
+
+
+Beach
+Number of iterations: 
+90
+distanceDice
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+262
+
+
+Beach
+Number of iterations: 
+5
+similarityFidelity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+5
+Similare pentru : Mountains
+10
+
+
+Beach
+Number of iterations: 
+10
+similarityFidelity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+15
+Similare pentru : Mountains
+11
+
+
+Beach
+Number of iterations: 
+50
+similarityFidelity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+95
+Similare pentru : Mountains
+11
+
+
+Beach
+Number of iterations: 
+90
+similarityFidelity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+175
+Similare pentru : Mountains
+11
+
+
+Beach
+Number of iterations: 
+5
+distanceBhattacharyya
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+15
+
+
+Beach
+Number of iterations: 
+10
+distanceBhattacharyya
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+30
+
+
+Beach
+Number of iterations: 
+50
+distanceBhattacharyya
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+150
+
+
+Beach
+Number of iterations: 
+90
+distanceBhattacharyya
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+270
+
+
+Beach
+Number of iterations: 
+5
+distanceHellinger
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+15
+
+
+Beach
+Number of iterations: 
+10
+distanceHellinger
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+30
+
+
+Beach
+Number of iterations: 
+50
+distanceHellinger
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+150
+
+
+Beach
+Number of iterations: 
+90
+distanceHellinger
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+270
+
+
+Beach
+Number of iterations: 
+5
+distanceMatusita
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+15
+
+
+Beach
+Number of iterations: 
+10
+distanceMatusita
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+30
+
+
+Beach
+Number of iterations: 
+50
+distanceMatusita
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+150
+
+
+Beach
+Number of iterations: 
+90
+distanceMatusita
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+270
+
+
+Beach
+Number of iterations: 
+5
+distanceSquaredChord
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+15
+
+
+Beach
+Number of iterations: 
+10
+distanceSquaredChord
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+30
+
+
+Beach
+Number of iterations: 
+50
+distanceSquaredChord
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+150
+
+
+Beach
+Number of iterations: 
+90
+distanceSquaredChord
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+270
+
+
+Beach
+Number of iterations: 
+5
+similaritySquaredChord
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+5
+Similare pentru : Mountains
+10
+
+
+Beach
+Number of iterations: 
+10
+similaritySquaredChord
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+15
+Similare pentru : Mountains
+11
+
+
+Beach
+Number of iterations: 
+50
+similaritySquaredChord
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+95
+Similare pentru : Mountains
+11
+
+
+Beach
+Number of iterations: 
+90
+similaritySquaredChord
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+175
+Similare pentru : Mountains
+11
+
+
+Beach
+Number of iterations: 
+5
+distanceSquaredEuclidian
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+15
+
+
+Beach
+Number of iterations: 
+10
+distanceSquaredEuclidian
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+30
+
+
+Beach
+Number of iterations: 
+50
+distanceSquaredEuclidian
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+150
+
+
+Beach
+Number of iterations: 
+90
+distanceSquaredEuclidian
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+260
+
+
+Beach
+Number of iterations: 
+5
+distancePearson
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+15
+
+
+Beach
+Number of iterations: 
+10
+distancePearson
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+30
+
+
+Beach
+Number of iterations: 
+50
+distancePearson
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+123
+
+
+Beach
+Number of iterations: 
+90
+distancePearson
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+236
+
+
+Beach
+Number of iterations: 
+5
+distanceNeyman
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+14
+
+
+Beach
+Number of iterations: 
+10
+distanceNeyman
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+28
+
+
+Beach
+Number of iterations: 
+50
+distanceNeyman
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+141
+
+
+Beach
+Number of iterations: 
+90
+distanceNeyman
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+261
+
+
+Beach
+Number of iterations: 
+5
+distanceSquared
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+13
+
+
+Beach
+Number of iterations: 
+10
+distanceSquared
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+27
+
+
+Beach
+Number of iterations: 
+50
+distanceSquared
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+127
+
+
+Beach
+Number of iterations: 
+90
+distanceSquared
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+247
+
+
+Beach
+Number of iterations: 
+5
+distanceProbabilisticSymmetric
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+13
+
+
+Beach
+Number of iterations: 
+10
+distanceProbabilisticSymmetric
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+27
+
+
+Beach
+Number of iterations: 
+50
+distanceProbabilisticSymmetric
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+127
+
+
+Beach
+Number of iterations: 
+90
+distanceProbabilisticSymmetric
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+247
+
+
+Buildings
+Number of iterations: 
+5
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Buildings
+0
+Similare pentru : Mountains
+14
+
+
+Buildings
+Number of iterations: 
+10
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Buildings
+0
+Similare pentru : Mountains
+28
+
+
+Buildings
+Number of iterations: 
+50
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Buildings
+0
+Similare pentru : Mountains
+130
+
+
+Buildings
+Number of iterations: 
+90
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Buildings
+18
+Similare pentru : Mountains
+192
+
+
+Africa
+Number of iterations: 
+5
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+1
+Similare pentru : Mountains
+9
+
+
+Africa
+Number of iterations: 
+10
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+5
+Similare pentru : Mountains
+15
+
+
+Africa
+Number of iterations: 
+50
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+45
+Similare pentru : Mountains
+55
+
+
+Africa
+Number of iterations: 
+90
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+107
+Similare pentru : Mountains
+73
+
+
+Dinosaurs
+Number of iterations: 
+5
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Dinosaurs
+0
+Similare pentru : Mountains
+15
+
+
+Dinosaurs
+Number of iterations: 
+10
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Dinosaurs
+0
+Similare pentru : Mountains
+30
+
+
+Dinosaurs
+Number of iterations: 
+50
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Dinosaurs
+0
+Similare pentru : Mountains
+150
+
+
+Dinosaurs
+Number of iterations: 
+90
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Dinosaurs
+0
+Similare pentru : Mountains
+270
+
+
+Africa
+Number of iterations: 
+5
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+4
+Similare pentru : Mountains
+6
+
+
+Africa
+Number of iterations: 
+10
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+9
+Similare pentru : Mountains
+11
+
+
+Africa
+Number of iterations: 
+50
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+49
+Similare pentru : Mountains
+51
+
+
+Africa
+Number of iterations: 
+90
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+98
+Similare pentru : Mountains
+82
+
+
+Africa
+Number of iterations: 
+5
+cityBlockL1
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+15
+
+
+Africa
+Number of iterations: 
+10
+cityBlockL1
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+30
+
+
+Africa
+Number of iterations: 
+50
+cityBlockL1
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+150
+
+
+Africa
+Number of iterations: 
+90
+cityBlockL1
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+270
+
+
+Africa
+Number of iterations: 
+5
+minkowskiLp
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+15
+
+
+Africa
+Number of iterations: 
+10
+minkowskiLp
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+30
+
+
+Africa
+Number of iterations: 
+50
+minkowskiLp
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+150
+
+
+Africa
+Number of iterations: 
+90
+minkowskiLp
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+6
+Similare pentru : Mountains
+254
+
+
+Africa
+Number of iterations: 
+5
+cebyshevLinf
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+3
+Similare pentru : Mountains
+7
+
+
+Africa
+Number of iterations: 
+10
+cebyshevLinf
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+8
+Similare pentru : Mountains
+12
+
+
+Africa
+Number of iterations: 
+50
+cebyshevLinf
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+57
+Similare pentru : Mountains
+43
+
+
+Africa
+Number of iterations: 
+90
+cebyshevLinf
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+127
+Similare pentru : Mountains
+53
+
+
+Africa
+Number of iterations: 
+5
+sorensen
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+4
+Similare pentru : Mountains
+6
+
+
+Africa
+Number of iterations: 
+10
+sorensen
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+9
+Similare pentru : Mountains
+11
+
+
+Africa
+Number of iterations: 
+50
+sorensen
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+49
+Similare pentru : Mountains
+51
+
+
+Africa
+Number of iterations: 
+90
+sorensen
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+89
+Similare pentru : Mountains
+91
+
+
+Africa
+Number of iterations: 
+5
+gower
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+4
+Similare pentru : Mountains
+6
+
+
+Africa
+Number of iterations: 
+10
+gower
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+9
+Similare pentru : Mountains
+11
+
+
+Africa
+Number of iterations: 
+50
+gower
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+49
+Similare pentru : Mountains
+51
+
+
+Africa
+Number of iterations: 
+90
+gower
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+89
+Similare pentru : Mountains
+91
+
+
+Africa
+Number of iterations: 
+5
+soergel
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+4
+Similare pentru : Mountains
+6
+
+
+Africa
+Number of iterations: 
+10
+soergel
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+9
+Similare pentru : Mountains
+11
+
+
+Africa
+Number of iterations: 
+50
+soergel
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+49
+Similare pentru : Mountains
+51
+
+
+Africa
+Number of iterations: 
+90
+soergel
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+89
+Similare pentru : Mountains
+91
+
+
+Africa
+Number of iterations: 
+5
+kulczynskid
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+4
+Similare pentru : Mountains
+6
+
+
+Africa
+Number of iterations: 
+10
+kulczynskid
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+9
+Similare pentru : Mountains
+11
+
+
+Africa
+Number of iterations: 
+50
+kulczynskid
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+49
+Similare pentru : Mountains
+51
+
+
+Africa
+Number of iterations: 
+90
+kulczynskid
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+89
+Similare pentru : Mountains
+91
+
+
+Africa
+Number of iterations: 
+5
+canberra
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+5
+Similare pentru : Mountains
+9
+
+
+Africa
+Number of iterations: 
+10
+canberra
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+10
+Similare pentru : Mountains
+19
+
+
+Africa
+Number of iterations: 
+50
+canberra
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+50
+Similare pentru : Mountains
+99
+
+
+Africa
+Number of iterations: 
+90
+canberra
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+120
+Similare pentru : Mountains
+149
+
+
+Africa
+Number of iterations: 
+5
+lorentzian
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+5
+Similare pentru : Mountains
+8
+
+
+Africa
+Number of iterations: 
+10
+lorentzian
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+10
+Similare pentru : Mountains
+13
+
+
+Africa
+Number of iterations: 
+50
+lorentzian
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+50
+Similare pentru : Mountains
+53
+
+
+Africa
+Number of iterations: 
+90
+lorentzian
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+90
+Similare pentru : Mountains
+93
+
+
+Africa
+Number of iterations: 
+5
+intersectionDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+4
+Similare pentru : Mountains
+6
+
+
+Africa
+Number of iterations: 
+10
+intersectionDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+9
+Similare pentru : Mountains
+11
+
+
+Africa
+Number of iterations: 
+50
+intersectionDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+49
+Similare pentru : Mountains
+51
+
+
+Africa
+Number of iterations: 
+90
+intersectionDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+89
+Similare pentru : Mountains
+91
+
+
+Africa
+Number of iterations: 
+5
+waveHedgesDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+5
+Similare pentru : Mountains
+5
+
+
+Africa
+Number of iterations: 
+10
+waveHedgesDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+10
+Similare pentru : Mountains
+10
+
+
+Africa
+Number of iterations: 
+50
+waveHedgesDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+50
+Similare pentru : Mountains
+50
+
+
+Africa
+Number of iterations: 
+90
+waveHedgesDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+90
+Similare pentru : Mountains
+90
+
+
+Africa
+Number of iterations: 
+5
+similarityCzekanowski
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+7
+Similare pentru : Mountains
+8
+
+
+Africa
+Number of iterations: 
+10
+similarityCzekanowski
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+10
+Similare pentru : Mountains
+20
+
+
+Africa
+Number of iterations: 
+50
+similarityCzekanowski
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+50
+Similare pentru : Mountains
+100
+
+
+Africa
+Number of iterations: 
+90
+similarityCzekanowski
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+90
+Similare pentru : Mountains
+180
+
+
+Africa
+Number of iterations: 
+5
+distanceCzekanowski
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+4
+Similare pentru : Mountains
+6
+
+
+Africa
+Number of iterations: 
+10
+distanceCzekanowski
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+9
+Similare pentru : Mountains
+11
+
+
+Africa
+Number of iterations: 
+50
+distanceCzekanowski
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+49
+Similare pentru : Mountains
+51
+
+
+Africa
+Number of iterations: 
+90
+distanceCzekanowski
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+89
+Similare pentru : Mountains
+91
+
+
+Africa
+Number of iterations: 
+5
+similarityMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+7
+Similare pentru : Mountains
+8
+
+
+Africa
+Number of iterations: 
+10
+similarityMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+10
+Similare pentru : Mountains
+20
+
+
+Africa
+Number of iterations: 
+50
+similarityMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+50
+Similare pentru : Mountains
+100
+
+
+Africa
+Number of iterations: 
+90
+similarityMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+90
+Similare pentru : Mountains
+180
+
+
+Africa
+Number of iterations: 
+5
+distanceMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+4
+Similare pentru : Mountains
+6
+
+
+Africa
+Number of iterations: 
+10
+distanceMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+9
+Similare pentru : Mountains
+11
+
+
+Africa
+Number of iterations: 
+50
+distanceMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+49
+Similare pentru : Mountains
+51
+
+
+Africa
+Number of iterations: 
+90
+distanceMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+89
+Similare pentru : Mountains
+91
+
+
+Africa
+Number of iterations: 
+5
+similarityKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+7
+Similare pentru : Mountains
+8
+
+
+Africa
+Number of iterations: 
+10
+similarityKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+10
+Similare pentru : Mountains
+20
+
+
+Africa
+Number of iterations: 
+50
+similarityKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+50
+Similare pentru : Mountains
+100
+
+
+Africa
+Number of iterations: 
+90
+similarityKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+90
+Similare pentru : Mountains
+180
+
+
+Africa
+Number of iterations: 
+5
+distanceKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+4
+Similare pentru : Mountains
+6
+
+
+Africa
+Number of iterations: 
+10
+distanceKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+9
+Similare pentru : Mountains
+11
+
+
+Africa
+Number of iterations: 
+50
+distanceKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+49
+Similare pentru : Mountains
+51
+
+
+Africa
+Number of iterations: 
+90
+distanceKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+89
+Similare pentru : Mountains
+91
+
+
+Africa
+Number of iterations: 
+5
+ruzicka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+7
+Similare pentru : Mountains
+8
+
+
+Africa
+Number of iterations: 
+10
+ruzicka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+10
+Similare pentru : Mountains
+20
+
+
+Africa
+Number of iterations: 
+50
+ruzicka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+50
+Similare pentru : Mountains
+100
+
+
+Africa
+Number of iterations: 
+90
+ruzicka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+90
+Similare pentru : Mountains
+180
+
+
+Africa
+Number of iterations: 
+5
+tanimoto
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+4
+Similare pentru : Mountains
+6
+
+
+Africa
+Number of iterations: 
+10
+tanimoto
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+9
+Similare pentru : Mountains
+11
+
+
+Africa
+Number of iterations: 
+50
+tanimoto
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+49
+Similare pentru : Mountains
+51
+
+
+Africa
+Number of iterations: 
+90
+tanimoto
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+89
+Similare pentru : Mountains
+91
+
+
+Africa
+Number of iterations: 
+5
+innerProductSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+9
+Similare pentru : Mountains
+5
+
+
+Africa
+Number of iterations: 
+10
+innerProductSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+19
+Similare pentru : Mountains
+8
+
+
+Africa
+Number of iterations: 
+50
+innerProductSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+99
+Similare pentru : Mountains
+8
+
+
+Africa
+Number of iterations: 
+90
+innerProductSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+179
+Similare pentru : Mountains
+8
+
+
+Africa
+Number of iterations: 
+5
+harmonicMeanSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+15
+
+
+Africa
+Number of iterations: 
+10
+harmonicMeanSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+0
+Similare pentru : Mountains
+30
+
+
+Africa
+Number of iterations: 
+50
+harmonicMeanSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+29
+Similare pentru : Mountains
+121
+
+
+Africa
+Number of iterations: 
+90
+harmonicMeanSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+69
+Similare pentru : Mountains
+201
+
+
+Africa
+Number of iterations: 
+5
+distanceMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+1
+Similare pentru : Mountains
+9
+
+
+Africa
+Number of iterations: 
+10
+distanceMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+6
+Similare pentru : Mountains
+14
+
+
+Africa
+Number of iterations: 
+50
+distanceMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+46
+Similare pentru : Mountains
+54
+
+
+Africa
+Number of iterations: 
+90
+distanceMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+90
+Similare pentru : Mountains
+90
+
+
+Africa
+Number of iterations: 
+5
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+4
+Similare pentru : Mountains
+6
+
+
+Africa
+Number of iterations: 
+10
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+9
+Similare pentru : Mountains
+11
+
+
+Africa
+Number of iterations: 
+50
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+49
+Similare pentru : Mountains
+51
+
+
+Africa
+Number of iterations: 
+90
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+98
+Similare pentru : Mountains
+82
+
+
+Africa
+Number of iterations: 
+5
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+4
+Similare pentru : Mountains
+6
+
+
+Africa
+Number of iterations: 
+10
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+9
+Similare pentru : Mountains
+11
+
+
+Africa
+Number of iterations: 
+25
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+24
+Similare pentru : Mountains
+26
+
+
+Africa
+Number of iterations: 
+45
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+44
+Similare pentru : Mountains
+46
+
+
+Africa
+Number of iterations: 
+5
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+1
+Similare pentru : Mountains
+9
+
+
+Africa
+Number of iterations: 
+10
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+5
+Similare pentru : Mountains
+15
+
+
+Africa
+Number of iterations: 
+50
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+45
+Similare pentru : Mountains
+55
+
+
+Africa
+Number of iterations: 
+90
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Africa
+107
+Similare pentru : Mountains
+73
+
+
+Africa
+Number of iterations: 
+5
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+4
+Similare pentru : Mountains
+6
+
+
+Africa
+Number of iterations: 
+10
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+9
+Similare pentru : Mountains
+11
+
+
+Africa
+Number of iterations: 
+25
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+24
+Similare pentru : Mountains
+26
+
+
+Africa
+Number of iterations: 
+45
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Africa
+44
+Similare pentru : Mountains
+46
+
+
+Beach
+Number of iterations: 
+5
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+15
+
+
+Beach
+Number of iterations: 
+10
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+30
+
+
+Beach
+Number of iterations: 
+25
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+75
+
+
+Beach
+Number of iterations: 
+45
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Beach
+0
+Similare pentru : Mountains
+135
+
+
+Dinosaurs
+Number of iterations: 
+5
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testDinosaurs\403.jpg
+Similare pentru : Dinosaurs
+10
+Similare pentru : Mountains
+0
+
+
+Dinosaurs
+Number of iterations: 
+10
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testDinosaurs\403.jpg
+Similare pentru : Dinosaurs
+20
+Similare pentru : Mountains
+0
+
+
+Dinosaurs
+Number of iterations: 
+15
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testDinosaurs\403.jpg
+Similare pentru : Dinosaurs
+30
+Similare pentru : Mountains
+0
+
+
+Dinosaurs
+Number of iterations: 
+25
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testDinosaurs\403.jpg
+Similare pentru : Dinosaurs
+50
+Similare pentru : Mountains
+0
+
+
+Dinosaurs
+Number of iterations: 
+5
+ruzicka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testDinosaurs\403.jpg
+Similare pentru : Dinosaurs
+0
+Similare pentru : Mountains
+15
+
+
+Dinosaurs
+Number of iterations: 
+10
+ruzicka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testDinosaurs\403.jpg
+Similare pentru : Dinosaurs
+0
+Similare pentru : Mountains
+30
+
+
+Dinosaurs
+Number of iterations: 
+15
+ruzicka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testDinosaurs\403.jpg
+Similare pentru : Dinosaurs
+0
+Similare pentru : Mountains
+45
+
+
+Dinosaurs
+Number of iterations: 
+25
+ruzicka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testDinosaurs\403.jpg
+Similare pentru : Dinosaurs
+0
+Similare pentru : Mountains
+75
+
+
+Elephants
+Number of iterations: 
+5
+canberra
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testElephants\500.jpg
+Similare pentru : Elephants
+10
+Similare pentru : Mountains
+0
+
+
+Elephants
+Number of iterations: 
+10
+canberra
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testElephants\500.jpg
+Similare pentru : Elephants
+20
+Similare pentru : Mountains
+5
+
+
+Elephants
+Number of iterations: 
+15
+canberra
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testElephants\500.jpg
+Similare pentru : Elephants
+30
+Similare pentru : Mountains
+10
+
+
+Elephants
+Number of iterations: 
+25
+canberra
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testElephants\500.jpg
+Similare pentru : Elephants
+50
+Similare pentru : Mountains
+20
+
+
+Elephants
+Number of iterations: 
+5
+distanceTopsoe
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testElephants\500.jpg
+Similare pentru : Elephants
+10
+Similare pentru : Mountains
+0
+
+
+Elephants
+Number of iterations: 
+10
+distanceTopsoe
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testElephants\500.jpg
+Similare pentru : Elephants
+20
+Similare pentru : Mountains
+0
+
+
+Elephants
+Number of iterations: 
+15
+distanceTopsoe
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testElephants\500.jpg
+Similare pentru : Elephants
+30
+Similare pentru : Mountains
+0
+
+
+Elephants
+Number of iterations: 
+25
+distanceTopsoe
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testElephants\500.jpg
+Similare pentru : Elephants
+50
+Similare pentru : Mountains
+0
+
+
+Africa
+Number of iterations: 
+5
+innerProductSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testAfrica\066.jpg
+Similare pentru : Africa
+3
+Similare pentru : Mountains
+12
+
+
+Africa
+Number of iterations: 
+10
+innerProductSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testAfrica\066.jpg
+Similare pentru : Africa
+3
+Similare pentru : Mountains
+27
+
+
+Africa
+Number of iterations: 
+15
+innerProductSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testAfrica\066.jpg
+Similare pentru : Africa
+3
+Similare pentru : Mountains
+42
+
+
+Africa
+Number of iterations: 
+25
+innerProductSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testAfrica\066.jpg
+Similare pentru : Africa
+3
+Similare pentru : Mountains
+69
+
+
+Africa
+Number of iterations: 
+5
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testAfrica\066.jpg
+Similare pentru : Africa
+10
+Similare pentru : Mountains
+0
+
+
+Africa
+Number of iterations: 
+10
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testAfrica\066.jpg
+Similare pentru : Africa
+20
+Similare pentru : Mountains
+0
+
+
+Africa
+Number of iterations: 
+15
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testAfrica\066.jpg
+Similare pentru : Africa
+30
+Similare pentru : Mountains
+0
+
+
+Africa
+Number of iterations: 
+25
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testAfrica\066.jpg
+Similare pentru : Africa
+50
+Similare pentru : Mountains
+0
+
+
+Beach
+Number of iterations: 
+5
+minkowskiLp
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\Beach\102.jpg
+Similare pentru : Beach
+10
+Similare pentru : Mountains
+0
+
+
+Beach
+Number of iterations: 
+10
+minkowskiLp
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\Beach\102.jpg
+Similare pentru : Beach
+20
+Similare pentru : Mountains
+0
+
+
+Beach
+Number of iterations: 
+15
+minkowskiLp
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\Beach\102.jpg
+Similare pentru : Beach
+30
+Similare pentru : Mountains
+0
+
+
+Beach
+Number of iterations: 
+25
+minkowskiLp
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\Beach\102.jpg
+Similare pentru : Beach
+50
+Similare pentru : Mountains
+0
+
+
+Buildings
+Number of iterations: 
+5
+sorensen
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Buildings
+7
+Similare pentru : Mountains
+3
+
+
+Buildings
+Number of iterations: 
+10
+sorensen
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Buildings
+15
+Similare pentru : Mountains
+5
+
+
+Buildings
+Number of iterations: 
+15
+sorensen
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Buildings
+20
+Similare pentru : Mountains
+10
+
+
+Buildings
+Number of iterations: 
+25
+sorensen
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Buildings
+30
+Similare pentru : Mountains
+20
+
+
+Buildings
+Number of iterations: 
+5
+sorensen
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBuildings\200.jpg
+Similare pentru : Buildings
+9
+Similare pentru : Mountains
+1
+
+
+Buildings
+Number of iterations: 
+10
+sorensen
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBuildings\200.jpg
+Similare pentru : Buildings
+19
+Similare pentru : Mountains
+1
+
+
+Buildings
+Number of iterations: 
+15
+sorensen
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBuildings\200.jpg
+Similare pentru : Buildings
+29
+Similare pentru : Mountains
+1
+
+
+Buildings
+Number of iterations: 
+25
+sorensen
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBuildings\200.jpg
+Similare pentru : Buildings
+49
+Similare pentru : Mountains
+1
+
+
+Buildings
+Number of iterations: 
+5
+sorensen
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBuildings\200.jpg
+Similare pentru : Buildings
+9
+Similare pentru : Mountains
+1
+
+
+Buildings
+Number of iterations: 
+10
+sorensen
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBuildings\200.jpg
+Similare pentru : Buildings
+19
+Similare pentru : Mountains
+1
+
+
+Buildings
+Number of iterations: 
+15
+sorensen
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBuildings\200.jpg
+Similare pentru : Buildings
+29
+Similare pentru : Mountains
+1
+
+
+Buildings
+Number of iterations: 
+25
+sorensen
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBuildings\200.jpg
+Similare pentru : Buildings
+49
+Similare pentru : Mountains
+1
+
+
+Buildings
+Number of iterations: 
+5
+sorensen
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Buildings
+0
+Similare pentru : Mountains
+10
+
+
+Buildings
+Number of iterations: 
+10
+sorensen
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Buildings
+0
+Similare pentru : Mountains
+20
+
+
+Buildings
+Number of iterations: 
+15
+sorensen
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Buildings
+0
+Similare pentru : Mountains
+32
+
+
+Buildings
+Number of iterations: 
+25
+sorensen
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\841.jpg
+Similare pentru : Buildings
+0
+Similare pentru : Mountains
+52
+
+
+Busses
+Number of iterations: 
+5
+distanceKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+10
+distanceKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+20
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+15
+distanceKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+30
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+25
+distanceKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+5
+similarityJaccard
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+10
+similarityJaccard
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+20
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+15
+similarityJaccard
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+30
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+25
+similarityJaccard
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+5
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+10
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+20
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+15
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+30
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+25
+euclidianL2
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+5
+cityBlockL1
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+10
+cityBlockL1
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+20
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+15
+cityBlockL1
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+30
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+25
+cityBlockL1
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+5
+minkowskiLp
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+10
+minkowskiLp
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+20
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+15
+minkowskiLp
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+30
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+25
+minkowskiLp
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+5
+cebyshevLinf
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+10
+cebyshevLinf
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+20
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+15
+cebyshevLinf
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+30
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+25
+cebyshevLinf
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+5
+sorensen
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+10
+sorensen
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+20
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+15
+sorensen
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+30
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+25
+sorensen
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+5
+gower
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+10
+gower
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+20
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+15
+gower
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+30
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+25
+gower
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+5
+soergel
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+10
+soergel
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+20
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+15
+soergel
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+30
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+25
+soergel
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+5
+kulczynskid
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+10
+kulczynskid
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+20
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+15
+kulczynskid
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+30
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+25
+kulczynskid
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+5
+canberra
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+10
+canberra
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+20
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+15
+canberra
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+30
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+25
+canberra
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+5
+lorentzian
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+1
+
+
+Busses
+Number of iterations: 
+10
+lorentzian
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+20
+Similare pentru : Mountains
+1
+
+
+Busses
+Number of iterations: 
+15
+lorentzian
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+30
+Similare pentru : Mountains
+1
+
+
+Busses
+Number of iterations: 
+25
+lorentzian
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+1
+
+
+Busses
+Number of iterations: 
+5
+intersectionDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+10
+intersectionDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+20
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+15
+intersectionDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+30
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+25
+intersectionDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+5
+waveHedgesDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+10
+waveHedgesDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+20
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+15
+waveHedgesDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+30
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+25
+waveHedgesDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+5
+similarityCzekanowski
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+10
+similarityCzekanowski
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+20
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+15
+similarityCzekanowski
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+30
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+25
+similarityCzekanowski
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+5
+distanceCzekanowski
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+10
+distanceCzekanowski
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+20
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+15
+distanceCzekanowski
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+30
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+25
+distanceCzekanowski
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+5
+similarityMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+10
+similarityMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+20
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+15
+similarityMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+30
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+25
+similarityMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+5
+distanceMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+10
+distanceMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+20
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+15
+distanceMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+30
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+25
+distanceMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+5
+similarityKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+10
+similarityKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+20
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+15
+similarityKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+30
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+25
+similarityKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+5
+distanceKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+10
+distanceKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+20
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+15
+distanceKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+30
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+25
+distanceKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+5
+ruzicka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+15
+
+
+Busses
+Number of iterations: 
+10
+ruzicka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+30
+
+
+Busses
+Number of iterations: 
+15
+ruzicka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+45
+
+
+Busses
+Number of iterations: 
+25
+ruzicka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+75
+
+
+Busses
+Number of iterations: 
+5
+tanimoto
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+10
+tanimoto
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+20
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+15
+tanimoto
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+30
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+25
+tanimoto
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+5
+innerProductSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+15
+
+
+Busses
+Number of iterations: 
+10
+innerProductSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+30
+
+
+Busses
+Number of iterations: 
+15
+innerProductSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+45
+
+
+Busses
+Number of iterations: 
+25
+innerProductSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+75
+
+
+Busses
+Number of iterations: 
+5
+harmonicMeanSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+5
+
+
+Busses
+Number of iterations: 
+10
+harmonicMeanSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+16
+Similare pentru : Mountains
+14
+
+
+Busses
+Number of iterations: 
+15
+harmonicMeanSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+21
+Similare pentru : Mountains
+24
+
+
+Busses
+Number of iterations: 
+25
+harmonicMeanSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+31
+Similare pentru : Mountains
+44
+
+
+Busses
+Number of iterations: 
+5
+cosineSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+5
+Similare pentru : Mountains
+5
+
+
+Busses
+Number of iterations: 
+10
+cosineSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+10
+
+
+Busses
+Number of iterations: 
+15
+cosineSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+15
+Similare pentru : Mountains
+15
+
+
+Busses
+Number of iterations: 
+25
+cosineSimilarity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+25
+Similare pentru : Mountains
+25
+
+
+Busses
+Number of iterations: 
+5
+kumarHassebrookDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+15
+
+
+Busses
+Number of iterations: 
+10
+kumarHassebrookDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+30
+
+
+Busses
+Number of iterations: 
+15
+kumarHassebrookDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+45
+
+
+Busses
+Number of iterations: 
+25
+kumarHassebrookDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+75
+
+
+Busses
+Number of iterations: 
+5
+similarityJaccard
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+10
+similarityJaccard
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+20
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+15
+similarityJaccard
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+30
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+25
+similarityJaccard
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+5
+distanceJaccard
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+8
+Similare pentru : Mountains
+2
+
+
+Busses
+Number of iterations: 
+10
+distanceJaccard
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+18
+Similare pentru : Mountains
+2
+
+
+Busses
+Number of iterations: 
+15
+distanceJaccard
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+28
+Similare pentru : Mountains
+2
+
+
+Busses
+Number of iterations: 
+25
+distanceJaccard
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+48
+Similare pentru : Mountains
+2
+
+
+Busses
+Number of iterations: 
+5
+similarityDice
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+10
+similarityDice
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+20
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+15
+similarityDice
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+30
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+25
+similarityDice
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+5
+distanceDice
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+10
+distanceDice
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+20
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+15
+distanceDice
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+30
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+25
+distanceDice
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+5
+similarityFidelity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+10
+similarityFidelity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+20
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+15
+similarityFidelity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+30
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+25
+similarityFidelity
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+5
+distanceBhattacharyya
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+10
+distanceBhattacharyya
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+20
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+15
+distanceBhattacharyya
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+30
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+25
+distanceBhattacharyya
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+5
+distanceHellinger
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+10
+distanceHellinger
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+20
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+15
+distanceHellinger
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+30
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+25
+distanceHellinger
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+5
+distanceMatusita
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+10
+distanceMatusita
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+20
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+15
+distanceMatusita
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+30
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+25
+distanceMatusita
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+5
+distanceSquaredChord
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+10
+distanceSquaredChord
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+20
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+15
+distanceSquaredChord
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+30
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+25
+distanceSquaredChord
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+5
+similaritySquaredChord
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+10
+similaritySquaredChord
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+20
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+15
+similaritySquaredChord
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+30
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+25
+similaritySquaredChord
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+5
+distanceSquaredEuclidian
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+10
+distanceSquaredEuclidian
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+20
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+15
+distanceSquaredEuclidian
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+30
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+25
+distanceSquaredEuclidian
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+5
+distancePearson
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+10
+distancePearson
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+20
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+15
+distancePearson
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+30
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+25
+distancePearson
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+5
+distanceNeyman
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+10
+distanceNeyman
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+20
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+15
+distanceNeyman
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+30
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+25
+distanceNeyman
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+5
+distanceSquared
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+10
+distanceSquared
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+20
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+15
+distanceSquared
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+30
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+25
+distanceSquared
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+5
+distanceProbabilisticSymmetric
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+10
+distanceProbabilisticSymmetric
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+20
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+15
+distanceProbabilisticSymmetric
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+30
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+25
+distanceProbabilisticSymmetric
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+5
+distanceDivergence
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+10
+distanceDivergence
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+20
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+15
+distanceDivergence
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+30
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+25
+distanceDivergence
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+5
+distanceClark
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+10
+distanceClark
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+20
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+15
+distanceClark
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+30
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+25
+distanceClark
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+5
+distanceAdditiceSymmetric
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+10
+distanceAdditiceSymmetric
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+20
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+15
+distanceAdditiceSymmetric
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+30
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+25
+distanceAdditiceSymmetric
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+5
+distanceKullbackLeibler
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+10
+distanceKullbackLeibler
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+20
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+15
+distanceKullbackLeibler
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+30
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+25
+distanceKullbackLeibler
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+5
+distanceJeffreys
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+10
+distanceJeffreys
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+20
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+15
+distanceJeffreys
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+30
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+25
+distanceJeffreys
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+5
+distanceKDivergence
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+1
+
+
+Busses
+Number of iterations: 
+10
+distanceKDivergence
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+20
+Similare pentru : Mountains
+1
+
+
+Busses
+Number of iterations: 
+15
+distanceKDivergence
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+30
+Similare pentru : Mountains
+1
+
+
+Busses
+Number of iterations: 
+25
+distanceKDivergence
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+1
+
+
+Busses
+Number of iterations: 
+5
+distanceTopsoe
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+10
+distanceTopsoe
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+20
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+15
+distanceTopsoe
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+30
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+25
+distanceTopsoe
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+5
+distanceJensenShannon
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+15
+
+
+Busses
+Number of iterations: 
+10
+distanceJensenShannon
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+30
+
+
+Busses
+Number of iterations: 
+15
+distanceJensenShannon
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+45
+
+
+Busses
+Number of iterations: 
+25
+distanceJensenShannon
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+0
+Similare pentru : Mountains
+75
+
+
+Busses
+Number of iterations: 
+5
+distanceJensenDifference
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+10
+distanceJensenDifference
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+20
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+15
+distanceJensenDifference
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+30
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+25
+distanceJensenDifference
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+5
+distanceKumarJohnson
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+10
+distanceKumarJohnson
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+20
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+15
+distanceKumarJohnson
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+30
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+25
+distanceKumarJohnson
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+5
+distanceAvg
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+10
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+10
+distanceAvg
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+20
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+15
+distanceAvg
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+30
+Similare pentru : Mountains
+0
+
+
+Busses
+Number of iterations: 
+25
+distanceAvg
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testBusses\300.jpg
+Similare pentru : Busses
+50
+Similare pentru : Mountains
+0
+
+
+Food
+Number of iterations: 
+5
+kumarHassebrookDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testFood\967.jpg
+Similare pentru : Food
+9
+Similare pentru : Mountains
+1
+
+
+Food
+Number of iterations: 
+10
+kumarHassebrookDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testFood\967.jpg
+Similare pentru : Food
+19
+Similare pentru : Mountains
+4
+
+
+Food
+Number of iterations: 
+15
+kumarHassebrookDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testFood\967.jpg
+Similare pentru : Food
+29
+Similare pentru : Mountains
+9
+
+
+Food
+Number of iterations: 
+25
+kumarHassebrookDistance
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testFood\967.jpg
+Similare pentru : Food
+39
+Similare pentru : Mountains
+29
+
+
+Africa
+Number of iterations: 
+5
+similarityKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testAfrica\066.jpg
+Similare pentru : Africa
+7
+Similare pentru : Mountains
+3
+
+
+Africa
+Number of iterations: 
+10
+similarityKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testAfrica\066.jpg
+Similare pentru : Africa
+17
+Similare pentru : Mountains
+3
+
+
+Africa
+Number of iterations: 
+15
+similarityKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testAfrica\066.jpg
+Similare pentru : Africa
+27
+Similare pentru : Mountains
+3
+
+
+Africa
+Number of iterations: 
+25
+similarityKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testAfrica\066.jpg
+Similare pentru : Africa
+47
+Similare pentru : Mountains
+3
+
+
+Buildings
+Number of iterations: 
+5
+similarityKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testDinosaurs\403.jpg
+Similare pentru : Buildings
+4
+Similare pentru : Mountains
+8
+
+
+Buildings
+Number of iterations: 
+10
+similarityKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testDinosaurs\403.jpg
+Similare pentru : Buildings
+13
+Similare pentru : Mountains
+9
+
+
+Buildings
+Number of iterations: 
+15
+similarityKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testDinosaurs\403.jpg
+Similare pentru : Buildings
+17
+Similare pentru : Mountains
+15
+
+
+Buildings
+Number of iterations: 
+25
+similarityKulczynkyS
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testDinosaurs\403.jpg
+Similare pentru : Buildings
+17
+Similare pentru : Mountains
+35
+
+
+Beach
+Number of iterations: 
+5
+distanceMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Beach
+3
+Similare pentru : Mountains
+9
+
+
+Beach
+Number of iterations: 
+10
+distanceMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Beach
+8
+Similare pentru : Mountains
+14
+
+
+Beach
+Number of iterations: 
+15
+distanceMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Beach
+13
+Similare pentru : Mountains
+23
+
+
+Beach
+Number of iterations: 
+25
+distanceMotyka
+test
+C:\forMaster\temaDisertatie\backupPic\Corel1000\testMountains\881.jpg
+Similare pentru : Beach
+18
+Similare pentru : Mountains
+48
+
+

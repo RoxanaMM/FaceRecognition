@@ -6,14 +6,19 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.chart.LineChart;
+import javafx.scene.chart.NumberAxis;
+import javafx.scene.chart.XYChart;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.ScrollPane;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.DragEvent;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.input.TransferMode;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.layout.Pane;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 import logicPackage.enums.AlgoName;
@@ -21,7 +26,6 @@ import logicPackage.enums.DatabaseName;
 import org.opencv.core.Core;
 import sample.controller.LogicController;
 
-import javax.xml.crypto.Data;
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
@@ -43,6 +47,8 @@ public class Main extends Application {
     @FXML
     private Button startCalculating;
 
+    @FXML
+    private Label nameOfAlgo;
     @FXML
     private Label labelInitilize;
     @FXML
@@ -70,6 +76,16 @@ public class Main extends Application {
     @FXML
     private Label labelWithName;
 
+    @FXML
+    private AnchorPane isOrNot;
+
+    @FXML
+    private Label results;
+    @FXML
+    private LineChart chart;
+
+    @FXML
+    private AnchorPane panee;
     public void handleDragPic1(DragEvent dragEvent) {
         if (dragEvent.getDragboard().hasFiles())
             dragEvent.acceptTransferModes(TransferMode.ANY);
@@ -80,7 +96,7 @@ public class Main extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("view/FirstPage.fxml"));
         root.getStylesheets().add(getClass().getResource("view/DarkTheme.css").toString());
         primaryStage.setTitle("Images");
-        primaryStage.setScene(new Scene(root, 1000, 550));
+        primaryStage.setScene(new Scene(root, 3000, 3550));
         primaryStage.show();
 
     }
@@ -356,8 +372,7 @@ public class Main extends Application {
     }
 
     public void launchWIn2(ActionEvent actionEvent) throws IOException {
-        AnchorPane pane = FXMLLoader.load(getClass().getResource("view/SecondPage.fxml"));
-        anchorFirstPage.getChildren().setAll(pane);
+        //panee.getChildren().add(new LineChart<>());
     }
 
     public void closeWindow(MouseEvent mouseEvent) {
@@ -451,6 +466,7 @@ public class Main extends Application {
         return doubleList;
     }
 
+
     public void compareWithAllSimilar() throws IOException {
         List<Double> currentValsSim = new ArrayList<>();
         List<Double> currentValsNotSim = new ArrayList<>();
@@ -458,6 +474,17 @@ public class Main extends Application {
         List<Double> finalSim = new ArrayList<>();
         List<Double> finalNonSim = new ArrayList<>();
 
+        Integer min = 999;
+        Integer minVal =999;
+//defining the axes
+        final NumberAxis xAxis = new NumberAxis();
+        final NumberAxis yAxis = new NumberAxis();
+        xAxis.setLabel("k-NN");
+        yAxis.setLabel("Error");
+        //creating the chart
+        // XYChart.Series series = new XYChart.Series();
+        XYChart.Series series = new XYChart.Series();
+        series.setName(algoNames.get(0).name());
 
         List<List<Double>> allInOneSim = new ArrayList<>();
         List<List<Double>> allInOneNonSim = new ArrayList<>();
@@ -489,38 +516,79 @@ public class Main extends Application {
             List<Integer>nrOfIterationsChoosen1 = new ArrayList<>();
             nrOfIterationsChoosen1.add(5);
             nrOfIterationsChoosen1.add(10);
-            nrOfIterationsChoosen1.add(50);
+            nrOfIterationsChoosen1.add(15);
+            nrOfIterationsChoosen1.add(25);
+            nrOfIterationsChoosen1.add(30);
+            nrOfIterationsChoosen1.add(45);
+            nrOfIterationsChoosen1.add(65);
+            nrOfIterationsChoosen1.add(85);
             nrOfIterationsChoosen1.add(90);
             for(int j=0;j<4;j++) {
                 for (int i = 0; i < nrOfIterationsChoosen1.get(j); i++) {
-                    if (allInOneSim.get(0).get(i) < allInOneNonSim.get(0).get(i)) {
+                    if (!algo.name().contains("similarity")){
+                        if (allInOneSim.get(0).get(i) <= allInOneNonSim.get(0).get(i)) {
+                            similar++;
+                        } else {
+                            nonSimilar++;
+                        }
+
+                    if (allInOneSim.get(1).get(i) <= allInOneNonSim.get(1).get(i)) {
                         similar++;
                     } else {
                         nonSimilar++;
                     }
 
-                    if (allInOneSim.get(1).get(i) < allInOneNonSim.get(1).get(i)) {
-                        similar++;
-                    } else {
-                        nonSimilar++;
-                    }
-
-                    if (allInOneSim.get(2).get(i) < allInOneNonSim.get(2).get(i)) {
+                    if (allInOneSim.get(2).get(i) <= allInOneNonSim.get(2).get(i)) {
 
                     } else {
                         nonSimilar++;
                     }
+                }else{
+                        if (allInOneSim.get(0).get(i) >= allInOneNonSim.get(0).get(i)) {
+                            similar++;
+                        } else {
+                            nonSimilar++;
+                        }
 
+                        if (allInOneSim.get(1).get(i) >= allInOneNonSim.get(1).get(i)) {
+                            similar++;
+                        } else {
+                            nonSimilar++;
+                        }
+
+                        if (allInOneSim.get(2).get(i) >= allInOneNonSim.get(2).get(i)) {
+
+                        } else {
+                            nonSimilar++;
+                        }
+                    }
                 }
                 if (similar > nonSimilar) {
                     System.out.println("Photo is found as being " + nameOfSet);
-                }
+                    results.setText("For k-NN =  "+ nrOfIterationsChoosen1.get(j) + " image classified as being similar to "+ nameOfSet);
+
+               }
 
                 writeInFileTrainValues("test", populateWIithPicsAddr1.getAbsolutePath(), algo, nrOfIterationsChoosen1.get(j), similar, nonSimilar);
+                if(nonSimilar<min) {
+                    min = nonSimilar;
+                    minVal =nrOfIterationsChoosen1.get(j);
+                }
+
+
+
+                //populating the series with data
+                series.getData().add(new XYChart.Data(nrOfIterationsChoosen1.get(j), nonSimilar));
+
+
                 similar = 0;
                 nonSimilar = 0;
             }
-        }
+            LineChart<Number,Number> lineChart =
+                    new LineChart<Number,Number>(xAxis,yAxis);
+            lineChart.getData().add(series);
+            panee.getChildren().add(lineChart);
+        }isOrNot.getChildren().add(new Label("For "+ nrOfIterationsChoosen + " image classified as being similar to "+ nameOfSet));
 
     }
 
@@ -588,6 +656,7 @@ public class Main extends Application {
         nrOfIterationsChoosen = nrOfIterations.get(0);
         File folder = new File(documentSufix.concat(nameOfSet));
         listOfFiles = folder.listFiles();
+        nameOfAlgo.setText(algoNames.get(0).name());
         labelInitilize.setText("Set initilized");
     }
 
