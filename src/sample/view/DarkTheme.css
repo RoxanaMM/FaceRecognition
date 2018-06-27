@@ -56,6 +56,7 @@
 .table-view .column-header-background {
     -fx-background-color: transparent;
 }
+
 #init{
     -fx-font-size: 22pt;
     -fx-text-fill: #7FDBFF;

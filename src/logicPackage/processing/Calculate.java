@@ -1,14 +1,14 @@
 package logicPackage.processing;
 
 import logicPackage.algorithms.Algorithms;
-import logicPackage.model.BestFitModel;
-import logicPackage.model.Model;
-import logicPackage.model.Results;
 import logicPackage.enums.AlgoName;
+import logicPackage.model.Results;
 
-import javax.swing.text.html.ListView;
 import java.io.*;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class Calculate extends Algorithms {
     public static HashMap<AlgoName, Command> keepAlgoFunc = new HashMap<AlgoName, Command>();

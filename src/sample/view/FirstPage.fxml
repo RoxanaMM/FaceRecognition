@@ -16,13 +16,13 @@
 <AnchorPane fx:id="anchorFirstPage" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="283.0" minWidth="931.0" prefHeight="1133.0" prefWidth="2325.0" styleClass="background" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Main">
    <children>
       <Line endX="100.0" startX="-100.0" />
-      <ImageView fx:id="imageView1" fitHeight="150.0" fitWidth="200.0" layoutX="919.0" layoutY="391.0" onDragDropped="#handleDrop1" onDragOver="#handleDragPic1" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="imageView1" fitHeight="150.0" fitWidth="200.0" layoutX="652.0" layoutY="392.0" onDragDropped="#handleDrop1" onDragOver="#handleDragPic1" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@button.png" />
          </image></ImageView>
-      <Label layoutX="928.0" layoutY="445.0" text="Drag And Drop Pic1" />
-      <Button id="fileChooser1" fx:id="fileChooser1" layoutX="919.0" layoutY="395.0" mnemonicParsing="false" onAction="#fileChooser1" opacity="0.0" prefHeight="121.0" prefWidth="150.0" />
-      <MenuBar fx:id="chooseAlgorithms" layoutX="75.0" layoutY="561.0" onMouseClicked="#chooseAlgorithm" prefHeight="32.0" prefWidth="194.0">
+      <Label layoutX="661.0" layoutY="446.0" text="Drag And Drop Pic1" />
+      <Button id="fileChooser1" fx:id="fileChooser1" layoutX="652.0" layoutY="396.0" mnemonicParsing="false" onAction="#fileChooser1" opacity="0.0" prefHeight="121.0" prefWidth="150.0" />
+      <MenuBar fx:id="chooseAlgorithms" layoutX="75.0" layoutY="375.0" onMouseClicked="#chooseAlgorithm" prefHeight="32.0" prefWidth="194.0">
         <menus>
             <Menu mnemonicParsing="false" text="Choose Algorithms">
               <items>
@@ -81,14 +81,14 @@
             </Menu>
         </menus>
       </MenuBar>
-      <Button fx:id="startCalculating" layoutX="907.0" layoutY="660.0" mnemonicParsing="false" onAction="#startCalculating" onMouseClicked="#onMouseClick" text="Test this image" />
-      <Button fx:id="donwloadResults" layoutX="455.0" layoutY="562.0" mnemonicParsing="false" onMouseClicked="#downloadResults" text="Download Results" />
+      <Button fx:id="startCalculating" layoutX="733.0" layoutY="641.0" mnemonicParsing="false" onAction="#startCalculating" onMouseClicked="#onMouseClick" text="Test this image" />
+      <Button fx:id="donwloadResults" layoutX="360.0" layoutY="541.0" mnemonicParsing="false" onMouseClicked="#downloadResults" text="Download Results" />
       <Label fx:id="title1" alignment="CENTER" layoutX="652.0" layoutY="37.0" prefHeight="66.0" prefWidth="496.0" text="Algorithm Distance Demo">
          <font>
             <Font size="28.0" />
          </font>
       </Label>
-      <ImageView id="histoViewer2_1" fx:id="histoViewer2_1" fitHeight="150.0" fitWidth="200.0" layoutX="1031.0" layoutY="391.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView id="histoViewer2_1" fx:id="histoViewer2_1" fitHeight="150.0" fitWidth="200.0" layoutX="764.0" layoutY="392.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../../../../Users/Roxana/Desktop/classify.png" />
          </image></ImageView>
@@ -97,7 +97,7 @@
          <font>
             <Font size="22.0" />
          </font></Label>
-      <MenuBar layoutX="75.0" layoutY="351.0" onMouseClicked="#chooseDataBase" prefHeight="32.0" prefWidth="194.0">
+      <MenuBar layoutX="75.0" layoutY="304.0" onMouseClicked="#chooseDataBase" prefHeight="32.0" prefWidth="194.0">
         <menus>
             <Menu mnemonicParsing="false" text="Choose Data Base">
               <items>
@@ -115,7 +115,7 @@
             </Menu>
         </menus>
       </MenuBar>
-      <MenuBar layoutX="75.0" layoutY="466.0">
+      <MenuBar layoutX="360.0" layoutY="304.0">
         <menus>
             <Menu mnemonicParsing="false" text="Choose K for K-NN neighbours">
               <items>
@@ -127,25 +127,28 @@
             </Menu>
         </menus>
       </MenuBar>
-      <Button layoutX="75.0" layoutY="660.0" mnemonicParsing="false" onAction="#initializeChooseSet" text="Initialize this set" />
+      <Button layoutX="75.0" layoutY="451.0" mnemonicParsing="false" onAction="#initializeChooseSet" text="Initialize this set" />
       <Label fx:id="labelTrainned" layoutX="390.0" layoutY="355.0" prefHeight="89.0" prefWidth="201.0" />
-      <Label fx:id="labelWithName" layoutX="75.0" layoutY="747.0" prefHeight="21.0" prefWidth="120.0" />
-      <Label fx:id="test" layoutX="900.0" layoutY="178.0" text="Testing phase">
+      <Label fx:id="labelWithName" layoutX="78.0" layoutY="482.0" prefHeight="21.0" prefWidth="120.0" />
+      <Label fx:id="test" layoutX="897.0" layoutY="162.0" text="Testing phase">
          <font>
             <Font size="22.0" />
          </font></Label>
-      <Button layoutX="455.0" layoutY="660.0" mnemonicParsing="false" onAction="#trainThisSet" text="Train this set" />
+      <Button layoutX="360.0" layoutY="594.0" mnemonicParsing="false" onAction="#trainThisSet" text="Train this set" />
       <Label fx:id="labelInitilize" layoutX="75.0" layoutY="799.0" prefHeight="21.0" prefWidth="150.0" />
-      <ScrollPane fx:id="scrolli" layoutX="1207.0" layoutY="213.0" prefHeight="463.0" prefWidth="697.0">
+      <ScrollPane fx:id="scrolli" layoutX="972.0" layoutY="213.0" prefHeight="729.0" prefWidth="931.0">
          <content>
-            <AnchorPane fx:id="panee" prefHeight="454.0" prefWidth="684.0" />
+            <AnchorPane fx:id="panee" prefHeight="729.0" prefWidth="868.0" />
          </content></ScrollPane>
-      <Label fx:id="nameOfAlgo" layoutX="75.0" layoutY="843.0" prefHeight="21.0" prefWidth="246.0" />
-      <Label fx:id="results" layoutX="1190.0" layoutY="810.0" prefHeight="99.0" prefWidth="554.0" />
-      <ScrollPane layoutX="683.0" layoutY="839.0" prefHeight="140.0" prefWidth="355.0">
-        <content>
-          <AnchorPane fx:id="isOrNot" minHeight="0.0" minWidth="0.0" prefHeight="151.0" prefWidth="350.0" style="-fx-background-color: #383838;" />
-        </content>
+      <Label fx:id="nameOfAlgo" layoutX="72.0" layoutY="506.0" prefHeight="21.0" prefWidth="246.0" />
+      <Label fx:id="results" layoutX="1196.0" layoutY="719.0" prefHeight="99.0" prefWidth="554.0" />
+      <Label fx:id="results2" layoutX="1196.0" layoutY="860.0" prefHeight="75.0" prefWidth="464.0" />
+      <Button layoutX="75.0" layoutY="541.0" mnemonicParsing="false" onAction="#doCVLOO" text="doCVLOO" />
+      <ScrollPane fx:id="scrolel" layoutX="45.0" layoutY="641.0" prefHeight="338.0" prefWidth="548.0">
+         <content>
+            <AnchorPane fx:id="anchorel" prefHeight="334.0" prefWidth="544.0" />
+         </content>
       </ScrollPane>
+      <AnchorPane fx:id="isOrNot" layoutX="1196.0" layoutY="879.0" prefHeight="75.0" prefWidth="548.0" />
    </children>
 </AnchorPane>

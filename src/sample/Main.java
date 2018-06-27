@@ -1,14 +1,13 @@
 package sample;
 
 import javafx.application.Application;
+import javafx.collections.FXCollections;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.chart.LineChart;
-import javafx.scene.chart.NumberAxis;
-import javafx.scene.chart.XYChart;
+import javafx.scene.chart.*;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.ScrollPane;
@@ -18,7 +17,6 @@ import javafx.scene.input.DragEvent;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.input.TransferMode;
 import javafx.scene.layout.AnchorPane;
-import javafx.scene.layout.Pane;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 import logicPackage.enums.AlgoName;
@@ -64,12 +62,11 @@ public class Main extends Application {
     public static List<File> initialImages1 = new ArrayList<>();
     public static List<String> similarPhotosResults = new ArrayList<>();
     public static List<String> nonSimilarPhotosResults = new ArrayList<>();
-    public static List<Double> trainingResultsRGB = new ArrayList<>();
-    public static List<Double> trainingNonSimResultsRGB = new ArrayList<>();
     public static List<Double> testResultsRGB = new ArrayList<>();
     public static String nameOfSet = new String();
     public static Integer nrOfIterationsChoosen;
     public static File[] listOfFiles;
+    public static List<XYChart.Series> seriesList = new ArrayList<>();
     private static String backgroundFile = "Mountains";
     @FXML
     private AnchorPane anchorFirstPage;
@@ -81,11 +78,21 @@ public class Main extends Application {
 
     @FXML
     private Label results;
+
+    @FXML
+    private Label results2;
     @FXML
     private LineChart chart;
 
     @FXML
+    private ScrollPane scrolel;
+
+    @FXML
+    private AnchorPane anchorel;
+
+    @FXML
     private AnchorPane panee;
+
     public void handleDragPic1(DragEvent dragEvent) {
         if (dragEvent.getDragboard().hasFiles())
             dragEvent.acceptTransferModes(TransferMode.ANY);
@@ -466,28 +473,129 @@ public class Main extends Application {
         return doubleList;
     }
 
+    public void doCVLOO() throws IOException {
+        List<Double> finalSim;
+        List<Double> finalNonSim;
+
+        int inde=0;
+        int similar = 0;
+        int nonSimilar = 0;
+        int similarMistake = 0;
+        int nonSimilarMistake = 0;
+
+        List<List<Double>> allInOneSim;
+        List<List<Double>> allInOneNonSim;
+
+        List<File> newFiles = new ArrayList<>();
+        newFiles.addAll(Arrays.asList(listOfFiles));
+
+        final CategoryAxis xAxis = new CategoryAxis();
+        final NumberAxis yAxis = new NumberAxis();
+        xAxis.setLabel("Algoritm");
+        yAxis.setLabel("CVLOO mistake % result");
+        XYChart.Series<String, Number> series1 = new XYChart.Series<>();
+
+        for (AlgoName algo : algoNames) {
+            for (File f : newFiles) {
+                similarPhotosResults = logicController.getImgAndDoCalculatins(algo, f, newFiles.subList(newFiles.indexOf(f) + 1, newFiles.size()));
+                nonSimilarPhotosResults = logicController.getImgAndDoCalculatins(algo, f, backGroundPicsAddressesList);
+                if (similarPhotosResults.size() != 0 ) {
+                    finalSim = transformToDouble(similarPhotosResults);
+                    allInOneSim = takeRgbInOne(finalSim);
+
+                    finalNonSim = transformToDouble(nonSimilarPhotosResults);
+                    allInOneNonSim = takeRgbInOne(finalNonSim);
+
+
+                    Collections.sort(allInOneSim.get(0));
+                    Collections.sort(allInOneSim.get(1));
+                    Collections.sort(allInOneSim.get(2));
+                    Collections.sort(allInOneNonSim.get(0));
+                    Collections.sort(allInOneNonSim.get(1));
+                    Collections.sort(allInOneNonSim.get(2));
+
+                    finalSim.clear();
+                    finalNonSim.clear();
+
+                    if (!algo.name().contains("similarity")) {
+                        if (allInOneSim.get(0).get(0) <= allInOneNonSim.get(0).get(0)) {
+                            similar++;
+                        } else {
+                            nonSimilar++;
+                            similarMistake++;
+                        }
+
+                        if (allInOneSim.get(1).get(0) <= allInOneNonSim.get(1).get(0)) {
+                            similar++;
+                        } else {
+                            nonSimilar++;
+                            similarMistake++;
+                        }
+
+                        if (allInOneSim.get(2).get(0) <= allInOneNonSim.get(2).get(0)) {
+
+                        } else {
+                            nonSimilar++;
+                            similarMistake++;
+                        }
+                    } else {
+                        if (allInOneSim.get(0).get(0) >= allInOneNonSim.get(0).get(0)) {
+                            similar++;
+                        } else {
+                            nonSimilar++;
+                            similarMistake++;
+                        }
+
+                        if (allInOneSim.get(1).get(0) >= allInOneNonSim.get(1).get(0)) {
+                            similar++;
+                        } else {
+                            nonSimilar++;
+                            similarMistake++;
+                        }
+
+                        if (allInOneSim.get(2).get(0) >= allInOneNonSim.get(2).get(0)) {
+
+                        } else {
+                            nonSimilar++;
+                            similarMistake++;
+                        }
+                         }
+                    xAxis.setCategories(FXCollections.<String>observableArrayList(Arrays.asList(algo.name())));
+                    series1.setName(algo.name());
+                    series1.getData().add(new XYChart.Data<>(algo.name(), similarMistake));
+                    // newFiles.add(f);
+                    System.out.println("Algorithm " + algo + " Misclasification " + similarMistake);
+                    similarMistake = 0;
+                    allInOneSim.clear();
+                    allInOneNonSim.clear();
+                }
+            }
+        }
+        StackedBarChart<String, Number> stackedBarChart =
+                new StackedBarChart<String, Number>(xAxis, yAxis);
+        stackedBarChart.getData().addAll(series1);
+        anchorel.getChildren().add(inde,stackedBarChart);
+        inde++;
+        //results2.setText("Best k-NN =  " + minVal + " with an error of " + min);
+
+    }
+
 
     public void compareWithAllSimilar() throws IOException {
-        List<Double> currentValsSim = new ArrayList<>();
-        List<Double> currentValsNotSim = new ArrayList<>();
-
         List<Double> finalSim = new ArrayList<>();
         List<Double> finalNonSim = new ArrayList<>();
-
+        List <XYChart.Series> listOfSeries = new ArrayList<>();
         Integer min = 999;
-        Integer minVal =999;
-//defining the axes
         final NumberAxis xAxis = new NumberAxis();
         final NumberAxis yAxis = new NumberAxis();
         xAxis.setLabel("k-NN");
         yAxis.setLabel("Error");
-        //creating the chart
-        // XYChart.Series series = new XYChart.Series();
-        XYChart.Series series = new XYChart.Series();
-        series.setName(algoNames.get(0).name());
 
-        List<List<Double>> allInOneSim = new ArrayList<>();
-        List<List<Double>> allInOneNonSim = new ArrayList<>();
+
+
+
+        List<List<Double>> allInOneSim;
+        List<List<Double>> allInOneNonSim;
 
         int similar = 0;
         int nonSimilar = 0;
@@ -513,37 +621,40 @@ public class Main extends Application {
 
             finalSim.clear();
             finalNonSim.clear();
-            List<Integer>nrOfIterationsChoosen1 = new ArrayList<>();
+            List<Integer> nrOfIterationsChoosen1 = new ArrayList<>();
             nrOfIterationsChoosen1.add(5);
             nrOfIterationsChoosen1.add(10);
-            nrOfIterationsChoosen1.add(15);
             nrOfIterationsChoosen1.add(25);
-            nrOfIterationsChoosen1.add(30);
             nrOfIterationsChoosen1.add(45);
+            nrOfIterationsChoosen1.add(50);
             nrOfIterationsChoosen1.add(65);
-            nrOfIterationsChoosen1.add(85);
             nrOfIterationsChoosen1.add(90);
-            for(int j=0;j<4;j++) {
+
+
+            XYChart.Series series = new XYChart.Series();
+            series.setName(algo.name());
+            for (int j = 0; j < nrOfIterationsChoosen1.size(); j++) {
+
                 for (int i = 0; i < nrOfIterationsChoosen1.get(j); i++) {
-                    if (!algo.name().contains("similarity")){
+                    if (!algo.name().contains("similarity")) {
                         if (allInOneSim.get(0).get(i) <= allInOneNonSim.get(0).get(i)) {
                             similar++;
                         } else {
                             nonSimilar++;
                         }
 
-                    if (allInOneSim.get(1).get(i) <= allInOneNonSim.get(1).get(i)) {
-                        similar++;
-                    } else {
-                        nonSimilar++;
-                    }
+                        if (allInOneSim.get(1).get(i) <= allInOneNonSim.get(1).get(i)) {
+                            similar++;
+                        } else {
+                            nonSimilar++;
+                        }
 
-                    if (allInOneSim.get(2).get(i) <= allInOneNonSim.get(2).get(i)) {
+                        if (allInOneSim.get(2).get(i) <= allInOneNonSim.get(2).get(i)) {
 
+                        } else {
+                            nonSimilar++;
+                        }
                     } else {
-                        nonSimilar++;
-                    }
-                }else{
                         if (allInOneSim.get(0).get(i) >= allInOneNonSim.get(0).get(i)) {
                             similar++;
                         } else {
@@ -563,32 +674,58 @@ public class Main extends Application {
                         }
                     }
                 }
-                if (similar > nonSimilar) {
-                    System.out.println("Photo is found as being " + nameOfSet);
-                    results.setText("For k-NN =  "+ nrOfIterationsChoosen1.get(j) + " image classified as being similar to "+ nameOfSet);
-
-               }
-
-                writeInFileTrainValues("test", populateWIithPicsAddr1.getAbsolutePath(), algo, nrOfIterationsChoosen1.get(j), similar, nonSimilar);
-                if(nonSimilar<min) {
-                    min = nonSimilar;
-                    minVal =nrOfIterationsChoosen1.get(j);
-                }
+//                System.out.println("test " + populateWIithPicsAddr1.getAbsolutePath() + "  " + algo+ " nr of iterations "
+//                        +  nrOfIterationsChoosen1.get(j)+ " similar:  " +  similar+ "  nonSimilar: " + nonSimilar);
 
 
-
-                //populating the series with data
                 series.getData().add(new XYChart.Data(nrOfIterationsChoosen1.get(j), nonSimilar));
 
-
+              //  results2.setText("Best k-NN =  " + minVal + " with an error of " + min);
+               // isOrNot.getChildren().add(new Label("For " + nrOfIterationsChoosen1.get(j) + " image classified as being similar to " + nameOfSet));
+                if(nonSimilar ==0){
+                    System.out.println( algo);
+                }
+                writeInFileTrainValues("test", populateWIithPicsAddr1.getAbsolutePath(), algo, nrOfIterationsChoosen1.get(j), similar, nonSimilar);
                 similar = 0;
                 nonSimilar = 0;
+//                if (nonSimilar < min) {
+//                    min = nonSimilar;
+//                    minVal = nrOfIterationsChoosen1.get(j);
+//                }
+                if (similar > nonSimilar) {
+                    System.out.println("Photo is found as being " + nameOfSet);
+                    results.setText("For k-NN =  " + nrOfIterationsChoosen1.get(j) + " image classified as being similar to " + nameOfSet);
+
+                }
+
+               // if(nrOfIterationsChoosen1.get(j) == i){
+
+                //}
             }
-            LineChart<Number,Number> lineChart =
-                    new LineChart<Number,Number>(xAxis,yAxis);
-            lineChart.getData().add(series);
-            panee.getChildren().add(lineChart);
-        }isOrNot.getChildren().add(new Label("For "+ nrOfIterationsChoosen + " image classified as being similar to "+ nameOfSet));
+            seriesList.add(series);
+
+        }
+        LineChart<Number, Number> lineChart =
+                new LineChart<Number, Number>(xAxis, yAxis);
+        lineChart.setMinHeight(600);
+        lineChart.setMinWidth(900);
+       for(int i=0;i<seriesList.size();i++) {
+
+
+           lineChart.setAnimated(false);
+           XYChart.Series a = new XYChart.Series();
+           a = seriesList.get(i);
+           a.setName(algoNames.get(i).name());
+        lineChart.setAnimated(false);
+           lineChart.getData().add(a);
+        lineChart.setLegendVisible(true);
+
+        }
+
+
+        panee.getChildren().add(lineChart);
+
+
 
     }
 
