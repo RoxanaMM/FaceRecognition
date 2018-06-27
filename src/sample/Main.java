@@ -67,7 +67,7 @@ public class Main extends Application {
     public static Integer nrOfIterationsChoosen;
     public static File[] listOfFiles;
     public static List<XYChart.Series> seriesList = new ArrayList<>();
-    private static String backgroundFile = "Mountains";
+    private static String backgroundFile = "Beach";
     @FXML
     private AnchorPane anchorFirstPage;
     @FXML
@@ -623,11 +623,11 @@ public class Main extends Application {
             finalNonSim.clear();
             List<Integer> nrOfIterationsChoosen1 = new ArrayList<>();
             nrOfIterationsChoosen1.add(5);
-            nrOfIterationsChoosen1.add(10);
-            nrOfIterationsChoosen1.add(25);
-            nrOfIterationsChoosen1.add(45);
-            nrOfIterationsChoosen1.add(50);
-            nrOfIterationsChoosen1.add(65);
+//            nrOfIterationsChoosen1.add(10);
+//            nrOfIterationsChoosen1.add(25);
+//            nrOfIterationsChoosen1.add(45);
+//            nrOfIterationsChoosen1.add(50);
+//            nrOfIterationsChoosen1.add(65);
             nrOfIterationsChoosen1.add(90);
 
 
@@ -637,41 +637,19 @@ public class Main extends Application {
 
                 for (int i = 0; i < nrOfIterationsChoosen1.get(j); i++) {
                     if (!algo.name().contains("similarity")) {
-                        if (allInOneSim.get(0).get(i) <= allInOneNonSim.get(0).get(i)) {
-                            similar++;
-                        } else {
+                        if (allInOneSim.get(0).get(i) <= allInOneNonSim.get(0).get(i) &&
+                                allInOneSim.get(1).get(i) <= allInOneNonSim.get(1).get(i) &&
+                                allInOneSim.get(2).get(i) <= allInOneNonSim.get(2).get(i))
+                                    similar++;
+                         else
                             nonSimilar++;
-                        }
-
-                        if (allInOneSim.get(1).get(i) <= allInOneNonSim.get(1).get(i)) {
-                            similar++;
-                        } else {
-                            nonSimilar++;
-                        }
-
-                        if (allInOneSim.get(2).get(i) <= allInOneNonSim.get(2).get(i)) {
-
-                        } else {
-                            nonSimilar++;
-                        }
                     } else {
-                        if (allInOneSim.get(0).get(i) >= allInOneNonSim.get(0).get(i)) {
+                        if (allInOneSim.get(0).get(i) >= allInOneNonSim.get(0).get(i) &&
+                                allInOneSim.get(1).get(i) >= allInOneNonSim.get(1).get(i) &&
+                                allInOneSim.get(2).get(i) >= allInOneNonSim.get(2).get(i))
                             similar++;
-                        } else {
+                         else
                             nonSimilar++;
-                        }
-
-                        if (allInOneSim.get(1).get(i) >= allInOneNonSim.get(1).get(i)) {
-                            similar++;
-                        } else {
-                            nonSimilar++;
-                        }
-
-                        if (allInOneSim.get(2).get(i) >= allInOneNonSim.get(2).get(i)) {
-
-                        } else {
-                            nonSimilar++;
-                        }
                     }
                 }
 //                System.out.println("test " + populateWIithPicsAddr1.getAbsolutePath() + "  " + algo+ " nr of iterations "
@@ -683,6 +661,8 @@ public class Main extends Application {
               //  results2.setText("Best k-NN =  " + minVal + " with an error of " + min);
                // isOrNot.getChildren().add(new Label("For " + nrOfIterationsChoosen1.get(j) + " image classified as being similar to " + nameOfSet));
                 if(nonSimilar ==0){
+                    System.out.println( nrOfIterationsChoosen1.get(j));
+                    System.out.println( nrOfIterationsChoosen1.get(j));
                     System.out.println( algo);
                 }
                 writeInFileTrainValues("test", populateWIithPicsAddr1.getAbsolutePath(), algo, nrOfIterationsChoosen1.get(j), similar, nonSimilar);

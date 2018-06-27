@@ -5,6 +5,10 @@
       <root url="jar://C:/forMaster/opencv/javacpp-1.2.1.jar!/" />
       <root url="jar://C:/forMaster/opencv/opencv-330.jar!/" />
       <root url="jar://C:/forMaster/opencv/opencv_library-2.4.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../javacv.jar!/" />
+      <root url="jar://C:/forMaster/documentatie/Face Recognition/Colt PCA/colt.jar!/" />
+      <root url="jar://C:/forMaster/documentatie/Face Recognition/GUI Face Recognizer/JavaFaces2.jar!/" />
+      <root url="jar://C:/forMaster/documentatie/Face Recognition/JavaFaces2/JavaFaces2.jar!/" />
     </CLASSES>
     <JAVADOC />
     <NATIVE>

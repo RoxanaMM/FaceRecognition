@@ -57,6 +57,20 @@
     -fx-background-color: transparent;
 }
 
+#init{
+    -fx-font-size: 22pt;
+    -fx-text-fill: #7FDBFF;
+    -fx-border-color: #7FDBFF, #7FDBFF;
+    -fx-background-color: black;
+    -fx-border-radius: 5px;
+}
+#test{
+    -fx-font-size: 22pt;
+    -fx-text-fill: #7FDBFF;
+    -fx-border-color: #7FDBFF, #7FDBFF;
+    -fx-background-color: black;
+    -fx-border-radius: 5px;
+}
 .table-view .column-header, .table-view .filler {
     -fx-size: 35;
     -fx-border-width: 0 0 1 0;
