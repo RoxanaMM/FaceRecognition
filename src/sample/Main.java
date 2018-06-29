@@ -1,5 +1,6 @@
 package sample;
 
+import com.googlecode.javacv.cpp.opencv_core;
 import javafx.application.Application;
 import javafx.collections.FXCollections;
 import javafx.event.ActionEvent;
@@ -21,7 +22,8 @@ import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 import logicPackage.enums.AlgoName;
 import logicPackage.enums.DatabaseName;
-import org.opencv.core.Core;
+import org.opencv.core.*;
+import org.opencv.imgproc.Imgproc;
 import sample.controller.LogicController;
 
 import java.io.*;
@@ -33,6 +35,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+
+import static org.opencv.android.Utils.bitmapToMat;
+
 
 public class Main extends Application {
 
@@ -93,6 +98,11 @@ public class Main extends Application {
     @FXML
     private AnchorPane panee;
 
+    @FXML
+    private Button transformPhotoToGreyScale;
+
+    public static boolean booleanGreyScale = false;
+
     public void handleDragPic1(DragEvent dragEvent) {
         if (dragEvent.getDragboard().hasFiles())
             dragEvent.acceptTransferModes(TransferMode.ANY);
@@ -129,6 +139,9 @@ public class Main extends Application {
 
             Image image = new Image(new FileInputStream(selectedFile));
             imageView1.setImage(image);
+            imageView1.setFitWidth(250);
+            imageView1.setFitHeight(230);
+            imageView1.setX(300);
             initialImages1.add(selectedFile);
             populateWIithPicsAddr1 = selectedFile;
         }
@@ -379,7 +392,8 @@ public class Main extends Application {
     }
 
     public void launchWIn2(ActionEvent actionEvent) throws IOException {
-        //panee.getChildren().add(new LineChart<>());
+        AnchorPane pane = FXMLLoader.load(getClass().getResource("view/SecondPage.fxml"));
+        anchorFirstPage.getChildren().setAll(pane);
     }
 
     public void closeWindow(MouseEvent mouseEvent) {
@@ -623,11 +637,11 @@ public class Main extends Application {
             finalNonSim.clear();
             List<Integer> nrOfIterationsChoosen1 = new ArrayList<>();
             nrOfIterationsChoosen1.add(5);
-//            nrOfIterationsChoosen1.add(10);
-//            nrOfIterationsChoosen1.add(25);
-//            nrOfIterationsChoosen1.add(45);
-//            nrOfIterationsChoosen1.add(50);
-//            nrOfIterationsChoosen1.add(65);
+            nrOfIterationsChoosen1.add(10);
+           nrOfIterationsChoosen1.add(25);
+           nrOfIterationsChoosen1.add(45);
+           nrOfIterationsChoosen1.add(50);
+           nrOfIterationsChoosen1.add(65);
             nrOfIterationsChoosen1.add(90);
 
 
@@ -704,6 +718,8 @@ public class Main extends Application {
 
 
         panee.getChildren().add(lineChart);
+       // opencv_core.IplImage img = cvLoadImage("C:\\Users\\Roxana\\Desktop\\1.jpg");
+       // detect(img);
 
 
 
@@ -795,8 +811,12 @@ public class Main extends Application {
         helperBlue.add(sim.get(2));
         for (int i = 3; i < sim.size(); i = i + 3) {
             helperRed.add(sim.get(i));
-            helperGreen.add(sim.get(i + 1));
-            helperBlue.add(sim.get(i + 2));
+            try {
+                helperGreen.add(sim.get(i + 1));
+                helperBlue.add(sim.get(i + 2));
+            }catch (Exception e){
+                System.out.println("not enough elements");
+            }
         }
 
         allChannelsInOne.add(helperRed);
@@ -877,5 +897,15 @@ public class Main extends Application {
         algoNames.add(AlgoName.distanceKumarJohnson);
         algoNames.add(AlgoName.distanceAvg);
 
+    }
+
+    public void transformToGreyscale(MouseEvent mouseEvent) {
+        booleanGreyScale = true;
+    }
+
+    public void transformLBP(ActionEvent actionEvent) {
+    }
+
+    public void doLBP(ActionEvent actionEvent) {
     }
 }

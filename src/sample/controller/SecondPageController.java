@@ -82,4 +82,7 @@ public class SecondPageController extends Main {
 //        anchorSecondPane.getChildren().setAll(pane);
 
     }
+
+    public void getHistograms2(ActionEvent actionEvent) {
+    }
 }
