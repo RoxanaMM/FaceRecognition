@@ -9,6 +9,9 @@
       <root url="jar://C:/forMaster/documentatie/Face Recognition/Colt PCA/colt.jar!/" />
       <root url="jar://C:/forMaster/documentatie/Face Recognition/GUI Face Recognizer/JavaFaces2.jar!/" />
       <root url="jar://C:/forMaster/documentatie/Face Recognition/JavaFaces2/JavaFaces2.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/javacpp-0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../JJILCore.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../JJIL-J2SE.jar!/" />
     </CLASSES>
     <JAVADOC />
     <NATIVE>

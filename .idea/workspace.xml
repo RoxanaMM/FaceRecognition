@@ -2,14 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/logicPackage/processing/RecognizedUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logicPackage/processing/Transform.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/libraries.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/libraries.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/trySmth/logicPackage/filters/Faces.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/trySmth/logicPackage/filters/FilteredBlue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/trySmth/logicPackage/filters/FilteredGreen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/trySmth/logicPackage/filters/FilteredHue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/trySmth/logicPackage/filters/FilteredRed.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/trySmth/logicPackage/filters/FilteredSaturation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/trySmth/logicPackage/filters/FilteredSepia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/trySmth/logicPackage/filters/FilteredYellow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/trySmth/logicPackage/main/MainClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/trySmth/logicPackage/processing/PersonRecognizer.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/trySmth/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trySmth/sample/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/trySmth/sample/controller/LogicController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trySmth/sample/controller/LogicController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/trySmth/sample/controller/SecondPageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trySmth/sample/controller/SecondPageController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/trySmth/sample/view/DarkTheme.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trySmth/sample/view/DarkTheme.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/trySmth/sample/view/FirstPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trySmth/sample/view/FirstPage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/trySmth/sample/view/SecondPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/trySmth/sample/view/SecondPage.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logicPackage/filters/Faces.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logicPackage/filters/FilteredBlue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logicPackage/filters/FilteredGreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logicPackage/filters/FilteredHue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logicPackage/filters/FilteredRed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logicPackage/filters/FilteredSaturation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logicPackage/filters/FilteredSepia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logicPackage/filters/FilteredYellow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logicPackage/main/MainClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logicPackage/processing/PersonRecognizer.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/controller/LogicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/controller/LogicController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/controller/SecondPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/controller/SecondPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/view/DarkTheme.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/view/DarkTheme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/view/FirstPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/view/FirstPage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/view/SecondPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/view/SecondPage.fxml" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,36 +105,79 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4">
-              <caret line="69" column="49" selection-start-line="69" selection-start-column="49" selection-end-line="69" selection-end-column="49" />
+            <state relative-caret-position="340">
+              <caret line="101" column="45" lean-forward="true" selection-start-line="101" selection-start-column="45" selection-end-line="101" selection-end-column="45" />
               <folding>
-                <element signature="e#3384#3418#0" />
-                <element signature="e#13847#14310#0" />
-                <element signature="e#14316#14597#0" />
-                <element signature="e#14603#19022#0" />
-                <element signature="e#24346#25124#0" />
-                <element signature="e#25130#25643#0" />
-                <element signature="e#25897#27181#0" />
-                <element signature="e#29559#32120#0" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FirstPage.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sample/view/FirstPage.fxml">
-          <provider editor-type-id="text-editor" />
-          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <file leaf-file-name="results1.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/results1.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="AlgoName.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/logicPackage/enums/AlgoName.java">
+      <file leaf-file-name="DarkTheme.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/view/DarkTheme.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            <state relative-caret-position="3196">
+              <caret line="188" column="7" selection-start-line="188" selection-start-column="1" selection-end-line="188" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Transform.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/logicPackage/processing/Transform.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="952">
+              <caret line="59" column="26" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RecognizedUser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/logicPackage/processing/RecognizedUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThirdPageController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/controller/ThirdPageController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LogicController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/controller/LogicController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="46" column="61" selection-start-line="46" selection-start-column="61" selection-end-line="46" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FourthPageController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/controller/FourthPageController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -122,21 +195,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Collections</find>
-      <find>trainingResultsRGB</find>
-      <find>Buses</find>
-      <find>takeFinalResults</find>
-      <find>takeRgbInOne</find>
-      <find>Food</find>
-      <find>populateWIithPicsAddr1</find>
-      <find>algo</find>
-      <find>writeInFileTrainValues</find>
-      <find>backGroundPicsAddressesList</find>
-      <find>documentSufix</find>
-      <find>init</find>
-      <find>launchWIn2</find>
-      <find>currentValsSim</find>
-      <find>as being</find>
       <find>backgro</find>
       <find>back</find>
       <find>Similare pentru</find>
@@ -152,6 +210,21 @@
       <find>seriesList</find>
       <find>allInOneSim</find>
       <find>series</find>
+      <find>go</find>
+      <find>wi</find>
+      <find>2</find>
+      <find>getHistogram1</find>
+      <find>launch</find>
+      <find>documentSufix</find>
+      <find>populateWIithPicsAddr1</find>
+      <find>launchWIn2</find>
+      <find>listOfFiles</find>
+      <find>gender</find>
+      <find>startCalculating</find>
+      <find>Width</find>
+      <find>test</find>
+      <find>fileChooser1</find>
+      <find>button</find>
     </findStrings>
     <replaceStrings>
       <replace>-fx-font-style : italic;</replace>
@@ -184,20 +257,34 @@
         <option value="$PROJECT_DIR$/src/logicPackage/model/Model.java" />
         <option value="$PROJECT_DIR$/src/logicPackage/model/BestFitModel.java" />
         <option value="$PROJECT_DIR$/src/sample/view/FourthPage.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/view/SecondPage.fxml" />
         <option value="$PROJECT_DIR$/src/sample/view/ThirdPage.fxml" />
         <option value="$PROJECT_DIR$/src/sample/controller/ThirdPageController.java" />
-        <option value="$PROJECT_DIR$/src/sample/controller/SecondPageController.java" />
-        <option value="$PROJECT_DIR$/src/sample/controller/LogicController.java" />
         <option value="$PROJECT_DIR$/src/logicPackage/enums/AlgoName.java" />
         <option value="$PROJECT_DIR$/src/logicPackage/algorithms/Algorithms.java" />
         <option value="$PROJECT_DIR$/src/logicPackage/enums/DatabaseName.java" />
         <option value="$PROJECT_DIR$/src/logicPackage/processing/PersonRecognizer.java" />
-        <option value="$PROJECT_DIR$/src/sample/view/DarkTheme.css" />
-        <option value="$PROJECT_DIR$/results1.txt" />
         <option value="$PROJECT_DIR$/src/logicPackage/processing/Calculate.java" />
-        <option value="$PROJECT_DIR$/src/sample/view/FirstPage.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/controller/SecondPageController.java" />
+        <option value="$PROJECT_DIR$/src/sample/view/SecondPage.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/controller/LogicController.java" />
+        <option value="$PROJECT_DIR$/src/logicPackage/filters/lena.java" />
+        <option value="$PROJECT_DIR$/src/logicPackage/filters/FaceDetection.java" />
+        <option value="$PROJECT_DIR$/src/logicPackage/filters/MatUtil.java" />
+        <option value="$PROJECT_DIR$/src/logicPackage/filters/WeightedStandardPixelTrainer.java" />
+        <option value="$PROJECT_DIR$/src/logicPackage/filters/RecognizedUser.java" />
+        <option value="$PROJECT_DIR$/src/logicPackage/filters/GenderTrainingData.java" />
+        <option value="$PROJECT_DIR$/src/logicPackage/filters/TrainAll.java" />
+        <option value="$PROJECT_DIR$/src/logicPackage/filters/UserRecognizer.java" />
+        <option value="$PROJECT_DIR$/src/logicPackage/filters/FaceDetector.java" />
+        <option value="$PROJECT_DIR$/src/logicPackage/filters/PrepareFaces.java" />
+        <option value="$PROJECT_DIR$/src/logicPackage/filters/User.java" />
+        <option value="$PROJECT_DIR$/src/logicPackage/filters/WeightedStandardImages.java" />
+        <option value="$PROJECT_DIR$/src/logicPackage/processing/Transform.java" />
+        <option value="$PROJECT_DIR$/src/logicPackage/processing/RecognizedUser.java" />
         <option value="$PROJECT_DIR$/src/sample/Main.java" />
+        <option value="$PROJECT_DIR$/src/sample/view/DarkTheme.css" />
+        <option value="$PROJECT_DIR$/src/sample/view/FirstPage.fxml" />
+        <option value="$PROJECT_DIR$/results1.txt" />
       </list>
     </option>
   </component>
@@ -212,6 +299,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="525" />
+    <option name="y" value="480" />
     <option name="width" value="960" />
     <option name="height" value="1030" />
   </component>
@@ -227,8 +316,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -245,27 +332,69 @@
               <item name="trySmth" type="b2602c69:ProjectViewProjectNode" />
               <item name="trySmth" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="logicPackage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trySmth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trySmth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="logicPackage" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trySmth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trySmth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="logicPackage" type="462c0819:PsiDirectoryNode" />
+              <item name="enums" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trySmth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trySmth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="logicPackage" type="462c0819:PsiDirectoryNode" />
+              <item name="histogram" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trySmth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trySmth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="logicPackage" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trySmth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trySmth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="logicPackage" type="462c0819:PsiDirectoryNode" />
+              <item name="processing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="trySmth" type="b2602c69:ProjectViewProjectNode" />
+              <item name="trySmth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sample" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="trySmth" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="trySmth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="trySmth" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="bin" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="trySmth" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="bin" type="70bed36:NamedLibraryElementNode" />
-              <item name="opencv-3.2.0-1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="trySmth" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -280,7 +409,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="C:/forMaster/documentatie/Face Recognition/JavaFaces2/JavaFaces2.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../hy" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.23266856" />
@@ -289,6 +418,9 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\work\New folder\trySmth\src\logicPackage\processing" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="logicPackage.enums" />
     </key>
@@ -313,6 +445,17 @@
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="WIDTH" value="0" />
+    </configuration>
+    <configuration name="FaceDetector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="logicPackage.filters.FaceDetector" />
+      <module name="trySmth" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="logicPackage.filters.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="sample.Main" />
@@ -400,9 +543,11 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.MainClass" />
+      <item itemvalue="Application.FaceDetector" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FaceDetector" />
         <item itemvalue="Application.MainClass" />
       </list>
     </recent_temporary>
@@ -451,6 +596,8 @@
       <workItem from="1530030718203" duration="34000" />
       <workItem from="1530030792349" duration="947000" />
       <workItem from="1530031777752" duration="20951000" />
+      <workItem from="1530091582678" duration="32297000" />
+      <workItem from="1530276254353" duration="34000" />
     </task>
     <task id="LOCAL-00001" summary="changed some interface stuff, some buttons work better now">
       <created>1529252501979</created>
@@ -575,47 +722,48 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="310447000" />
+    <option name="totallyTimeSpent" value="342778000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="5" />
-      <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49934897" weight="0.047879618" />
+      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="1" sideWeight="0.86848956" visible="true" weight="0.26812586" />
-      <window_info anchor="bottom" id="Coverage" order="15" sideWeight="0.13151042" side_tool="true" visible="true" weight="0.26812586" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.86848956" weight="0.023255814" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.1953125" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.17382812" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="2" sideWeight="0.6660156" weight="0.29548565" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6660156" weight="0.30369356" />
       <window_info anchor="right" id="JetGradle" order="10" />
-      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49934897" weight="0.18604651" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Changes" order="10" />
-      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Nl-Palette" order="7" />
-      <window_info anchor="bottom" id="Profiler" order="11" />
-      <window_info anchor="bottom" id="Problems" order="12" />
+      <window_info anchor="bottom" id="Profiler" order="12" />
+      <window_info anchor="bottom" id="Problems" order="13" />
       <window_info anchor="right" id="Properties" order="9" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" sideWeight="0.4937656" weight="0.008463542" />
-      <window_info anchor="bottom" id="Find" order="16" sideWeight="0.4986979" weight="0.30369356" />
-      <window_info anchor="bottom" id="Application Servers" order="13" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" sideWeight="0.4937656" visible="true" weight="0.008463542" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4986979" weight="0.30369356" />
+      <window_info anchor="bottom" id="Application Servers" order="14" />
+      <window_info anchor="bottom" id="Coverage" order="16" sideWeight="0.13151042" side_tool="true" visible="true" weight="0.26812586" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -659,18 +807,36 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/sample/Main.java</url>
-          <line>503</line>
-          <properties />
-          <option name="timeStamp" value="617" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sample/Main.java</url>
-          <line>687</line>
+          <line>701</line>
           <properties />
           <option name="timeStamp" value="627" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/logicPackage/filters/FaceDetector.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="642" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sample/Main.java</url>
+          <line>721</line>
+          <properties />
+          <option name="timeStamp" value="645" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sample/Main.java</url>
+          <line>720</line>
+          <properties />
+          <option name="timeStamp" value="646" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/sample/Main.java</url>
+          <line>618</line>
+          <properties />
+          <option name="timeStamp" value="647" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="629" />
+      <option name="time" value="648" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -734,24 +900,96 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1870">
-          <caret line="110" column="4" lean-forward="true" selection-start-line="110" selection-start-column="4" selection-end-line="110" selection-end-column="4" />
+        <state relative-caret-position="1394">
+          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
           <folding>
-            <element signature="e#3384#3418#0" />
-            <element signature="e#13847#14310#0" />
-            <element signature="e#14316#14597#0" />
-            <element signature="e#14603#19022#0" />
-            <element signature="e#24346#25124#0" />
-            <element signature="e#25130#25643#0" />
-            <element signature="e#25897#27181#0" />
-            <element signature="e#29559#32120#0" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/view/DarkTheme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3196">
+          <caret line="188" column="7" selection-start-line="188" selection-start-column="1" selection-end-line="188" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logicPackage/processing/Transform.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="59" column="26" lean-forward="true" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logicPackage/processing/RecognizedUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/controller/ThirdPageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/controller/LogicController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="46" column="61" selection-start-line="46" selection-start-column="61" selection-end-line="46" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/controller/FourthPageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="69" column="49" selection-start-line="69" selection-start-column="49" selection-end-line="69" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/view/FirstPage.fxml">
-      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logicPackage/enums/AlgoName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1870">
+          <caret line="110" column="4" lean-forward="true" selection-start-line="110" selection-start-column="4" selection-end-line="110" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/view/FirstPage.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/logicPackage/enums/AlgoName.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -764,14 +1002,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
-            <element signature="e#3384#3418#0" />
-            <element signature="e#13847#14310#0" />
-            <element signature="e#14316#14597#0" />
-            <element signature="e#14603#19022#0" />
-            <element signature="e#24346#25124#0" />
-            <element signature="e#25130#25643#0" />
-            <element signature="e#25897#27181#0" />
-            <element signature="e#29559#32120#0" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -811,33 +1042,151 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/logicPackage/enums/AlgoName.java">
+    <entry file="file://$PROJECT_DIR$/src/logicPackage/histogram/DrawColouredHistogram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/view/SecondPage.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="110" selection-start-line="11" selection-start-column="110" selection-end-line="11" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/controller/SecondPageController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logicPackage/processing/Coloured.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="56" column="28" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logicPackage/processing/GrayScale.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="1773" selection-start-line="1773" selection-end-line="1773" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logicPackage/enums/AlgoName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="52" column="15" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logicPackage/filters/Faces.java" />
+    <entry file="jar://C:/forMaster/opencv/opencv-330.jar!/org/opencv/core/Size.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logicPackage/filters/GenderTrainingData.java" />
+    <entry file="file://$PROJECT_DIR$/src/logicPackage/filters/MatUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/logicPackage/filters/RecognizedUser.java" />
+    <entry file="file://$PROJECT_DIR$/src/logicPackage/filters/User.java" />
+    <entry file="file://$PROJECT_DIR$/src/logicPackage/filters/WeightedStandardImages.java" />
+    <entry file="file://$PROJECT_DIR$/src/logicPackage/filters/WeightedStandardPixelTrainer.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logicPackage/filters/TrainAll.java" />
+    <entry file="file://$PROJECT_DIR$/src/logicPackage/filters/PrepareFaces.java" />
+    <entry file="file://$PROJECT_DIR$/src/logicPackage/filters/UserRecognizer.java" />
+    <entry file="file://$PROJECT_DIR$/src/logicPackage/main/MainClass.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/controller/ThirdPageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/controller/LogicController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="46" column="61" selection-start-line="46" selection-start-column="61" selection-end-line="46" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/controller/FourthPageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logicPackage/filters/FaceDetector.java" />
+    <entry file="file://$PROJECT_DIR$/src/logicPackage/processing/PersonRecognizer.java" />
+    <entry file="file://$PROJECT_DIR$/src/logicPackage/processing/RecognizedUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/logicPackage/processing/Transform.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="59" column="26" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/view/DarkTheme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3196">
+          <caret line="188" column="7" selection-start-line="188" selection-start-column="1" selection-end-line="188" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/view/FirstPage.fxml">
-      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="145" column="82" lean-forward="true" selection-start-line="145" selection-start-column="82" selection-end-line="145" selection-end-column="82" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4">
-          <caret line="69" column="49" selection-start-line="69" selection-start-column="49" selection-end-line="69" selection-end-column="49" />
+        <state relative-caret-position="340">
+          <caret line="101" column="45" lean-forward="true" selection-start-line="101" selection-start-column="45" selection-end-line="101" selection-end-column="45" />
           <folding>
-            <element signature="e#3384#3418#0" />
-            <element signature="e#13847#14310#0" />
-            <element signature="e#14316#14597#0" />
-            <element signature="e#14603#19022#0" />
-            <element signature="e#24346#25124#0" />
-            <element signature="e#25130#25643#0" />
-            <element signature="e#25897#27181#0" />
-            <element signature="e#29559#32120#0" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
