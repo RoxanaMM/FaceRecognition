@@ -30,7 +30,6 @@ public class Calculate extends Algorithms {
     public static String calculateDistance(File populateWIithPicsAddr1, File populateWIithPicsAddr2, Results results, float P[], float Q[], int channelIndicator) {
         indicator = 0;
         buildNameMaps();
-        List<Double> bestFitModel = new ArrayList<>();
         keepAlgoFunc.put(results.getAlgoName(), new Help(results, P, Q));
         receiveCommand(results.getAlgoName(), P, Q);
         writeInFile(results.getAlgoName(), algoCalculationResult, populateWIithPicsAddr1, populateWIithPicsAddr2, channelIndicator);

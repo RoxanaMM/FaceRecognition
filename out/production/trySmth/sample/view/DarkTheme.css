@@ -99,6 +99,27 @@
     -fx-background-color: black;
     -fx-border-radius: 5px;
 }
+#LBPLabel{
+    -fx-font-size: 16pt;
+    -fx-text-fill: #7FDBFF;
+    -fx-border-color: #7FDBFF, #7FDBFF;
+    -fx-background-color: black;
+    -fx-border-radius: 5px;
+}
+#knn{
+    -fx-font-size:16pt;
+    -fx-text-fill: #7FDBFF;
+    -fx-border-color: #7FDBFF, #7FDBFF;
+    -fx-background-color: black;
+    -fx-border-radius: 5px;
+}
+#cvloo{
+    -fx-font-size: 16pt;
+    -fx-text-fill: #7FDBFF;
+    -fx-border-color: #7FDBFF, #7FDBFF;
+    -fx-background-color: black;
+    -fx-border-radius: 5px;
+}
 .table-view .column-header, .table-view .filler {
     -fx-size: 35;
     -fx-border-width: 0 0 1 0;

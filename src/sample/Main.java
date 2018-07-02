@@ -1,6 +1,5 @@
 package sample;
 
-import com.googlecode.javacv.cpp.opencv_core;
 import javafx.application.Application;
 import javafx.collections.FXCollections;
 import javafx.event.ActionEvent;
@@ -22,8 +21,8 @@ import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 import logicPackage.enums.AlgoName;
 import logicPackage.enums.DatabaseName;
-import org.opencv.core.*;
-import org.opencv.imgproc.Imgproc;
+import logicPackage.processing.Transform;
+import org.opencv.core.Core;
 import sample.controller.LogicController;
 
 import java.io.*;
@@ -36,8 +35,6 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-import static org.opencv.android.Utils.bitmapToMat;
-
 
 public class Main extends Application {
 
@@ -45,6 +42,7 @@ public class Main extends Application {
         System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
     }
 
+    //<editor-fold desc="Description">
     @FXML
     private ImageView imageView1;
     @FXML
@@ -64,6 +62,7 @@ public class Main extends Application {
     public static List<Integer> nrOfIterations = new ArrayList<>();
     public static final String documentSufix = "C:\\forMaster\\temaDisertatie\\backupPic\\Corel1000\\";
     public static List<File> backGroundPicsAddressesList = new ArrayList<>();
+    public static List<File> backGroundPicsAddressesListFaces = new ArrayList<>();
     public static List<File> initialImages1 = new ArrayList<>();
     public static List<String> similarPhotosResults = new ArrayList<>();
     public static List<String> nonSimilarPhotosResults = new ArrayList<>();
@@ -73,6 +72,7 @@ public class Main extends Application {
     public static File[] listOfFiles;
     public static List<XYChart.Series> seriesList = new ArrayList<>();
     private static String backgroundFile = "Beach";
+    private static String backgroundFileFaces = "Tina";
     @FXML
     private AnchorPane anchorFirstPage;
     @FXML
@@ -100,8 +100,10 @@ public class Main extends Application {
 
     @FXML
     private Button transformPhotoToGreyScale;
+    //</editor-fold>
 
-    public static boolean booleanGreyScale = false;
+    Transform transform = new Transform();
+    public static boolean choosedLBP = false;
 
     public void handleDragPic1(DragEvent dragEvent) {
         if (dragEvent.getDragboard().hasFiles())
@@ -477,6 +479,14 @@ public class Main extends Application {
                 backGroundPicsAddressesList.add(new File(firstFileEntry.getAbsolutePath()));
             }
         }
+
+        File folder1 = new File(documentSufix.concat(backgroundFileFaces));
+        File[] listOfFiles1 = folder1.listFiles();
+        for (File firstFileEntry : listOfFiles1) {
+            if (firstFileEntry.getAbsolutePath().contains("jpg") || firstFileEntry.getAbsolutePath().contains("JPG")) {
+                backGroundPicsAddressesListFaces.add(new File(firstFileEntry.getAbsolutePath()));
+            }
+        }
     }
 
     public List<Double> transformToDouble(List<String> stringList) {
@@ -491,7 +501,7 @@ public class Main extends Application {
         List<Double> finalSim;
         List<Double> finalNonSim;
 
-        int inde=0;
+        int inde = 0;
         int similar = 0;
         int nonSimilar = 0;
         int similarMistake = 0;
@@ -513,7 +523,7 @@ public class Main extends Application {
             for (File f : newFiles) {
                 similarPhotosResults = logicController.getImgAndDoCalculatins(algo, f, newFiles.subList(newFiles.indexOf(f) + 1, newFiles.size()));
                 nonSimilarPhotosResults = logicController.getImgAndDoCalculatins(algo, f, backGroundPicsAddressesList);
-                if (similarPhotosResults.size() != 0 ) {
+                if (similarPhotosResults.size() != 0) {
                     finalSim = transformToDouble(similarPhotosResults);
                     allInOneSim = takeRgbInOne(finalSim);
 
@@ -573,7 +583,7 @@ public class Main extends Application {
                             nonSimilar++;
                             similarMistake++;
                         }
-                         }
+                    }
                     xAxis.setCategories(FXCollections.<String>observableArrayList(Arrays.asList(algo.name())));
                     series1.setName(algo.name());
                     series1.getData().add(new XYChart.Data<>(algo.name(), similarMistake));
@@ -588,7 +598,7 @@ public class Main extends Application {
         StackedBarChart<String, Number> stackedBarChart =
                 new StackedBarChart<String, Number>(xAxis, yAxis);
         stackedBarChart.getData().addAll(series1);
-        anchorel.getChildren().add(inde,stackedBarChart);
+        anchorel.getChildren().add(inde, stackedBarChart);
         inde++;
         //results2.setText("Best k-NN =  " + minVal + " with an error of " + min);
 
@@ -598,14 +608,12 @@ public class Main extends Application {
     public void compareWithAllSimilar() throws IOException {
         List<Double> finalSim = new ArrayList<>();
         List<Double> finalNonSim = new ArrayList<>();
-        List <XYChart.Series> listOfSeries = new ArrayList<>();
+        List<XYChart.Series> listOfSeries = new ArrayList<>();
         Integer min = 999;
         final NumberAxis xAxis = new NumberAxis();
         final NumberAxis yAxis = new NumberAxis();
         xAxis.setLabel("k-NN");
         yAxis.setLabel("Error");
-
-
 
 
         List<List<Double>> allInOneSim;
@@ -638,10 +646,10 @@ public class Main extends Application {
             List<Integer> nrOfIterationsChoosen1 = new ArrayList<>();
             nrOfIterationsChoosen1.add(5);
             nrOfIterationsChoosen1.add(10);
-           nrOfIterationsChoosen1.add(25);
-           nrOfIterationsChoosen1.add(45);
-           nrOfIterationsChoosen1.add(50);
-           nrOfIterationsChoosen1.add(65);
+            nrOfIterationsChoosen1.add(25);
+            nrOfIterationsChoosen1.add(45);
+            nrOfIterationsChoosen1.add(50);
+            nrOfIterationsChoosen1.add(65);
             nrOfIterationsChoosen1.add(90);
 
 
@@ -654,15 +662,15 @@ public class Main extends Application {
                         if (allInOneSim.get(0).get(i) <= allInOneNonSim.get(0).get(i) &&
                                 allInOneSim.get(1).get(i) <= allInOneNonSim.get(1).get(i) &&
                                 allInOneSim.get(2).get(i) <= allInOneNonSim.get(2).get(i))
-                                    similar++;
-                         else
+                            similar++;
+                        else
                             nonSimilar++;
                     } else {
                         if (allInOneSim.get(0).get(i) >= allInOneNonSim.get(0).get(i) &&
                                 allInOneSim.get(1).get(i) >= allInOneNonSim.get(1).get(i) &&
                                 allInOneSim.get(2).get(i) >= allInOneNonSim.get(2).get(i))
                             similar++;
-                         else
+                        else
                             nonSimilar++;
                     }
                 }
@@ -672,16 +680,15 @@ public class Main extends Application {
 
                 series.getData().add(new XYChart.Data(nrOfIterationsChoosen1.get(j), nonSimilar));
 
-              //  results2.setText("Best k-NN =  " + minVal + " with an error of " + min);
-               // isOrNot.getChildren().add(new Label("For " + nrOfIterationsChoosen1.get(j) + " image classified as being similar to " + nameOfSet));
-                if(nonSimilar ==0){
-                    System.out.println( nrOfIterationsChoosen1.get(j));
-                    System.out.println( nrOfIterationsChoosen1.get(j));
-                    System.out.println( algo);
+                //  results2.setText("Best k-NN =  " + minVal + " with an error of " + min);
+                // isOrNot.getChildren().add(new Label("For " + nrOfIterationsChoosen1.get(j) + " image classified as being similar to " + nameOfSet));
+                if (nonSimilar == 0) {
+                    System.out.println(nrOfIterationsChoosen1.get(j));
+                    System.out.println(nrOfIterationsChoosen1.get(j));
+                    System.out.println(algo);
                 }
                 writeInFileTrainValues("test", populateWIithPicsAddr1.getAbsolutePath(), algo, nrOfIterationsChoosen1.get(j), similar, nonSimilar);
-                similar = 0;
-                nonSimilar = 0;
+
 //                if (nonSimilar < min) {
 //                    min = nonSimilar;
 //                    minVal = nrOfIterationsChoosen1.get(j);
@@ -691,8 +698,9 @@ public class Main extends Application {
                     results.setText("For k-NN =  " + nrOfIterationsChoosen1.get(j) + " image classified as being similar to " + nameOfSet);
 
                 }
-
-               // if(nrOfIterationsChoosen1.get(j) == i){
+                similar = 0;
+                nonSimilar = 0;
+                // if(nrOfIterationsChoosen1.get(j) == i){
 
                 //}
             }
@@ -703,23 +711,145 @@ public class Main extends Application {
                 new LineChart<Number, Number>(xAxis, yAxis);
         lineChart.setMinHeight(600);
         lineChart.setMinWidth(900);
-       for(int i=0;i<seriesList.size();i++) {
+        for (int i = 0; i < seriesList.size(); i++) {
 
 
-           lineChart.setAnimated(false);
-           XYChart.Series a = new XYChart.Series();
-           a = seriesList.get(i);
-           a.setName(algoNames.get(i).name());
-        lineChart.setAnimated(false);
-           lineChart.getData().add(a);
-        lineChart.setLegendVisible(true);
+            lineChart.setAnimated(false);
+            XYChart.Series a = new XYChart.Series();
+            a = seriesList.get(i);
+            a.setName(algoNames.get(i).name());
+            lineChart.setAnimated(false);
+            lineChart.getData().add(a);
+            lineChart.setLegendVisible(true);
 
         }
 
 
         panee.getChildren().add(lineChart);
-       // opencv_core.IplImage img = cvLoadImage("C:\\Users\\Roxana\\Desktop\\1.jpg");
-       // detect(img);
+        // opencv_core.IplImage img = cvLoadImage("C:\\Users\\Roxana\\Desktop\\1.jpg");
+        // detect(img);
+
+
+    }
+
+    public void doLBPdoLBP(ActionEvent actionEvent) throws IOException {
+        doLBP1();
+    }
+
+    public void doLBP1() throws IOException {
+        List<Double> finalSim = new ArrayList<>();
+        List<Double> finalNonSim = new ArrayList<>();
+        List<XYChart.Series> listOfSeries = new ArrayList<>();
+        Integer min = 999;
+        final NumberAxis xAxis = new NumberAxis();
+        final NumberAxis yAxis = new NumberAxis();
+        xAxis.setLabel("LBP");
+        yAxis.setLabel("Error");
+
+
+        List<List<Double>> allInOneSim;
+        List<List<Double>> allInOneNonSim;
+
+        int similar = 0;
+        int nonSimilar = 0;
+
+        File folder = new File(documentSufix.concat(nameOfSet));
+        for (AlgoName algo : algoNames) {
+            similarPhotosResults = logicController.getImgAndDoCalculatins(algo, populateWIithPicsAddr1, Arrays.asList(listOfFiles));
+            nonSimilarPhotosResults = logicController.getImgAndDoCalculatins(algo, populateWIithPicsAddr1, backGroundPicsAddressesListFaces);
+
+            finalSim = transformToDouble(similarPhotosResults);
+
+            finalNonSim = transformToDouble(nonSimilarPhotosResults);
+
+            Collections.sort(finalSim);
+            Collections.sort(finalNonSim);
+
+            List<Integer> nrOfIterationsChoosen1 = new ArrayList<>();
+            nrOfIterationsChoosen1.add(5);
+            nrOfIterationsChoosen1.add(7);
+            nrOfIterationsChoosen1.add(9);
+            nrOfIterationsChoosen1.add(10);
+
+           // nrOfIterationsChoosen1.add(30);
+
+
+
+            XYChart.Series series = new XYChart.Series();
+            series.setName(algo.name());
+            for (int j = 0; j < nrOfIterationsChoosen1.size(); j++) {
+
+                for (int i = 0; i < nrOfIterationsChoosen1.get(j); i++) {
+                    if (!algo.name().contains("similarity")) {
+                        if (finalSim.get(i) <= finalNonSim.get(i))
+                            similar++;
+                        else
+                            nonSimilar++;
+                    } else {
+                        if (finalSim.get(i) >= finalNonSim.get(i))
+                            similar++;
+                        else
+                            nonSimilar++;
+                    }
+                }
+//                System.out.println("test " + populateWIithPicsAddr1.getAbsolutePath() + "  " + algo+ " nr of iterations "
+//                        +  nrOfIterationsChoosen1.get(j)+ " similar:  " +  similar+ "  nonSimilar: " + nonSimilar);
+
+
+                series.getData().add(new XYChart.Data(nrOfIterationsChoosen1.get(j), similar
+                ));
+
+                //  results2.setText("Best k-NN =  " + minVal + " with an error of " + min);
+                // isOrNot.getChildren().add(new Label("For " + nrOfIterationsChoosen1.get(j) + " image classified as being similar to " + nameOfSet));
+                if (nonSimilar == 0) {
+//                    System.out.println(nrOfIterationsChoosen1.get(j));
+//                    System.out.println(algo);
+                }
+                writeInFileTrainValues("test", populateWIithPicsAddr1.getAbsolutePath(), algo, nrOfIterationsChoosen1.get(j), similar, nonSimilar);
+
+//                if (nonSimilar < min) {
+//                    min = nonSimilar;
+//                    minVal = nrOfIterationsChoosen1.get(j);
+//                }
+                if (similar > nonSimilar) {
+//                    System.out.println("Photo is found as being " + nameOfSet);
+//                    results.setText("For LBP =  " + nrOfIterationsChoosen1.get(j) + " image classified as being similar to " + nameOfSet);
+
+                }
+                if(similar >0)
+                    System.out.println("SIMILAR "+ algo + " iterations " +nrOfIterationsChoosen1.get(j)+" SIMILAR: "+ similar);
+                if(nonSimilar >0)
+                    System.out.println("The algorithm "+ algo + " iterations " +nrOfIterationsChoosen1.get(j)+" nonsimilar: "+ nonSimilar);
+                similar = 0;
+                nonSimilar = 0;
+                // if(nrOfIterationsChoosen1.get(j) == i){
+
+                //}
+            }
+            seriesList.add(series);
+
+        }
+        LineChart<Number, Number> lineChart =
+                new LineChart<Number, Number>(xAxis, yAxis);
+        lineChart.setMinHeight(600);
+        lineChart.setMinWidth(900);
+        for (int i = 0; i < seriesList.size(); i++) {
+
+
+            lineChart.setAnimated(false);
+            XYChart.Series a = new XYChart.Series();
+            a = seriesList.get(i);
+            a.setName(algoNames.get(i).name());
+            lineChart.setAnimated(false);
+            lineChart.getData().add(a);
+            lineChart.setLegendVisible(true);
+
+        }
+
+
+        panee.getChildren().add(lineChart);
+        // opencv_core.IplImage img = cvLoadImage("C:\\Users\\Roxana\\Desktop\\1.jpg");
+        // detect(img);
 
 
 
@@ -786,7 +916,7 @@ public class Main extends Application {
 
         nameOfSet = databaseName.get(0).name();
         labelWithName.setText(nameOfSet);
-        nrOfIterationsChoosen = nrOfIterations.get(0);
+        // nrOfIterationsChoosen = nrOfIterations.get(0);
         File folder = new File(documentSufix.concat(nameOfSet));
         listOfFiles = folder.listFiles();
         nameOfAlgo.setText(algoNames.get(0).name());
@@ -814,7 +944,7 @@ public class Main extends Application {
             try {
                 helperGreen.add(sim.get(i + 1));
                 helperBlue.add(sim.get(i + 2));
-            }catch (Exception e){
+            } catch (Exception e) {
                 System.out.println("not enough elements");
             }
         }
@@ -899,13 +1029,251 @@ public class Main extends Application {
 
     }
 
-    public void transformToGreyscale(MouseEvent mouseEvent) {
-        booleanGreyScale = true;
-    }
 
     public void transformLBP(ActionEvent actionEvent) {
+//        transform.iaPrinteazoOleaca(populateWIithPicsAddr1);
+//        List<Double> finalSim;
+//        List<Double> finalNonSim;
+//
+//        int inde=0;
+//        int similar = 0;
+//        int nonSimilar = 0;
+//        int similarMistake = 0;
+//        int nonSimilarMistake = 0;
+//
+//        List<List<Double>> allInOneSim;
+//        List<List<Double>> allInOneNonSim;
+//
+//        List<File> newFiles = new ArrayList<>();
+//        newFiles.addAll(Arrays.asList(listOfFiles));
+//
+//        final CategoryAxis xAxis = new CategoryAxis();
+//        final NumberAxis yAxis = new NumberAxis();
+//        xAxis.setLabel("Algoritm");
+//        yAxis.setLabel("CVLOO mistake % result");
+//        XYChart.Series<String, Number> series1 = new XYChart.Series<>();
+//
+//        for (AlgoName algo : algoNames) {
+//            for (File f : newFiles) {
+//                similarPhotosResults = logicController.getImgAndDoCalculatins(algo, f, newFiles.subList(newFiles.indexOf(f) + 1, newFiles.size()));
+//                nonSimilarPhotosResults = logicController.getImgAndDoCalculatins(algo, f, backGroundPicsAddressesList);
+//                if (similarPhotosResults.size() != 0 ) {
+//                    finalSim = transformToDouble(similarPhotosResults);
+//                    allInOneSim = takeRgbInOne(finalSim);
+//
+//                    finalNonSim = transformToDouble(nonSimilarPhotosResults);
+//                    allInOneNonSim = takeRgbInOne(finalNonSim);
+//
+//
+//                    Collections.sort(allInOneSim.get(0));
+//                    Collections.sort(allInOneSim.get(1));
+//                    Collections.sort(allInOneSim.get(2));
+//                    Collections.sort(allInOneNonSim.get(0));
+//                    Collections.sort(allInOneNonSim.get(1));
+//                    Collections.sort(allInOneNonSim.get(2));
+//
+//                    finalSim.clear();
+//                    finalNonSim.clear();
+//
+//                    if (!algo.name().contains("similarity")) {
+//                        if (allInOneSim.get(0).get(0) <= allInOneNonSim.get(0).get(0)) {
+//                            similar++;
+//                        } else {
+//                            nonSimilar++;
+//                            similarMistake++;
+//                        }
+//
+//                        if (allInOneSim.get(1).get(0) <= allInOneNonSim.get(1).get(0)) {
+//                            similar++;
+//                        } else {
+//                            nonSimilar++;
+//                            similarMistake++;
+//                        }
+//
+//                        if (allInOneSim.get(2).get(0) <= allInOneNonSim.get(2).get(0)) {
+//
+//                        } else {
+//                            nonSimilar++;
+//                            similarMistake++;
+//                        }
+//                    } else {
+//                        if (allInOneSim.get(0).get(0) >= allInOneNonSim.get(0).get(0)) {
+//                            similar++;
+//                        } else {
+//                            nonSimilar++;
+//                            similarMistake++;
+//                        }
+//
+//                        if (allInOneSim.get(1).get(0) >= allInOneNonSim.get(1).get(0)) {
+//                            similar++;
+//                        } else {
+//                            nonSimilar++;
+//                            similarMistake++;
+//                        }
+//
+//                        if (allInOneSim.get(2).get(0) >= allInOneNonSim.get(2).get(0)) {
+//
+//                        } else {
+//                            nonSimilar++;
+//                            similarMistake++;
+//                        }
+//                    }
+//                    xAxis.setCategories(FXCollections.<String>observableArrayList(Arrays.asList(algo.name())));
+//                    series1.setName(algo.name());
+//                    series1.getData().add(new XYChart.Data<>(algo.name(), similarMistake));
+//                    // newFiles.add(f);
+//                    System.out.println("Algorithm " + algo + " Misclasification " + similarMistake);
+//                    similarMistake = 0;
+//                    allInOneSim.clear();
+//                    allInOneNonSim.clear();
+//                }
+//            }
+//        }
+//        StackedBarChart<String, Number> stackedBarChart =
+//                new StackedBarChart<String, Number>(xAxis, yAxis);
+//        stackedBarChart.getData().addAll(series1);
+//        anchorel.getChildren().add(inde,stackedBarChart);
+//        inde++;
+//        //results2.setText("Best k-NN =  " + minVal + " with an error of " + min);
+        choosedLBP = true;
     }
 
+    //<editor-fold desc="Description">
     public void doLBP(ActionEvent actionEvent) {
     }
+
+    public void Abdul(ActionEvent actionEvent) {
+        databaseName.add(DatabaseName.Abdul);
+    }
+
+    public void Bogdan(ActionEvent actionEvent) {
+        databaseName.add(DatabaseName.Bogdan);
+    }
+
+    public void Catalin(ActionEvent actionEvent) {
+        databaseName.add(DatabaseName.Bogdan);
+    }
+
+    public void Daniel(ActionEvent actionEvent) {
+        databaseName.add(DatabaseName.Catalin);
+    }
+
+    public void Dica(ActionEvent actionEvent) {
+        databaseName.add(DatabaseName.Dica);
+    }
+
+    public void Dorel(ActionEvent actionEvent) {
+        databaseName.add(DatabaseName.Dorel);
+    }
+
+    public void Elvira(ActionEvent actionEvent) {
+        databaseName.add(DatabaseName.Elvira);
+    }
+
+    public void Florentina(ActionEvent actionEvent) {
+        databaseName.add(DatabaseName.Florentina);
+    }
+
+    public void Florica(ActionEvent actionEvent) {
+        databaseName.add(DatabaseName.Florica);
+    }
+
+    public void George(ActionEvent actionEvent) {
+        databaseName.add(DatabaseName.George);
+    }
+
+    public void Gheorghe(ActionEvent actionEvent) {
+        databaseName.add(DatabaseName.Gheorghe);
+    }
+
+    public void Gigi(ActionEvent actionEvent) {
+        databaseName.add(DatabaseName.Gigi);
+    }
+
+    public void Gina(ActionEvent actionEvent) {
+        databaseName.add(DatabaseName.Gina);
+    }
+
+    public void Ileana(ActionEvent actionEvent) {
+        databaseName.add(DatabaseName.Ileana);
+    }
+
+    public void Ina(ActionEvent actionEvent) {
+        databaseName.add(DatabaseName.Ina);
+    }
+
+    public void Ion(ActionEvent actionEvent) {
+        databaseName.add(DatabaseName.Ion);
+    }
+
+    public void Iona(ActionEvent actionEvent) {
+        databaseName.add(DatabaseName.Iona);
+    }
+
+    public void John(ActionEvent actionEvent) {
+        databaseName.add(DatabaseName.John);
+    }
+
+    public void Lisa(ActionEvent actionEvent) {
+        databaseName.add(DatabaseName.Lisa);
+    }
+
+    public void Liviu(ActionEvent actionEvent) {
+        databaseName.add(DatabaseName.Liviu);
+    }
+
+    public void Luca(ActionEvent actionEvent) {
+        databaseName.add(DatabaseName.Luca);
+    }
+
+    public void Nae(ActionEvent actionEvent) {
+        databaseName.add(DatabaseName.Nae);
+    }
+
+    public void Nina(ActionEvent actionEvent) {
+        databaseName.add(DatabaseName.Nina);
+    }
+
+    public void Paraschiv(ActionEvent actionEvent) {
+        databaseName.add(DatabaseName.Paraschiv);
+    }
+
+    public void Pavel(ActionEvent actionEvent) {
+        databaseName.add(DatabaseName.Pavel);
+    }
+
+    public void Petrea(ActionEvent actionEvent) {
+        databaseName.add(DatabaseName.Petrea);
+    }
+
+    public void Rares(ActionEvent actionEvent) {
+        databaseName.add(DatabaseName.Rares);
+    }
+
+    public void Stefan(ActionEvent actionEvent) {
+        databaseName.add(DatabaseName.Stefan);
+    }
+
+    public void Teodor(ActionEvent actionEvent) {
+        databaseName.add(DatabaseName.Teodor);
+    }
+
+    public void Teodora(ActionEvent actionEvent) {
+        databaseName.add(DatabaseName.Teodora);
+    }
+
+    public void Tina(ActionEvent actionEvent) {
+        databaseName.add(DatabaseName.Tina);
+    }
+
+    public void Tom(ActionEvent actionEvent) {
+        databaseName.add(DatabaseName.Tom);
+    }
+
+    public void Tudor(ActionEvent actionEvent) {
+        databaseName.add(DatabaseName.Tudor);
+    }
+
+
+    //</editor-fold>
 }

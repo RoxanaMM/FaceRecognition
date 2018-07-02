@@ -81,7 +81,7 @@
             </Menu>
         </menus>
       </MenuBar>
-      <Button fx:id="startCalculating" layoutX="515.0" layoutY="553.0" mnemonicParsing="false" onAction="#startCalculating" onMouseClicked="#onMouseClick" text="Test this image with  K-NN" />
+      <Button fx:id="startCalculating" layoutX="516.0" layoutY="728.0" mnemonicParsing="false" onAction="#startCalculating" onMouseClicked="#onMouseClick" text="Test this image with  K-NN" />
       <Button fx:id="donwloadResults" layoutX="1381.0" layoutY="273.0" mnemonicParsing="false" onMouseClicked="#downloadResults" text="Download Results" />
       <Label fx:id="title1" alignment="CENTER" layoutX="652.0" layoutY="37.0" prefHeight="66.0" prefWidth="496.0" text="Algorithm Distance Demo">
          <font>
@@ -106,12 +106,44 @@
                   <MenuItem mnemonicParsing="false" onAction="#Flowers" text="Flowers" />
                   <MenuItem mnemonicParsing="false" onAction="#Food" text="Food" />
                   <MenuItem mnemonicParsing="false" onAction="#Horses" text="Horses" />
-                  <MenuItem mnemonicParsing="false" onAction="#Mountains" text="Mountains" />
+                  <MenuItem mnemonicParsing="false" onAction="#Abdul" text="Abdul" />
+                  <MenuItem mnemonicParsing="false" onAction="#Bogdan" text="Bogdan" />
+                  <MenuItem mnemonicParsing="false" onAction="#Catalin" text="Catalin" />
+                  <MenuItem mnemonicParsing="false" onAction="#Daniel" text="Daniel" />
+                  <MenuItem mnemonicParsing="false" onAction="#Dica" text="Dica" />
+                  <MenuItem mnemonicParsing="false" onAction="#Dorel" text="Dorel" />
+                  <MenuItem mnemonicParsing="false" onAction="#Elvira" text="Elvira" />
+                  <MenuItem mnemonicParsing="false" onAction="#Florentina" text="Florentina" />
+                  <MenuItem mnemonicParsing="false" onAction="#Florica" text="Florica" />
+                  <MenuItem mnemonicParsing="false" onAction="#George" text="George" />
+                  <MenuItem mnemonicParsing="false" onAction="#Gheorghe" text="Gheorghe" />
+                  <MenuItem mnemonicParsing="false" onAction="#Gigi" text="Gigi" />
+                  <MenuItem mnemonicParsing="false" onAction="#Gina" text="Gina" />
+                  <MenuItem mnemonicParsing="false" onAction="#Ileana" text="Ileana" />
+                  <MenuItem mnemonicParsing="false" onAction="#Ina" text="Ina" />
+                  <MenuItem mnemonicParsing="false" onAction="#Ion" text="Ion" />
+                  <MenuItem mnemonicParsing="false" onAction="#Iona" text="Iona" />
+                  <MenuItem mnemonicParsing="false" onAction="#John" text="John" />
+                  <MenuItem mnemonicParsing="false" onAction="#Lisa" text="Lisa" />
+                  <MenuItem mnemonicParsing="false" onAction="#Liviu" text="Liviu" />
+                  <MenuItem mnemonicParsing="false" onAction="#Luca" text="Luca" />
+                  <MenuItem mnemonicParsing="false" onAction="#Nae" text="Nae" />
+                  <MenuItem mnemonicParsing="false" onAction="#Nina" text="Nina" />
+                  <MenuItem mnemonicParsing="false" onAction="#Paraschiv" text="Paraschiv" />
+                  <MenuItem mnemonicParsing="false" onAction="#Pavel" text="Pavel" />
+                  <MenuItem mnemonicParsing="false" onAction="#Petrea" text="Petrea" />
+                  <MenuItem mnemonicParsing="false" onAction="#Rares" text="Rares" />
+                  <MenuItem mnemonicParsing="false" onAction="#Stefan" text="Stefan" />
+                  <MenuItem mnemonicParsing="false" onAction="#Teodor" text="Teodor" />
+                  <MenuItem mnemonicParsing="false" onAction="#Teodora" text="Teodora" />
+                  <MenuItem mnemonicParsing="false" onAction="#Tina" text="Tina" />
+                  <MenuItem mnemonicParsing="false" onAction="#Tom" text="Tom" />
+                  <MenuItem mnemonicParsing="false" onAction="#Tudor" text="Tudor" />
               </items>
             </Menu>
         </menus>
       </MenuBar>
-      <MenuBar layoutX="75.0" layoutY="719.0">
+      <MenuBar layoutX="515.0" layoutY="672.0">
         <menus>
             <Menu mnemonicParsing="false" text="Choose K for K-NN neighbours">
               <items>
@@ -124,14 +156,13 @@
         </menus>
       </MenuBar>
       <Button layoutX="75.0" layoutY="451.0" mnemonicParsing="false" onAction="#initializeChooseSet" text="Initialize this set" />
-      <Label fx:id="labelTrainned" layoutX="67.0" layoutY="925.0" prefHeight="21.0" prefWidth="161.0" />
       <Label fx:id="labelWithName" layoutX="78.0" layoutY="521.0" prefHeight="21.0" prefWidth="120.0" />
       <Label fx:id="test" layoutX="515.0" layoutY="197.0" text="    Testing   ">
          <font>
             <Font size="22.0" />
          </font></Label>
-      <Button layoutX="75.0" layoutY="879.0" mnemonicParsing="false" onAction="#trainThisSet" text="Train this set" />
-      <Label fx:id="labelInitilize" layoutX="75.0" layoutY="799.0" prefHeight="21.0" prefWidth="150.0" />
+      <Button layoutX="63.0" layoutY="911.0" mnemonicParsing="false" onAction="#trainThisSet" text="Train this set" />
+      <Label fx:id="labelInitilize" layoutX="82.0" layoutY="926.0" prefHeight="21.0" prefWidth="150.0" />
       <ScrollPane fx:id="scrolli" layoutX="976.0" layoutY="324.0" prefHeight="683.0" prefWidth="927.0" style="-fx-background-color: black;">
          <content>
             <AnchorPane fx:id="panee" prefHeight="676.0" prefWidth="918.0" style="-fx-background-color: black;" />
@@ -139,16 +170,18 @@
       <Label fx:id="nameOfAlgo" layoutX="75.0" layoutY="562.0" prefHeight="21.0" prefWidth="246.0" />
       <Label fx:id="results" layoutX="1196.0" layoutY="719.0" prefHeight="99.0" prefWidth="554.0" />
       <Label fx:id="results2" layoutX="1196.0" layoutY="860.0" prefHeight="75.0" prefWidth="464.0" />
-      <Button layoutX="75.0" layoutY="657.0" mnemonicParsing="false" onAction="#doCVLOO" text="doCVLOO" />
+      <Button layoutX="72.0" layoutY="666.0" mnemonicParsing="false" onAction="#doCVLOO" text="doCVLOO" />
       <AnchorPane fx:id="isOrNot" layoutX="1196.0" layoutY="879.0" prefHeight="75.0" prefWidth="548.0" />
-      <Button layoutX="75.0" layoutY="966.0" mnemonicParsing="false" onAction="#launchWIn2" onMouseClicked="#launchWIn2" text="See Histogram" />
-      <Button layoutX="76.0" layoutY="779.0" mnemonicParsing="false" onAction="#transformLBP" text="transformLBP" />
-      <Button layoutX="515.0" layoutY="616.0" mnemonicParsing="false" onAction="#doLBP" text="Test this image with LBP" />
-      <Label layoutX="75.0" layoutY="615.0" text="Choose algorithm to perform" />
+      <Button layoutX="63.0" layoutY="958.0" mnemonicParsing="false" onAction="#launchWIn2" onMouseClicked="#launchWIn2" text="See Histogram" />
+      <Button layoutX="519.0" layoutY="864.0" mnemonicParsing="false" onAction="#transformLBP" text="transformLBP" />
+      <Button layoutX="519.0" layoutY="920.0" mnemonicParsing="false" onAction="#doLBPdoLBP" text="Test this image with LBP" />
+      <Label fx:id="cvloo" layoutX="75.0" layoutY="615.0" text="  CVLOO  " />
       <Label fx:id="rez" layoutX="1394.0" layoutY="197.0" text="  Results  ">
          <font>
             <Font size="22.0" />
          </font>
       </Label>
+      <Label fx:id="knn" layoutX="517.0" layoutY="562.0" text="  K-NN  " />
+      <Label fx:id="LBPLabel" layoutX="519.0" layoutY="820.0" text="  LBP  " />
    </children>
 </AnchorPane>
